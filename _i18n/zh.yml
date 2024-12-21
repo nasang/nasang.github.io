@@ -8,10 +8,8 @@ main:
   footer_text: > # the ">" symbol means to ignore newlines until "titles:"
     <a href="https://github.com/nasang/nasang.github.io" target="_blank">本站代码</a>.
   last_update: 最近更新于
-  more_info: >
-    <p>2023年3月</p>
-    <p>于中国湖南省长沙市</p>
-  subtitle: 吾生也有涯，而知也无涯
+  more_info: 无
+  subtitle: 无
 titles:
   about: 关于
   blog: 博客
