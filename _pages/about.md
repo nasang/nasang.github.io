@@ -1,25 +1,23 @@
 ---
 layout: about
-title: about
+title: About
+subtitle: in Chinese 桑娜
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
 profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+  image: profile.jpg
+social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hey, thanks for stopping by! 👋
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a software engineer at the [Meta Platforms, Inc](https://www.meta.com/) in Seattle, where I work on the intersection of Ads, AI / ML, and privacy.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At Meta, I have built systems and infrastructure supporting multiple products, including [Ads GenAI Transparency](https://www.meta.com/help/artificial-intelligence/How-ai-generated-images-in-ads-are-identified-and-labeled-on-Meta/?srsltid=AfmBOorgHv6vEs3x8fTVFI-KSbyRex02PKqPkWqYA4M0Iakw4P-BePV3) and [Ad Preferences](https://www.facebook.com/privacy/guide/ads/). I also have contributed to ensuring the privacy compliance of features used in Ads ranking models, from feature authoring to model training. 
+
+Before starting my career in the industry, I earned a Master's degree in *Computer Science* from the [University of California, San Diego](https://cse.ucsd.edu/), and a Bachelor's degree in *Information and Computing Science* from [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
+
+As an engineer, I am broadly interested in all aspects of computer science, and particularly in large-scale systems and artificial intelligence. I expertise on infra/back-end/full-stack development.
+
+#### Miscellanea
+- I was a Bilibili creator (id: [香辣鸡排蛋包饭](https://space.bilibili.com/363956974), in English: *spicy crispy chicken cutlet omelette rice*) teaching top interview questions with lively drawings and coding. My content has garnered over 5,700 subscribers and 250,000+ views.
+- I am documenting my thoughts and solutions to LeetCode problems [here](https://space.bilibili.com/363956974).
