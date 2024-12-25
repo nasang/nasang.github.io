@@ -4,6 +4,7 @@ title: About
 subtitle: in Chinese 桑娜
 permalink: /
 profile:
+  align: right
   image: profile.jpg
 social: true
 ---
