@@ -3,8 +3,6 @@ layout: post
 title: CS 61B (Sp21) Notes 1, Introduction to Java
 categories: course
 tags: [data structures, java]
-author: <na_id>
-math: true
 media_subpath: /assets/img/cs61b/
 toc:
   sidebar: right

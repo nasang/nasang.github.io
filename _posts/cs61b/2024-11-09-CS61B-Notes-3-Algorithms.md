@@ -3,8 +3,6 @@ layout: post
 title: CS 61B (Sp21) Notes 3, Algorithms
 categories: course
 tags: [data structures, algorithms]
-author: <na_id>
-math: true
 toc:
   sidebar: right
 media_subpath: /assets/img/cs61b/
@@ -95,7 +93,7 @@ Contradiction!
 #### 24.3.1 Prim's Algorithm
 **Prim's Algorithm** [[Demo](https://docs.google.com/presentation/d/1NFLbVeCuhhaZAM1z3s9zIYGGnhT4M4PWwAc-TLmCJjc/edit#slide=id.g9a60b2f52_0_0)]: Start from some arbitrary start node. Add shortest edge that has **one** node inside the MST under construction. Repeat until $V-1$ edges. 
 
-![prim](24/prim.png)
+![prim](24/prim.png){:w="600"}
 
 **Implementation** [[Demo](https://docs.google.com/presentation/d/1GPizbySYMsUhnXSXKvbqV4UhPCvrt750MiqPPgU-eCY/edit#slide=id.g9a60b2f52_0_0)]: Insert all vertices into fringe `PQ`, storing vertices in order of distance from tree.
 Repeat: Remove (closest) vertex `v` from `PQ`, and relax all edges pointing from `v`. 
@@ -103,7 +101,7 @@ Repeat: Remove (closest) vertex `v` from `PQ`, and relax all edges pointing from
 #### 24.3.2 Kruskal's Algorithm
 **Kruskal's Algorithm** [[Demo](https://docs.google.com/presentation/d/1RhRSYs9Jbc335P24p7vR-6PLXZUl-1EmeDtqieL9ad8/edit#slide=id.g9a60b2f52_0_0)]: Consider edges in order of increasing weight. Add to MST unless a cycle is created. Repeat until $V-1$ edges.
 
-![kruskals](24/kruskals.png)
+![kruskals](24/kruskals.png){:w="600"}
 _Blue and green colorings for vertices show cut being implicitly utilized by Kruskal’s algorithm._
 
 **Implementation** [[Demo](https://docs.google.com/presentation/d/1KpNiR7aLIEG9sm7HgX29nvf3yLD8_vdQEPa0ktQfuYc/edit?usp=sharing)]: Insert all edges into `PQ`.

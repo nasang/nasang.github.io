@@ -40,7 +40,8 @@ rss_icon: true
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
+navbar_fixed: false
+footer_fixed: true
 
 # Dimensions
 max_width: 880px
@@ -239,6 +240,7 @@ lazy_loading_images: true # enables lazy loading of images (recommended)
 
 enable_medium_zoom: true # enables image zoom feature (as on medium.com)
 enable_project_categories: true
+enable_math: true
 
 # -----------------------------------------------------------------------------
 # Library versions
@@ -415,6 +417,15 @@ third_party_libraries:
       css: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.css"
       js: "https://cdn.jsdelivr.net/npm/venobox@{{version}}/dist/venobox.min.js"
     version: "2.1.8"
+  mathjax:
+    integrity:
+      js: "sha256-MASABpB4tYktI2Oitl4t+78w/lyA+D7b/s9GEP0JOGI="
+    local:
+      fonts: "output/chtml/fonts/woff-v2/"
+    url:
+      fonts: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/output/chtml/fonts/woff-v2/"
+      js: "https://cdn.jsdelivr.net/npm/mathjax@{{version}}/es5/tex-mml-chtml.js"
+    version: "3.2.2"
 
 # -----------------------------------------------------------------------------
 # Get external JSON data

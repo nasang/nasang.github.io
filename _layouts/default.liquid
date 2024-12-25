@@ -48,12 +48,15 @@
     </div>
     
     <!-- Footer -->
-    {% include footer.liquid %}
+    {% if page.permalink == '/' %}
+      {% include footer.liquid %}
+    {% endif %}
 
     <!-- JavaScripts -->
     {% include scripts/jquery.liquid %}
     {% include scripts/bootstrap.liquid %}
     {% include scripts/misc.liquid %}
+    {% include scripts/mathjax.liquid %}
     {% include scripts/imageLayouts.liquid %}
   </body>
 </html>

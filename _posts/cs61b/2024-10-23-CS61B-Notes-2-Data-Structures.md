@@ -3,8 +3,6 @@ layout: post
 title: CS 61B (Sp21) Notes 2, Data Structures
 categories: course
 tags: [data structures]
-author: <na_id>
-math: true
 toc:
   sidebar: right
 media_subpath: /assets/img/cs61b/
