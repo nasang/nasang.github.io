@@ -1,731 +1,302 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://alshedivat.github.io/al-folio/feed.xml" rel="self" type="application/atom+xml"/><link href="https://alshedivat.github.io/al-folio/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-12-25T21:04:21+00:00</updated><id>https://alshedivat.github.io/al-folio/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">a post with image galleries</title><link href="https://alshedivat.github.io/al-folio/blog/2024/photo-gallery/" rel="alternate" type="text/html" title="a post with image galleries"/><published>2024-12-04T01:59:00+00:00</published><updated>2024-12-04T01:59:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/photo-gallery</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/photo-gallery/"><![CDATA[<p>The images in this post are all zoomable, arranged into different mini-galleries using different libraries.</p> <h2 id="lightbox2"><a href="https://lokeshdhakar.com/projects/lightbox2/">Lightbox2</a></h2> <p><a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-lightbox="roadtrip"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p> <hr/> <h2 id="photoswipe"><a href="https://photoswipe.com/">PhotoSwipe</a></h2> <div class="pswp-gallery pswp-gallery--single-column" id="gallery--getting-started"> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg" data-pswp-width="1669" data-pswp-height="2500" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg" alt=""/> </a> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-2500.jpg" data-pswp-width="1875" data-pswp-height="2500" data-cropped="true" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/7/img-200.jpg" alt=""/> </a> <a href="https://unsplash.com" data-pswp-src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1666" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg" alt=""/> </a> <div> <a href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg" data-pswp-width="2500" data-pswp-height="1667" target="_blank"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg" alt=""/> </a> </div> </div> <hr/> <h2 id="spotlight-js"><a href="https://nextapps-de.github.io/spotlight/">Spotlight JS</a></h2> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/> </a> </div> <div class="spotlight-group"> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/4/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/5/img-200.jpg"/> </a> <a class="spotlight" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-2500.jpg"> <img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/6/img-200.jpg"/> </a> </div> <hr/> <h2 id="venobox"><a href="https://veno.es/venobox/">Venobox</a></h2> <p><a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/1/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/2/img-200.jpg"/></a> <a class="venobox" data-gall="myGallery" href="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-2500.jpg"><img src="https://cdn.photoswipe.com/photoswipe-demo-images/photos/3/img-200.jpg"/></a></p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what included image galleries could look like]]></summary></entry><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://alshedivat.github.io/al-folio/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/tabs</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="https://nasang.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://nasang.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-12-25T21:12:25+00:00</updated><id>https://nasang.github.io/feed.xml</id><title type="html">blank</title><entry><title type="html">CS 61B (Sp21) Notes 3, Algorithms</title><link href="https://nasang.github.io/blog/course/2024/CS61B-Notes-3-Algorithms/" rel="alternate" type="text/html" title="CS 61B (Sp21) Notes 3, Algorithms"/><published>2024-11-09T00:00:00+00:00</published><updated>2024-11-09T00:00:00+00:00</updated><id>https://nasang.github.io/blog/course/2024/CS61B-Notes-3-Algorithms</id><content type="html" xml:base="https://nasang.github.io/blog/course/2024/CS61B-Notes-3-Algorithms/"><![CDATA[<h2 id="23-shortest-paths">23. Shortest Paths</h2> <h3 id="231-introduction">23.1 Introduction</h3> <h4 id="2311-why-bfs-doesnt-work">23.1.1 Why BFS Doesn’t Work</h4> <p>BFS would <strong>not</strong> be a good choice for a google maps style navigation application. BFS returns path with shortest <strong>number of edges</strong>, not necessarily the shortest path.</p> <p><img src="23/bfs_example.png" alt="bfs_example" w="550"/> <em>BFS yields a route of length ~330 m instead of ~150 m.</em></p> <p>We need an algorithm that takes into account edge distances, also known as <strong>edge weights</strong>.</p> <h4 id="2312-the-shortest-paths-tree">23.1.2 The Shortest Paths Tree</h4> <h5 id="single-source-single-target-shortest-path">Single Source Single Target Shortest Path</h5> <p><img src="23/single_source_single_target.png" alt="single_source_single_target" w="450"/> <em>Find the shortest paths from source vertex s to some target vertex t.</em></p> <p>Observation: Solution will always be a path with no cycles (assuming non-negative weights).</p> <h5 id="single-source-shortest-paths">Single Source Shortest Paths</h5> <p><img src="23/single_source.png" alt="single_source" w="450"/> <em>Find the shortest paths from source vertex s to every other vertex.</em></p> <p>Observation: Solution will always be a <strong>tree</strong>. (Can think of as the union of the shortest paths to all vertices.) This is so-called <strong>Shortest Paths Tree</strong> (SPT).</p> <h3 id="232-dijkstras-algorithm">23.2 Dijkstra’s Algorithm</h3> <h4 id="2321-algorithm">23.2.1 Algorithm</h4> <p>We can find the SPT using <strong>Dijkstra’s algorithm</strong> [<a href="https://docs.google.com/presentation/d/1_bw2z1ggUkquPdhl7gwdVBoTaoJmaZdpkV6MoAgxlJc/pub?start=false&amp;loop=false&amp;delayms=3000&amp;slide=id.g771336078_0_180">Demo</a>]. Perform a <strong>best first search</strong>: Visit vertices in <strong>order of best-known distance</strong> from source. On visit, <strong><em>relax</em></strong> every edge from the visited vertex.</p> <blockquote class="prompt-info"> <p><strong>Relax</strong>: If we find a better path, update our preferred edge and distance.</p> </blockquote> <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">dijkstra</span><span class="p">():</span>
+    <span class="n">pq</span> <span class="o">=</span> <span class="n">heapq</span><span class="p">.</span><span class="nf">heapify</span><span class="p">([])</span>   <span class="c1"># priority queue; i.e., min heap
+</span>    <span class="n">heapq</span><span class="p">.</span><span class="nf">heappush</span><span class="p">(</span><span class="n">pq</span><span class="p">,</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">s</span><span class="p">))</span>
+    <span class="k">while</span> <span class="n">pq</span><span class="p">:</span>
+        <span class="n">dis</span><span class="p">,</span> <span class="n">v</span> <span class="o">=</span> <span class="n">heapq</span><span class="p">.</span><span class="nf">heappop</span><span class="p">(</span><span class="n">pq</span><span class="p">)</span>
+        <span class="nf">for </span><span class="p">(</span><span class="n">weight</span><span class="p">,</span> <span class="n">x</span><span class="p">)</span> <span class="ow">in</span> <span class="n">neighbors_of</span><span class="p">[</span><span class="n">v</span><span class="p">]:</span>
+            <span class="c1"># relax ⬇
+</span>            <span class="k">if</span> <span class="n">dis</span> <span class="o">+</span> <span class="n">weight</span> <span class="o">&lt;</span> <span class="n">distTo</span><span class="p">[</span><span class="n">x</span><span class="p">]:</span>
+                <span class="n">distTo</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="n">dis</span> <span class="o">+</span> <span class="n">weight</span>
+                <span class="n">edgeTo</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+                <span class="n">heapq</span><span class="p">.</span><span class="nf">heappush</span><span class="p">(</span><span class="n">pq</span><span class="p">,</span> <span class="p">(</span><span class="n">distTo</span><span class="p">[</span><span class="n">x</span><span class="p">],</span> <span class="n">x</span><span class="p">))</span>
+            <span class="c1"># relax ⬆
+</span></code></pre></div></div> <h4 id="2322-correctness">23.2.2 Correctness</h4> <p>Dijkstra’s is guaranteed to return a correct result if all edges are non-negative.</p> <h3 id="233-a-algorithm">23.3 A* Algorithm</h3> <p>If we have only a single target in mind, A* algorithm can do better:</p> <blockquote class="prompt-tip"> <p><strong>A* Algorithm</strong> Visit vertices in order of <code class="language-plaintext highlighter-rouge">d(source, v) + h(v, goal)</code>, where <code class="language-plaintext highlighter-rouge">h(v, goal)</code> is an estimate of the distance from v to our goal. [<a href="https://docs.google.com/presentation/d/177bRUTdCa60fjExdr9eO04NHm0MRfPtCzvEup1iMccM/edit#slide=id.g771336078_0_180">Demo</a>]</p> </blockquote> <h2 id="24-minimum-spanning-trees">24. Minimum Spanning Trees</h2> <h3 id="241-concepts">24.1 Concepts</h3> <p>Given an <strong>undirected</strong> graph <code class="language-plaintext highlighter-rouge">G</code>, a <strong>spanning tree</strong> <code class="language-plaintext highlighter-rouge">T</code> is a subgraph of <code class="language-plaintext highlighter-rouge">G</code>, where <code class="language-plaintext highlighter-rouge">T</code>:</p> <ul> <li>Is connected and acyclic. (make it a tree)</li> <li>Includes all of the vertices. (makes it spanning)</li> </ul> <p><img src="24/mst.png" alt="mst" w="300"/></p> <p>A <strong><em>minimum spanning tree</em></strong> (MST) is a spanning tree of minimum total weight.</p> <h3 id="242-the-cut-property">24.2 The Cut Property</h3> <h4 id="2421-concepts">24.2.1 Concepts</h4> <ul> <li>A <strong>cut</strong> is an assignment of a graph’s nodes to two non-empty sets.</li> <li>A <strong>crossing edge</strong> is an edge which connects a node from one set to a node from the other set.</li> <li><strong>Cut property</strong>: Given any cut, minimum weight crossing edge is in the MST. (assume edge weights are unique)</li> </ul> <p><img src="24/cut_property.png" alt="cut_property" w="350"/></p> <h4 id="2422-proof">24.2.2 Proof</h4> <p>Suppose that the minimum crossing edge <code class="language-plaintext highlighter-rouge">e</code> were not in the MST.</p> <ul> <li>Adding <code class="language-plaintext highlighter-rouge">e</code> to the MST creates a cycle.</li> <li>Some other edge <code class="language-plaintext highlighter-rouge">f</code> must also be a crossing edge.</li> <li>Removing <code class="language-plaintext highlighter-rouge">f</code> and adding <code class="language-plaintext highlighter-rouge">e</code> is a lower weight spanning tree. Contradiction!</li> </ul> <p><img src="24/cut_property_proof.png" alt="cut_property_proof" w="450"/></p> <h3 id="243-algorithms">24.3 Algorithms</h3> <h4 id="2431-prims-algorithm">24.3.1 Prim’s Algorithm</h4> <p><strong>Prim’s Algorithm</strong> [<a href="https://docs.google.com/presentation/d/1NFLbVeCuhhaZAM1z3s9zIYGGnhT4M4PWwAc-TLmCJjc/edit#slide=id.g9a60b2f52_0_0">Demo</a>]: Start from some arbitrary start node. Add shortest edge that has <strong>one</strong> node inside the MST under construction. Repeat until $V-1$ edges.</p> <p><img src="24/prim.png" alt="prim"/></p> <p><strong>Implementation</strong> [<a href="https://docs.google.com/presentation/d/1GPizbySYMsUhnXSXKvbqV4UhPCvrt750MiqPPgU-eCY/edit#slide=id.g9a60b2f52_0_0">Demo</a>]: Insert all vertices into fringe <code class="language-plaintext highlighter-rouge">PQ</code>, storing vertices in order of distance from tree. Repeat: Remove (closest) vertex <code class="language-plaintext highlighter-rouge">v</code> from <code class="language-plaintext highlighter-rouge">PQ</code>, and relax all edges pointing from <code class="language-plaintext highlighter-rouge">v</code>.</p> <h4 id="2432-kruskals-algorithm">24.3.2 Kruskal’s Algorithm</h4> <p><strong>Kruskal’s Algorithm</strong> [<a href="https://docs.google.com/presentation/d/1RhRSYs9Jbc335P24p7vR-6PLXZUl-1EmeDtqieL9ad8/edit#slide=id.g9a60b2f52_0_0">Demo</a>]: Consider edges in order of increasing weight. Add to MST unless a cycle is created. Repeat until $V-1$ edges.</p> <p><img src="24/kruskals.png" alt="kruskals"/> <em>Blue and green colorings for vertices show cut being implicitly utilized by Kruskal’s algorithm.</em></p> <p><strong>Implementation</strong> [<a href="https://docs.google.com/presentation/d/1KpNiR7aLIEG9sm7HgX29nvf3yLD8_vdQEPa0ktQfuYc/edit?usp=sharing">Demo</a>]: Insert all edges into <code class="language-plaintext highlighter-rouge">PQ</code>. Repeat: Remove smallest weight edge. Add to MST if no cycle created. Use Weighted Quick Union UF (WQU) to detech cycle: For each edge, check if the two vertices are connected. If not, union them. If so, there is a cycle.</p> <h2 id="26-prefix-operations-and-tries">26. Prefix Operations and Tries</h2> <h3 id="261-introduction">26.1 Introduction</h3> <p>HashMaps are already incredibly fast. But if we have some additional insight on the data we are storing, we could get even faster.</p> <h4 id="special-case-1-character-keyed-map">Special Case 1: <strong>Character Keyed Map</strong></h4> <p>Suppose we know that our keys are always ASCII characters. We can just use an array. Simple and fast.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">DataIndexedCharMap</span><span class="o">&lt;</span><span class="no">V</span><span class="o">&gt;</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="no">V</span><span class="o">[]</span> <span class="n">items</span><span class="o">;</span>
+    <span class="c1">// R is the number of possible characters, e.g. 128 for ASCII.</span>
+    <span class="kd">public</span> <span class="nf">DataIndexedCharMap</span><span class="o">(</span><span class="kt">int</span> <span class="no">R</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">items</span> <span class="o">=</span> <span class="o">(</span><span class="no">V</span><span class="o">[])</span> <span class="k">new</span> <span class="nc">Object</span><span class="o">[</span><span class="no">R</span><span class="o">];</span>
+    <span class="o">}</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">put</span><span class="o">(</span><span class="kt">char</span> <span class="n">c</span><span class="o">,</span> <span class="no">V</span> <span class="n">val</span><span class="o">)</span> <span class="o">{</span>
+        <span class="n">items</span><span class="o">[</span><span class="n">c</span><span class="o">]</span> <span class="o">=</span> <span class="n">val</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="kd">public</span> <span class="no">V</span> <span class="nf">get</span><span class="o">(</span><span class="kt">char</span> <span class="n">c</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">return</span> <span class="n">items</span><span class="o">[</span><span class="n">c</span><span class="o">];</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div> <h4 id="special-case-2-string-keyed-map">Special Case 2: String Keyed Map</h4> <p>Suppose we know that our keys are always strings. We can use a special data structure known as a <strong>Trie</strong>. The basic idea: store <strong>each letter</strong> of the string as a node in a tree.</p> <p><strong>Trie</strong>: Short for Re<strong>trie</strong>val Tree. Inventor <em>Edward Fredkin</em> suggested it should be pronounced “tree”, but almost everyone pronounces it like “try”.</p> <p><img src="26/trie_map.png" alt="trie" w="500"/> <em>Use Trie to implement Map</em></p> <p><img src="26/set.png" alt="set" w="500"/> <em>different implementations of set</em></p> <h3 id="262-trie-implementation">26.2 Trie Implementation</h3> <h4 id="2621-basic-trie-implementation">26.2.1 Basic Trie Implementation</h4> <p>The first approach might look something like the code below. Each node stores a letter (<code class="language-plaintext highlighter-rouge">ch</code>), a map from <code class="language-plaintext highlighter-rouge">ch</code> to all child nodes (<code class="language-plaintext highlighter-rouge">next</code>), and a color (<code class="language-plaintext highlighter-rouge">isKey</code>).</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">TrieSet</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="kt">int</span> <span class="no">R</span> <span class="o">=</span> <span class="mi">128</span><span class="o">;</span> <span class="c1">// ASCII</span>
+    <span class="kd">private</span> <span class="nc">Node</span> <span class="n">root</span><span class="o">;</span>	<span class="c1">// root of trie</span>
+    
+    <span class="kd">private</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">Node</span> <span class="o">{</span>
+        <span class="c1">// private char ch; removed</span>
+        <span class="kd">private</span> <span class="kt">boolean</span> <span class="n">isKey</span><span class="o">;</span>
+        <span class="c1">// Since we know our keys are characters, can use a DataIndexedCharMap.   </span>
+        <span class="kd">private</span> <span class="nc">DataIndexedCharMap</span><span class="o">&lt;</span><span class="nc">Node</span><span class="o">&gt;</span> <span class="n">next</span><span class="o">;</span>
+        <span class="kd">private</span> <span class="nf">Node</span><span class="o">(</span> <span class="cm">/*char c, removed*/</span> <span class="kt">boolean</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="no">R</span><span class="o">)</span> <span class="o">{</span>
+            <span class="c1">// ch = c; removed</span>
+            <span class="n">isKey</span> <span class="o">=</span> <span class="n">b</span><span class="o">;</span>
+            <span class="n">next</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">DataIndexedCharMap</span><span class="o">&lt;&gt;(</span><span class="no">R</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div> <p>Since we use a <code class="language-plaintext highlighter-rouge">DataIndexedCharMap</code> to track children, every node has <code class="language-plaintext highlighter-rouge">R</code> links, mostly <code class="language-plaintext highlighter-rouge">null</code>. Observation: The letter stored inside each node is actually redundant. Can remove from the representation and things will work fine.</p> <p><img src="26/basic_impl.png" alt="basic_impl" w="550"/></p> <p>Assuming the length of the key is $L$, the runtime of <code class="language-plaintext highlighter-rouge">add</code> is $\Theta(L)$ and that of <code class="language-plaintext highlighter-rouge">contain</code> is $O(L)$.</p> <h4 id="2622-alternate-child-tracking-strategies">26.2.2 Alternate Child Tracking Strategies</h4> <p>Using a <code class="language-plaintext highlighter-rouge">DataIndexedCharMap</code> is very memory hungry. Every node has to store <code class="language-plaintext highlighter-rouge">R</code> links, most of which are <code class="language-plaintext highlighter-rouge">null</code>. Using BST or Hash Table will be slightly slower, but more memory efficient.</p> <p><img src="26/implementation.png" alt="implementation" w="750"/> <em>The Hash-Table Based Trie (mid) and The BST-Based Trie (right)</em></p> <h4 id="2623-performance">26.2.3 Performance</h4> <p>Using a BST or a Hash Table to store links to children will usually use less memory.</p> <ul> <li>DataIndexedCharMap: 128 links per node.</li> <li>BST: $C$ links per node, where $C$ is the number of children.</li> <li>Hash Table: $C$ links per node.</li> <li>Note: Cost per link is higher in BST and Hash Table.</li> </ul> <p>Using a BST or a Hash Table will take slightly more time.</p> <ul> <li>DataIndexedCharMap is $\Theta(1)$.</li> <li>BST is $O(\log R)$, where $R$ is size of alphabet.</li> <li>Hash Table is $O(R)$, where $R$ is size of alphabet.</li> <li>Since $R$ is fixed (e.g. 128), can think of all 3 as $\Theta(1)$.</li> </ul> <h3 id="263-trie-string-operations">26.3 Trie String Operations</h3> <p>Theoretical asymptotic speed improvement is nice. But the main appeal of tries is their ability to efficiently support string specific operations like <strong>prefix matching</strong>.</p> <ul> <li>Finding all keys that match a given prefix: <code class="language-plaintext highlighter-rouge">keysWithPrefix("sa")</code></li> <li>Finding longest prefix of: <code class="language-plaintext highlighter-rouge">longestPrefixOf("sample")</code></li> </ul> <h4 id="2631-collecting-trie-keys">26.3.1 Collecting Trie Keys</h4> <p>Give an algorithm for collecting all the keys in a Trie.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">TrieSet</span> <span class="o">{</span>
+    <span class="kd">private</span> <span class="kd">static</span> <span class="kd">final</span> <span class="kt">int</span> <span class="no">R</span> <span class="o">=</span> <span class="mi">128</span><span class="o">;</span>
+    <span class="kd">private</span> <span class="nc">Node</span> <span class="n">root</span><span class="o">;</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="kd">private</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">Node</span> <span class="o">{</span>
+        <span class="kd">private</span> <span class="kt">boolean</span> <span class="n">isKey</span><span class="o">;</span>
+        <span class="kd">private</span> <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">Character</span><span class="o">,</span> <span class="nc">Node</span><span class="o">&gt;</span> <span class="n">next</span><span class="o">;</span>
 
-Content 1
+        <span class="kd">private</span> <span class="nf">Node</span><span class="o">(</span><span class="kt">boolean</span> <span class="n">b</span><span class="o">,</span> <span class="kt">int</span> <span class="no">R</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">isKey</span> <span class="o">=</span> <span class="n">b</span><span class="o">;</span>
+            <span class="n">next</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">HashMap</span><span class="o">&lt;&gt;(</span><span class="no">R</span><span class="o">);</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="nf">collect</span><span class="o">()</span> <span class="o">{</span>
+        <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+        <span class="k">for</span> <span class="o">(</span><span class="nc">Character</span> <span class="nl">c:</span> <span class="n">root</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">keySet</span><span class="o">())</span> <span class="o">{</span>
+            <span class="n">colHelp</span><span class="o">(</span><span class="s">"c"</span><span class="o">,</span> <span class="n">x</span><span class="o">,</span> <span class="n">root</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">c</span><span class="o">));</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">x</span><span class="o">;</span>
+    <span class="o">}</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
+    <span class="kd">private</span> <span class="kt">void</span> <span class="nf">colHelp</span><span class="o">(</span><span class="nc">String</span> <span class="n">s</span><span class="o">,</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="n">x</span><span class="o">,</span> <span class="nc">Node</span> <span class="n">n</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">n</span><span class="o">.</span><span class="na">isKey</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">x</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">s</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="k">for</span> <span class="o">(</span><span class="nc">Character</span> <span class="nl">c:</span> <span class="n">n</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">keySet</span><span class="o">())</span> <span class="o">{</span>
+            <span class="n">colHelp</span><span class="o">(</span><span class="n">s</span> <span class="o">+</span> <span class="n">c</span><span class="o">,</span> <span class="n">x</span><span class="o">,</span> <span class="n">n</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">c</span><span class="o">));</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div> <h4 id="2632-keyswithprefix">26.3.2 keysWithPrefix</h4> <p>Give an algorithm for <code class="language-plaintext highlighter-rouge">keysWithPrefix</code>.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">TrieSet</span> <span class="o">{</span>
+    <span class="c1">//...</span>
+    <span class="kd">public</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="nf">keysWithPrefix</span><span class="o">(</span><span class="nc">String</span> <span class="n">prefix</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">Node</span> <span class="n">n</span> <span class="o">=</span> <span class="n">root</span><span class="o">;</span>
+        <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">prefix</span><span class="o">.</span><span class="na">length</span><span class="o">();</span> <span class="n">i</span><span class="o">++)</span> <span class="o">{</span>
+            <span class="k">for</span> <span class="o">(</span><span class="nc">Character</span> <span class="nl">c:</span> <span class="n">n</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">keySet</span><span class="o">())</span> <span class="o">{</span>
+                <span class="k">if</span> <span class="o">(</span><span class="nc">Character</span><span class="o">.</span><span class="na">valueOf</span><span class="o">(</span><span class="n">c</span><span class="o">)</span> <span class="o">==</span> <span class="n">prefix</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="n">i</span><span class="o">))</span> <span class="o">{</span>
+                    <span class="n">n</span> <span class="o">=</span> <span class="n">n</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">c</span><span class="o">);</span>
+                <span class="o">}</span>
+            <span class="o">}</span>
+        <span class="o">}</span>
+        <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="n">x</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+        <span class="k">for</span> <span class="o">(</span><span class="nc">Character</span> <span class="nl">c:</span> <span class="n">n</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">keySet</span><span class="o">())</span> <span class="o">{</span>
+            <span class="n">colHelp</span><span class="o">(</span><span class="n">prefix</span> <span class="o">+</span> <span class="n">c</span><span class="o">,</span> <span class="n">x</span><span class="o">,</span> <span class="n">n</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">c</span><span class="o">));</span>
+        <span class="o">}</span>
+        <span class="k">return</span> <span class="n">x</span><span class="o">;</span>
+    <span class="o">}</span>
 
-Content 2
+    <span class="kd">private</span> <span class="kt">void</span> <span class="nf">colHelp</span><span class="o">(</span><span class="nc">String</span> <span class="n">s</span><span class="o">,</span> <span class="nc">List</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;</span> <span class="n">x</span><span class="o">,</span> <span class="nc">Node</span> <span class="n">n</span><span class="o">)</span> <span class="o">{</span>
+        <span class="k">if</span> <span class="o">(</span><span class="n">n</span><span class="o">.</span><span class="na">isKey</span><span class="o">)</span> <span class="o">{</span>
+            <span class="n">x</span><span class="o">.</span><span class="na">add</span><span class="o">(</span><span class="n">s</span><span class="o">);</span>
+        <span class="o">}</span>
+        <span class="k">for</span> <span class="o">(</span><span class="nc">Character</span> <span class="nl">c:</span> <span class="n">n</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">keySet</span><span class="o">())</span> <span class="o">{</span>
+            <span class="n">colHelp</span><span class="o">(</span><span class="n">s</span> <span class="o">+</span> <span class="n">c</span><span class="o">,</span> <span class="n">x</span><span class="o">,</span> <span class="n">n</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">c</span><span class="o">));</span>
+        <span class="o">}</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div> <h3 id="264-autocomplete">26.4. Autocomplete</h3> <h4 id="2641-the-autocomplete-problem">26.4.1 The Autocomplete Problem</h4> <p>Example, when I type “how are” into Google, I get 10 results, shown to the below.</p> <p>One way to do this is to create a <strong>Trie based map</strong> from strings to values</p> <ul> <li>Value represents how important Google thinks that string is.</li> <li>Can store billions of strings efficiently since they share nodes.</li> <li>When a user types in a string “hello”, we: <ul> <li>Call <code class="language-plaintext highlighter-rouge">keysWithPrefix("hello")</code>.</li> <li>Return the 10 strings with the highest value.</li> </ul> </li> </ul> <p><img src="26/google_search.png" alt="google_search" w="300"/></p> <p>The approach above has one major flaw. If we enter a short string, the number of keys with the appropriate prefix will be too big.</p> <ul> <li>We are collecting billions of results only to keep 10.</li> <li>This is extremely inefficient.</li> </ul> <p><img src="26/google_search_2.png" alt="google_search_2" w="300"/></p> <h4 id="2642-a-more-efficient-autocomplete">26.4.2 A More Efficient Autocomplete</h4> <p><img src="26/efficient_autocomplete.png" alt="efficient_autocomplete" w="300"/></p> <p>One way to address this issue:</p> <ul> <li>Each node stores its own value, as well as the value of its best substring.</li> </ul> <p>Search will consider nodes in order of “best”.</p> <ul> <li>Consider ‘sp’ before ‘sm’.</li> <li>Can stop when top 3 matches are all better than best remaining.</li> </ul> <h4 id="2643-even-more-efficient-autocomplete">26.4.3 Even More Efficient Autocomplete</h4> <p><img src="26/more_efficient_autocomplete.png" alt="more_efficient_autocomplete" w="300"/></p> <p>Can also merge nodes that are redundant.</p> <ul> <li>This version of trie is known as a “<strong>radix tree</strong>” or “radix trie”.</li> <li>Won’t discuss.</li> </ul> <h3 id="265-summary">26.5 Summary</h3> <p>When your key is a string, you can use a Trie:</p> <ul> <li>Theoretically better performance than hash table or search tree.</li> <li>Have to decide on a mapping from letter to node. Three natural choices: <ul> <li>DataIndexedCharMap, i.e. an array of all possible child links.</li> <li>Bushy BST.</li> <li>Hash Table.</li> </ul> </li> <li>All three choices are fine, though hash table is probably the most natural.</li> <li>Supports special string operations like <code class="language-plaintext highlighter-rouge">longestPrefixOf</code> and <code class="language-plaintext highlighter-rouge">keysWithPrefix</code>. <ul> <li><code class="language-plaintext highlighter-rouge">keysWithPrefix</code> is the heart of important technology like autocomplete.</li> <li>Optimal implementation of Autocomplete involves use of a priority queue.</li> </ul> </li> </ul>]]></content><author><name>&lt;na_id&gt;</name></author><category term="course"/><category term="data structures"/><category term="algorithms"/><summary type="html"><![CDATA[23. Shortest Paths 23.1 Introduction 23.1.1 Why BFS Doesn’t Work BFS would not be a good choice for a google maps style navigation application. BFS returns path with shortest number of edges, not necessarily the shortest path.]]></summary></entry><entry><title type="html">CS 61B (Sp21) Notes 2, Data Structures</title><link href="https://nasang.github.io/blog/course/2024/CS61B-Notes-2-Data-Structures/" rel="alternate" type="text/html" title="CS 61B (Sp21) Notes 2, Data Structures"/><published>2024-10-23T00:00:00+00:00</published><updated>2024-10-23T00:00:00+00:00</updated><id>https://nasang.github.io/blog/course/2024/CS61B-Notes-2-Data-Structures</id><content type="html" xml:base="https://nasang.github.io/blog/course/2024/CS61B-Notes-2-Data-Structures/"><![CDATA[<h2 id="13-asymptotics-i">13. Asymptotics I</h2> <p>Our goal is to somehow <strong><u>characterize the runtimes</u></strong> of two functions. Characterization should be (1) <strong>simple</strong> and <strong>mathematically rigorous</strong>; and (2) <strong>demonstrate superiority</strong> of one over the other.</p> <h3 id="131-asymptotic-analysis">13.1 Asymptotic Analysis</h3> <h4 id="1311-scaling-matters">13.1.1 Scaling Matters</h4> <p>In most cases, we care only about <strong><u>asymptotic behavior</u></strong>, i.e. what happens for very large $N$.</p> <p>Algorithms which scale well (e.g. look like lines) have better asymptotic runtime behavior than algorithms that scale relatively poorly (e.g. look like parabolas). We’ll informally refer to the “shape” of a runtime function as its <strong>order of growth</strong> (will formalize soon).</p> <ul> <li>Often determines whether a problem can be solved at all.</li> </ul> <h4 id="1312-computing-worst-case-order-of-growth-tedious-approach">13.1.2 Computing Worst Case Order of Growth (Tedious Approach)</h4> <ul> <li>Construct a table of exact counts of all possible operations.</li> </ul> <p><img src="13/count.png" alt="count" w="550"/></p> <ul> <li>Convert table into worst case order of growth using 4 simplifications: <ol> <li>Only consider the worst case.</li> <li>Pick a representative operation (a.k.a. the cost model).</li> <li>Ignore lower order terms.</li> <li>Ignore multiplicative constants.</li> </ol> </li> </ul> <p><img src="13/simplify.png" alt="simlipy" w="500"/></p> <h4 id="1313-computing-worst-case-order-of-growth-simplified-approach">13.1.3 Computing Worst Case Order of Growth (Simplified Approach)</h4> <ul> <li>Choose a representative operation to count (a.k.a. cost model).</li> <li>Figure out the order of growth for the count of the representative operation by either: <ul> <li>Making an exact count, then discarding the unnecessary pieces.</li> <li>Using intuition and inspection to determine order of growth (only possible with lots of practice).</li> </ul> </li> </ul> <h3 id="132-asymptotic-notation">13.2 Asymptotic Notation</h3> <h4 id="1321-big-theta-aka-order-of-growth">13.2.1 Big-Theta (a.k.a. Order of Growth)</h4> <p>For some function $R(N)$ with <strong>order of growth</strong> $f(N)$, we write that $R(N) \in \Theta(f(N))$. There exists some positive constants $k_1$, $k_2$ such that $k_1 \cdot f(N) \leq R(N) \leq k_2 \cdot f(N)$, for all values $N$ greater than some $N_0$ (a very large $N$).</p> <p><img src="13/Big-Theta.png" alt="Big-Theta" w="450"/> <em><a href="https://sp19.datastructur.es/materials/demos/asymptotics.html?rN=4*N%5E2+40*sin(N)&amp;fN=N%5E2&amp;k1=3&amp;k2=5&amp;maxN=15&amp;maxY=1000">Visualization</a></em></p> <h4 id="1322-big-o">13.2.2 Big-O</h4> <p>$R(N) \in O(f(N))$ means that there exists positive constant $k_2$ such that $R(N) \leq k_2 \cdot f(N)$, for all values of $N$ greater than some $N_0$ (a very large $N$).</p> <p><img src="13/Big-O.png" alt="Big-O" w="450"/> <em><a href="https://sp19.datastructur.es/materials/demos/asymptotics.html?rN=4*N%5E2+40*sin(N)&amp;fN=N%5E4&amp;k1=0&amp;k2=5&amp;maxN=15&amp;maxY=1000">Visualization</a></em></p> <p>Whereas $\Theta$ can informally be thought of as something like “equals”, $O$ can be thought of as “less than or equal”.</p> <h3 id="133-summary">13.3 Summary</h3> <p>Given a piece of code, we can express its runtime as a function $R(N)$, where $N$ is a property of the input of the function often representing the <strong>size</strong> of the input. Rather than finding the exact value of $R(N)$ , we only worry about finding the <strong>order of growth</strong> of $R(N)$. One approach (not universal):</p> <ul> <li>Choose a representative operation</li> <li>Let $C(N)$ be the count of how many times that operation occurs as a function of $N$</li> <li>Determine order of growth $f(N)$ for $C(N)$, i.e. $C(N) \in \Theta(f(N))$</li> <li>Often (but not always) we consider the worst case count</li> <li>If operation takes constant time, then $R(N) \in \Theta(f(N))$</li> <li>Can use $O$ as an alternative for $\Theta$. $O$ is used for upper bounds.</li> </ul> <h2 id="14-disjoint-sets">14. Disjoint Sets</h2> <h3 id="141-dynamic-connectivity-problem">14.1 Dynamic Connectivity Problem</h3> <p>Deriving the “Disjoint Sets” data structure for solving the “Dynamic Connectivity” problem. The Disjoint Sets data structure has two operations:</p> <ul> <li><code class="language-plaintext highlighter-rouge">connect(x, y)</code>: Connects <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">y</code>.</li> <li><code class="language-plaintext highlighter-rouge">isConnected(x, y)</code>: Returns <code class="language-plaintext highlighter-rouge">true</code> if <code class="language-plaintext highlighter-rouge">x</code> and <code class="language-plaintext highlighter-rouge">y</code> are connected. Connections can be transitive, i.e. they don’t need to be direct.</li> </ul> <p>Goal: Design an efficient <code class="language-plaintext highlighter-rouge">DisjointSets</code> implementation. <img src="14/disjoint_set_interface.png" alt="disjoint_set_interface" w="500"/></p> <p>For each item, its <strong>connected component</strong> is the set of all items that are connected to that item. Model connectedness in terms of <u>sets</u> to keep track of which connected component each item belongs to.</p> <p><img src="14/connected_components.png" alt="connected_components" w="500"/></p> <h3 id="142-quick-find">14.2 Quick Find</h3> <p>Use an array of integers, where <code class="language-plaintext highlighter-rouge">i</code>th entry gives set number (a.k.a. “id”) of item <code class="language-plaintext highlighter-rouge">i</code>.</p> <ul> <li><code class="language-plaintext highlighter-rouge">connect(x, y)</code>: Change entries that equal <code class="language-plaintext highlighter-rouge">id[x]</code> to <code class="language-plaintext highlighter-rouge">id[y]</code>.</li> <li><code class="language-plaintext highlighter-rouge">isConnected(x, y)</code>: Check if <code class="language-plaintext highlighter-rouge">id[x]</code> equals <code class="language-plaintext highlighter-rouge">id[y]</code>.</li> </ul> <p><img src="14/quick_find.png" alt="quick_find" w="500"/></p> <p><code class="language-plaintext highlighter-rouge">QuickFind</code> is too slow for practical use: Connecting two items takes $N$ time.</p> <h3 id="143-quick-union">14.3 Quick Union</h3> <p>How could we change our set representation so that combining two sets into their union requires changing <strong>one</strong> value? Assign each item a <code class="language-plaintext highlighter-rouge">parent</code> (instead of an <code class="language-plaintext highlighter-rouge">id</code>). Results in a tree-like shape. Note: <u>for root items, we have item’s parent as itself.</u></p> <ul> <li><code class="language-plaintext highlighter-rouge">connect(x, y)</code>: make <code class="language-plaintext highlighter-rouge">root(x)</code> into a child of <code class="language-plaintext highlighter-rouge">root(y)</code>.</li> <li><code class="language-plaintext highlighter-rouge">isConnected(x, y)</code>: Check if <code class="language-plaintext highlighter-rouge">root(x)</code> equals <code class="language-plaintext highlighter-rouge">root(y)</code>.</li> </ul> <p><img src="14/quick_union.png" alt="quick_union" w="500"/></p> <p><img src="14/quick_union_connect.png" alt="quick_union_connect" w="500"/> <em>connect(5, 2): Make root(5) into a child of root(2)</em></p> <p>Compared to <code class="language-plaintext highlighter-rouge">QuickFind</code>, we have to climb up a tree. Tree can get too tall and <code class="language-plaintext highlighter-rouge">root(x)</code> becomes expensive. <strong>Things would be fine if we just keep our tree balanced.</strong></p> <h3 id="144-weighted-quick-union">14.4 Weighted Quick Union</h3> <p>Modify quick-union to avoid tall trees. Track tree <strong>size</strong> (number of elements), and always <u>link root of smaller tree to larger tree</u>.</p> <ul> <li><code class="language-plaintext highlighter-rouge">connect(x, y)</code>: create a separate <code class="language-plaintext highlighter-rouge">size</code> array to keep track of sizes. make <code class="language-plaintext highlighter-rouge">root(x)</code> into a child of <code class="language-plaintext highlighter-rouge">root(y)</code>, if <code class="language-plaintext highlighter-rouge">size[root(x)]</code> is smaller than <code class="language-plaintext highlighter-rouge">size[root(y)]</code>, or vice versa.</li> <li><code class="language-plaintext highlighter-rouge">isConnected(x, y)</code>: Check if <code class="language-plaintext highlighter-rouge">root(x)</code> equals <code class="language-plaintext highlighter-rouge">root(y)</code>.</li> </ul> <p><img src="14/choice_of_root.png" alt="choice_of_root" w="500"/></p> <h3 id="145-path-compression">14.5 Path Compression</h3> <p>When we do <code class="language-plaintext highlighter-rouge">isConnected(x, y)</code>, tie all nodes seen to the root.</p> <p><img src="14/path_compression_1.png" alt="path_compression_1" w="450"/></p> <p><img src="14/path_compression_2.png" alt="path_compression_2" w="450"/></p> <p><img src="14/path_compression_3.png" alt="path_compression_3" w="450"/></p> <h2 id="16-adts-sets-maps-bsts">16. ADTs, Sets, Maps, BSTs</h2> <h3 id="161-abstract-data-types">16.1 Abstract Data Types</h3> <p>An <strong>Abstract Data Type (ADT)</strong> is defined only by its operations, not by its implementation. The built-in <a href="https://docs.oracle.com/javase/8/docs/api/java/util/package-summary.html"><strong>java.util</strong></a> package provides a number of useful:</p> <ul> <li><strong>Interfaces</strong>: ADTs (List, Set, Map, etc.) and other stuff.</li> <li><strong>Implementations</strong>: Concrete classes you can use.</li> </ul> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">List</span><span class="o">&lt;</span><span class="nc">Integer</span><span class="o">&gt;</span> <span class="no">L</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">ArrayList</span><span class="o">&lt;&gt;();</span>
+</code></pre></div></div> <p><img src="16/Java_utils.png" alt="java" w="550"/> <em>Common interfaces in Java and their implementations</em></p> <p>This lecture is about the basic ideas behind the <code class="language-plaintext highlighter-rouge">TreeSet</code> and <code class="language-plaintext highlighter-rouge">TreeMap</code>.</p> <h3 id="162-binary-search-trees">16.2 Binary Search Trees</h3> <h4 id="1621-derivation">16.2.1 Derivation</h4> <p>For the <strong>ordered linked list</strong> set implementation below, <code class="language-plaintext highlighter-rouge">contains</code> and <code class="language-plaintext highlighter-rouge">add</code> take worst case linear time, i.e. $\Theta(N)$. Fundamental Problem: Slow search, even though it’s in order.</p> <p><img src="16/ordered_linked_list.png" alt="ordered_linked_list" w="550"/></p> <p>In <strong>binary search</strong>, we know the list is sorted, so we can use this information to narrow our search. <u>Applying binary search to a linked list</u> might seem challenging at first. We need to traverse all the way to the middle to check the element there, which would take linear time.</p> <p>However, we can optimize this process. One way is to <strong>keep a reference to the middle node</strong>. This allows us to reach the middle in constant time. Additionally, if we <strong>reverse the nodes’ pointers</strong>, we can traverse both the left and right halves of the list, effectively halving our runtime. We can further optimize by <strong>adding pointers to the middle of each recursive half like so</strong>.</p> <p><img src="16/halved.png" alt="halved" w="550"/> <em>A linked list with a middle pointer</em></p> <p><img src="16/better.png" alt="better" w="550"/> <em>A linked list with recursive middle pointers is a binary tree</em></p> <p>Now, if you stretch this structure vertically, you will see a tree. This specific tree is called a <strong>binary tree</strong> because each juncture splits in 2.</p> <h4 id="1622-bst-definition">16.2.2 BST Definition</h4> <p>A <strong>binary search tree</strong> is a rooted binary tree with the BST property, i.e., For every node <code class="language-plaintext highlighter-rouge">X</code> in the tree: every key in the left subtree is less than <code class="language-plaintext highlighter-rouge">X</code>’s key, and every key in the right subtree is greater than <code class="language-plaintext highlighter-rouge">X</code>’s key.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">private</span> <span class="kd">class</span> <span class="nc">BST</span><span class="o">&lt;</span><span class="nc">Key</span><span class="o">&gt;</span> <span class="o">{</span>
+  <span class="kd">private</span> <span class="nc">Key</span> <span class="n">key</span><span class="o">;</span>
+  <span class="kd">private</span> <span class="no">BST</span> <span class="n">left</span><span class="o">;</span>
+  <span class="kd">private</span> <span class="no">BST</span> <span class="n">right</span><span class="o">;</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+  <span class="kd">public</span> <span class="nf">BST</span><span class="o">(</span><span class="nc">Key</span> <span class="n">key</span><span class="o">,</span> <span class="no">BST</span> <span class="n">left</span><span class="o">,</span> <span class="no">BST</span> <span class="nc">Right</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">key</span> <span class="o">=</span> <span class="n">key</span><span class="o">;</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">left</span> <span class="o">=</span> <span class="n">left</span><span class="o">;</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">right</span> <span class="o">=</span> <span class="n">right</span><span class="o">;</span>
+  <span class="o">}</span>
 
-<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
-</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="a25d035d-7b6c-4fce-bc57-eff4d1b9333c" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="a25d035d-7b6c-4fce-bc57-eff4d1b9333c" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
-</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
-</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="58f664ba-734c-426a-a858-d203d4660c75" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="58f664ba-734c-426a-a858-d203d4660c75" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
-  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
-</code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
-  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
-</span><span class="p">}</span><span class="w">
-</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="acaa1761-32e2-4ebc-a94d-afb2d56e6b2f" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="acaa1761-32e2-4ebc-a94d-afb2d56e6b2f" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://alshedivat.github.io/al-folio/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/typograms</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">+----+
-|    |---&gt; My first diagram!
-+----+</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
-|    |---&gt; My first diagram!
-+----+
-</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
-</span><span class="sb">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
-|.----------------------.|
-||"https://example.com" ||
-|'----------------------'|
-| ______________________ |
-||                      ||
-||   Welcome!           ||
-||                      ||
-||                      ||
-||  .----------------.  ||
-||  | username       |  ||
-||  '----------------'  ||
-||  .----------------.  ||
-||  |"*******"       |  ||
-||  '----------------'  ||
-||                      ||
-||  .----------------.  ||
-||  |   "Sign-up"    |  ||
-||  '----------------'  ||
-||                      ||
-|+----------------------+|
-.------------------------.
-</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://alshedivat.github.io/al-folio/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/post-citation</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://alshedivat.github.io/al-folio/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/pseudocode</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
-</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
-\begin{algorithm}
-\caption{Quicksort}
-\begin{algorithmic}
-\PROCEDURE{Quicksort}{$$A, p, r$$}
-    \IF{$$p &lt; r$$}
-        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
-        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
-        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
-    \ENDIF
-\ENDPROCEDURE
-\PROCEDURE{Partition}{$$A, p, r$$}
-    \STATE $$x = A[r]$$
-    \STATE $$i = p - 1$$
-    \FOR{$$j = p$$ \TO $$r - 1$$}
-        \IF{$$A[j] &lt; x$$}
-            \STATE $$i = i + 1$$
-            \STATE exchange
-            $$A[i]$$ with $$A[j]$$
-        \ENDIF
-        \STATE exchange $$A[i]$$ with $$A[r]$$
-    \ENDFOR
-\ENDPROCEDURE
-\end{algorithmic}
-\end{algorithm}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://alshedivat.github.io/al-folio/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/code-diff</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
-</span><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
-</span><span class="gd">--- a/sample.js
-</span><span class="gi">+++ b/sample.js
-</span><span class="p">@@ -1 +1 @@</span>
-<span class="gd">-console.log("Hello World!")
-</span><span class="gi">+console.log("Hello from Diff2Html!")
-</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
-</span><span class="sb">diff --git a/sample.js b/sample.js
-index 0000001..0ddf2ba
---- a/sample.js
-+++ b/sample.js
-@@ -1 +1 @@
--console.log("Hello World!")
-+console.log("Hello from Diff2Html!")</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sun, 9 Oct 2016 16:41:54 +0100
-Subject: [PATCH 1/2] Initial template override support
+  <span class="kd">public</span> <span class="nf">BST</span><span class="o">(</span><span class="nc">Key</span> <span class="n">key</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">this</span><span class="o">.</span><span class="na">key</span> <span class="o">=</span> <span class="n">key</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div> <h4 id="1623-contains">16.2.3 Contains</h4> <p>To find a searchKey in a BST, we employ binary search, which is made easy due to the BST property.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">static</span> <span class="no">BST</span> <span class="nf">find</span><span class="o">(</span><span class="no">BST</span> <span class="no">T</span><span class="o">,</span> <span class="nc">Key</span> <span class="n">sk</span><span class="o">)</span> <span class="o">{</span>
+  <span class="k">if</span> <span class="o">(</span><span class="no">T</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span>
+    <span class="k">return</span> <span class="kc">null</span><span class="o">;</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">sk</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="no">T</span><span class="o">.</span><span class="na">key</span><span class="o">))</span>
+    <span class="k">return</span> <span class="no">T</span><span class="o">;</span>
+  <span class="k">else</span> <span class="nf">if</span> <span class="o">(</span><span class="n">sk</span> <span class="o">&lt;</span> <span class="no">T</span><span class="o">.</span><span class="na">key</span><span class="o">)</span>
+    <span class="k">return</span> <span class="nf">find</span><span class="o">(</span><span class="no">T</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">sk</span><span class="o">);</span>
+  <span class="k">else</span>
+    <span class="k">return</span> <span class="nf">find</span><span class="o">(</span><span class="no">T</span><span class="o">.</span><span class="na">right</span><span class="o">,</span> <span class="n">sk</span><span class="o">);</span>
+<span class="o">}</span>
+</code></pre></div></div> <p>The runtime to complete a search on a “bushy” BST in the worst case is $\Theta(\log N)$, where $N$ is the number of nodes.</p> <h4 id="1624-insert">16.2.4 Insert</h4> <p>We <strong>always</strong> insert at a leaf node.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">static</span> <span class="no">BST</span> <span class="nf">insert</span><span class="o">(</span><span class="no">BST</span> <span class="no">T</span><span class="o">,</span> <span class="nc">Key</span> <span class="n">ik</span><span class="o">)</span> <span class="o">{</span>
+  <span class="k">if</span> <span class="o">(</span><span class="no">T</span> <span class="o">==</span> <span class="kc">null</span><span class="o">)</span>
+    <span class="k">return</span> <span class="k">new</span> <span class="nf">BST</span><span class="o">(</span><span class="n">ik</span><span class="o">);</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">ik</span> <span class="o">&lt;</span> <span class="no">T</span><span class="o">.</span><span class="na">key</span><span class="o">)</span>
+    <span class="no">T</span><span class="o">.</span><span class="na">left</span> <span class="o">=</span> <span class="n">insert</span><span class="o">(</span><span class="no">T</span><span class="o">.</span><span class="na">left</span><span class="o">,</span> <span class="n">ik</span><span class="o">);</span>
+  <span class="k">else</span> <span class="nf">if</span> <span class="o">(</span><span class="n">ik</span> <span class="o">&gt;</span> <span class="no">T</span><span class="o">.</span><span class="na">key</span><span class="o">)</span>
+    <span class="no">T</span><span class="o">.</span><span class="na">right</span> <span class="o">=</span> <span class="n">insert</span><span class="o">(</span><span class="no">T</span><span class="o">.</span><span class="na">right</span><span class="o">,</span> <span class="n">ik</span><span class="o">);</span>
+  <span class="k">return</span> <span class="no">T</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div></div> <h4 id="1625-deletion">16.2.5 Deletion</h4> <p>Deleting from a binary tree is a little bit more complicated because whenever we delete, we need to make sure we <strong>reconstruct the tree and still maintain its BST property</strong>. Let’s break this problem down into three categories:</p> <ul> <li>the node we are trying to delete has no children</li> <li>has 1 child</li> <li>has 2 children</li> </ul> <h5 id="case-1-key-with-no-children">Case 1: Key with no Children</h5> <p>We can just <u>delete its parent pointer</u> and the node will eventually be swept away by the garbage collector.</p> <h5 id="case-2-key-with-one-child">Case 2: Key with one Child</h5> <p>The child maintains the BST property with the parent of the node because the property is recursive to the right and left subtrees. Therefore, we can just <u>reassign the parent's child pointer to the node's child</u> and the node will eventually be garbage collected.</p> <p>Example: <strong>delete(“flat”)</strong></p> <p><img src="16/del_1_child.png" alt="one child" w="300"/></p> <h5 id="case-3-key-with-two-children-hibbard">Case 3: Key with two Children (Hibbard)</h5> <p>If the node has two children, the process becomes a little more complicated because we can’t just assign one of the children to be the new root. This might break the BST property. Instead, we <u>choose a new node to replace the deleted one</u>. We know that the new node must:</p> <ul> <li>be &gt; than everything in left subtree.</li> <li>be &lt; than everything right subtree.</li> </ul> <p>Example: <strong>delete(“dog”)</strong></p> <p><img src="16/del_2_children.png" alt="two children" w="300"/></p> <p>Choose either <u>predecessor</u> (<code class="language-plaintext highlighter-rouge">cat</code>, the right-most node in the left subtree) or <u>successor</u> (<code class="language-plaintext highlighter-rouge">elf</code>, the left-most node in the right subtree). Delete <code class="language-plaintext highlighter-rouge">cat</code> or <code class="language-plaintext highlighter-rouge">elf</code>, and stick new copy in the root position. This deletion guaranteed to be either case 1 or 2. This strategy is known as <strong>Hibbard deletion</strong>.</p> <h3 id="163-sets-and-maps">16.3 Sets and Maps</h3> <h4 id="1631-set">16.3.1 Set</h4> <p>Can think of the BST below as representing a Set:</p> <ul> <li>{mo, no, sumomo, uchi, momo}</li> </ul> <p><img src="16/set.png" alt="set" w="450"/></p> <h4 id="1632-map">16.3.2 Map</h4> <p>To represent maps, just have each BST node store key/value pairs.</p> <p><img src="16/map.png" alt="map" w="450"/></p> <p>Note: No efficient way to look up by value.</p> <ul> <li>Example: Cannot find all the keys with value = 1 without iterating over <strong>ALL</strong> nodes. This is fine.</li> </ul> <h3 id="164-summary">16.4 Summary</h3> <ul> <li>Abstract data types (ADTs) are defined in terms of operations, not implementation. <ul> <li>Several useful ADTs: Disjoint Sets, Map, Set, List.</li> </ul> </li> <li>Java provides <code class="language-plaintext highlighter-rouge">Map</code>, <code class="language-plaintext highlighter-rouge">Set</code>, <code class="language-plaintext highlighter-rouge">List</code> interfaces, along with several implementations.</li> <li>We’ve seen two ways to implement a Set (or Map): <ul> <li>ArraySet: $\Theta(N)$ operations in the worst case.</li> <li>BST: $\Theta(\log N)$ operations if tree is balanced.</li> </ul> </li> <li>BST Implementations: <ul> <li>Search and insert are straightforward (but insert is a little tricky).</li> <li>Deletion is more challenging. Typical approach is “Hibbard deletion”.</li> </ul> </li> </ul> <h2 id="17-b-trees-2-3-2-3-4-trees">17. B-Trees (2-3, 2-3-4 Trees)</h2> <h3 id="171-binary-search-trees">17.1 Binary Search Trees</h3> <h4 id="1711-bst-height">17.1.1 BST Height</h4> <p>BST height is all four of these:</p> <ul> <li>$O(N)$.</li> <li>$\Theta(\log N)$ in the best case (“bushy”).</li> <li>$\Theta(N)$ in the worst case (“spindly”).</li> <li>$O(N^2)$.</li> </ul> <p><img src="17/BST.png" alt="BST" w="550"/> <em>Trees range from best-case “bushy” to worst-case “spindly”</em></p> <p>Difference is dramatic!</p> <h4 id="1712-worst-case-performance">17.1.2 Worst Case Performance</h4> <p><strong>Height and Depth</strong></p> <ul> <li>The <strong>depth</strong> of a node is how far it is from the root, e.g. <code class="language-plaintext highlighter-rouge">depth(g)</code> = 2.</li> <li>The <strong>height</strong> of a tree is the depth of its deepest leaf, e.g. <code class="language-plaintext highlighter-rouge">height(T)</code> = 4.</li> </ul> <p><img src="17/height_and_depth.png" alt="height_and_depth" w="550"/></p> <ul> <li>The <strong>average depth</strong> of a tree is the average depth of a tree’s nodes. <ul> <li>(0x1 + 1x2 + 2x4 + 3x6 + 4x1)/(1+2+4+6+1) = 2.35</li> </ul> </li> </ul> <p><strong>Runtime</strong></p> <ul> <li>The height of a tree determines <u>the worst case runtime to find a node</u>. <ul> <li>Example: Worst case is <code class="language-plaintext highlighter-rouge">contains(s)</code>, requires 5 comparisons (height + 1).</li> </ul> </li> <li>The “average depth” determines <u>the average case runtime to find a node</u>. <ul> <li>Example: Average case is 3.35 comparisons (average depth + 1).</li> </ul> </li> </ul> <p><strong>Nice Property</strong></p> <p>Random trees have $\Theta(\log N)$ average depth and height.</p> <ul> <li>Good news: BSTs have great performance if we insert items randomly. Performance is $\Theta(\log N)$ per operation.</li> <li>Bad News: We can’t always insert our items in a random order.</li> </ul> <h3 id="172-b-trees">17.2 B-Trees</h3> <h4 id="1721-splitting-juicy-nodes">17.2.1 Splitting Juicy Nodes</h4> <h5 id="17211-avoiding-imbalance-through-overstuffing">17.2.1.1 Avoiding Imbalance through Overstuffing</h5> <blockquote class="prompt-tip"> <p>If we could simply avoid adding new leaves in our BST, the height would never increase.</p> </blockquote> <p>Instead of adding a new node upon insertion, we simply stack the new value into an existing leaf node at the appropriate location. Suppose we add <code class="language-plaintext highlighter-rouge">17</code>, <code class="language-plaintext highlighter-rouge">18</code>:</p> <p><img src="17/overstuffing.png" alt="overstuffing" w="600"/> <em>Avoid new leaves by “overstuffing” the leaf nodes</em></p> <h5 id="17212-moving-items-up">17.2.1.2 Moving Items Up</h5> <blockquote class="prompt-danger"> <p>Height is balanced, but we have a new problem: Leaf nodes can get too juicy.</p> </blockquote> <p>We can set a limit $L$ on the number of items, say $L=3$. If any node has more than $L$ items, give an item to parent. Which one? Let’s say (arbitrarily) the left-middle.</p> <p><img src="17/move_up.png" alt="move_up" w="550"/> <em>Moving 17 from a leaf node to its parent</em></p> <p>However, this runs into the issue that our binary search property is no longer preserved: <code class="language-plaintext highlighter-rouge">16</code> is to the right of <code class="language-plaintext highlighter-rouge">17</code>. As such, we need a second fix: split the overstuffed node into ranges: $(-\infty,15)$, $(15, 17)$ and $(17, +\infty)$. Parent node now has three children.</p> <p><img src="17/split.png" alt="split" w="250"/> <em>Splitting the children of an overstuffed node</em></p> <h5 id="17213-chain-reaction-splitting">17.2.1.3 Chain Reaction Splitting</h5> <p>Suppose we add <code class="language-plaintext highlighter-rouge">25</code>, <code class="language-plaintext highlighter-rouge">26</code>:</p> <p><img src="17/chain_1.png" alt="chain_1" w="600"/></p> <p>In the case when our root is above the limit, we are forced to increase the tree height.</p> <p><img src="17/root.png" alt="root" w="550"/></p> <h4 id="1722-b-tree-terminology">17.2.2 B-Tree Terminology</h4> <blockquote> <p>The origin of “B-tree” has never been explained by the authors. As we shall see, “balanced,” “broad,” or “bushy” might apply. Others suggest that the “B” stands for Boeing. Because of his contributions, however, it seems appropriate to think of B-trees as “Bayer”-trees. – Douglas Corner (The Ubiquitous B-Tree)</p> </blockquote> <p>Observe that our new splitting-tree data structure has <u>perfect balance</u>. If we split the root, every node is pushed down by one level. If we split a leaf or internal node, the height does not change. There is never a change that results in imbalance.</p> <p>The real name for this data structure is a <strong>B-Tree</strong>. B-Trees with a limit of 3 items per node are also called 2-3-4 trees or 2-4 trees (a node can have 2, 3, or 4 children). Setting a limit of 2 items per node results in a 2-3 tree.</p> <p>B-Trees are used mostly in two specific contexts:</p> <ul> <li>Small $L$ ($L=2$ or $L=3$): <ul> <li>Used as a conceptually simple balanced search tree (as today).</li> </ul> </li> <li>$L$ is very large (say thousands). <ul> <li>Used in practice for databases and filesystems (i.e. systems with very large records).</li> </ul> </li> </ul> <h4 id="1723-b-tree-invariants">17.2.3 B-Tree Invariants</h4> <p>Because of the way B-Trees are constructed, we get two nice invariants:</p> <ul> <li>All leaves must be the same distance from the root.</li> <li>A non-leaf node with $k$ items must have exactly $k+1$ children.</li> </ul> <h4 id="1724-worst-case-performance">17.2.4 Worst Case Performance</h4> <p>Let $L$ be the maximum items per node. Based on our invariants, the maximum height must be somewhere between $\log_{L+1}(N)$ and $\log_2(N)$.</p> <ul> <li>Largest possible height is all non-leaf nodes have 1 item.</li> </ul> <p><img src="17/worst_case.png" alt="worst_case" w="250"/></p> <ul> <li>Smallest possible height is all nodes have $L$ items.</li> </ul> <p><img src="17/best_case.png" alt="best_case" w="500"/></p> <p>Overall height is therefore $\Theta(\log N)$.</p> <p><strong>Runtime for <code class="language-plaintext highlighter-rouge">contains</code></strong></p> <p>In the worst case, we have to examine up to $L$ items per node. We know that height is logarithmic, so the runtime of <code class="language-plaintext highlighter-rouge">contains</code> is bounded by $O(L \log N)$. Since $L$ is a constant, we can drop the multiplicative factor, resulting in a runtime of $O(\log N)$.</p> <p><strong>Runtime for <code class="language-plaintext highlighter-rouge">add</code></strong></p> <p>A similar analysis can be done for <code class="language-plaintext highlighter-rouge">add</code>, except we have to consider the case in which we must split a leaf node. Since the height of the tree is $O(\log N)$, at worst, we do $\log N$ split operations (cascading from the leaf to the root). This simply adds an additive factor of $\log N$ to our runtime, which still results in an overall runtime of $O(\log N)$.</p> <h3 id="173-summary">17.3 Summary</h3> <p>BSTs have best case height $\Theta(\log N)$, and worst case height $\Theta(N)$. B-Trees are a modification of the binary search tree that avoids $\Theta(N)$ worst case.</p> <ul> <li>Nodes may contain between 1 and $L$ items.</li> <li><code class="language-plaintext highlighter-rouge">contains</code> works almost exactly like a normal BST.</li> <li><code class="language-plaintext highlighter-rouge">add</code> works by adding items to existing leaf nodes. <ul> <li>If nodes are too full, they split.</li> </ul> </li> <li>Resulting tree has perfect balance. Runtime for operations is $O(\log N)$.</li> <li>B-trees are more complex, but they can efficiently handle any <strong>insertion order</strong>.</li> </ul> <h2 id="18-red-black-trees">18. Red Black Trees</h2> <h3 id="181-tree-rotation">18.1 Tree Rotation</h3> <h4 id="1811-bsts">18.1.1 BSTs</h4> <p>Suppose we have a BST with the numbers <code class="language-plaintext highlighter-rouge">1</code>, <code class="language-plaintext highlighter-rouge">2</code>, <code class="language-plaintext highlighter-rouge">3</code>. Five possible BSTs.</p> <ul> <li>The specific BST you get is based on the insertion order.</li> <li>More generally, for $N$ items, there are <a href="https://en.wikipedia.org/wiki/Catalan_number">Catalan(N)</a> different BSTs.</li> </ul> <p><img src="18/BSTs.png" alt="BSTs" w="550"/></p> <p>Given any BST, it is possible to move to a different configuration using “rotation”.</p> <ul> <li>In general, can move from any configuration to any other in 2n - 6 rotations (see <a href="https://www.cs.cmu.edu/~sleator/papers/rotation-distance.pdf">Rotation Distance, Triangulations, and Hyperbolic Geometry</a> or <a href="https://medium.com/@liuamyj/its-triangles-all-the-way-down-part-1-17f932f4c438">Amy Liu</a>).</li> </ul> <h4 id="1812-definition">18.1.2 Definition</h4> <h5 id="rotateleft">rotateLeft</h5> <p><code class="language-plaintext highlighter-rouge">rotateLeft(G)</code>: Suppose <code class="language-plaintext highlighter-rouge">x</code> is the right child of <code class="language-plaintext highlighter-rouge">G</code>, make <code class="language-plaintext highlighter-rouge">G</code> the new left child of <code class="language-plaintext highlighter-rouge">x</code>.</p> <p><img src="18/rotate_left_1.png" alt="rotate_left_1" w="550"/></p> <ul> <li>Can think of as temporarily merging <code class="language-plaintext highlighter-rouge">G</code> and <code class="language-plaintext highlighter-rouge">P</code>, then sending <code class="language-plaintext highlighter-rouge">G</code> down and left.</li> </ul> <p><img src="18/rotate_left.png" alt="rotate_left" w="550"/></p> <h5 id="rotateright">rotateRight</h5> <p><code class="language-plaintext highlighter-rouge">rotateRight(P)</code>: Suppose <code class="language-plaintext highlighter-rouge">x</code> is the left child of <code class="language-plaintext highlighter-rouge">P</code>, make <code class="language-plaintext highlighter-rouge">P</code> the new right child of <code class="language-plaintext highlighter-rouge">x</code>.</p> <ul> <li>Can think of as temporarily merging <code class="language-plaintext highlighter-rouge">G</code> and <code class="language-plaintext highlighter-rouge">P</code>, then sending <code class="language-plaintext highlighter-rouge">P</code> down and right.</li> </ul> <p><img src="18/rotate_right.png" alt="rotate_right" w="550"/></p> <h4 id="1813-tree-balancing">18.1.3 Tree Balancing</h4> <p>Rotation:</p> <ul> <li>Can shorten (or lengthen) a tree.</li> <li>Preserves search tree property.</li> </ul> <p><img src="18/rotation.png" alt="rotation" w="600"/></p> <p>Rotation allows balancing of a BST in $O(N)$ moves.</p> <h3 id="182-left-leaning-red-black-trees-llrbs">18.2 Left Leaning Red-Black Trees (LLRBs)</h3> <h4 id="1821-the-2-3-tree-isometry">18.2.1 The 2-3 Tree Isometry</h4> <p>2-3 trees always remain balanced, but they are very hard to implement. On the other hand, BSTs can be unbalanced, but are simple and intuitive. Is there a way to combine the best of two worlds? Why not create <u>a tree that is implemented using a BST, but is structurally identical to a 2-3 tree and thus stays balanced</u>?</p> <p><strong>Representing a 2-3 Tree as a BST</strong></p> <p>A 2-3 tree with only 2-nodes is trivial. BST is exactly the same.</p> <p><img src="18/2-nodes.png" alt="2-nodes" w="550"/></p> <p><strong>Dealing with 3-Nodes</strong></p> <ul> <li>Possibility 1: Create dummy “glue” nodes.</li> </ul> <p><img src="18/dummy_glue_node.png" alt="dummy_glue_node" w="550"/> <em>Result is inelegant. Wasted link. Code will be ugly.</em></p> <ul> <li>Possibility 2: Create “glue” links with the smaller item <strong><u>off to the left</u></strong>. <ul> <li>For convenience, we’ll mark glue links as “<strong><font color="red">red</font></strong>”.</li> </ul> </li> </ul> <p><img src="18/glue_link.png" alt="glue_link" w="550"/> <em>Idea is commonly used in practice (e.g. java.util.TreeSet).</em></p> <p>A BST with left glue links that represents a 2-3 tree is often called a “Left Leaning Red Black Binary Search Tree” or LLRB.</p> <h4 id="1822-llrb-properties">18.2.2 LLRB Properties</h4> <ul> <li>Suppose we have a 2-3 tree of height H. The maximum height of the corresponding LLRB is <ul> <li>H (black) + <font color="red">H + 1 (red)</font> = 2H + 1.</li> </ul> </li> </ul> <p><img src="18/LLRB.png" alt="LLRB" w="550"/></p> <ul> <li>No node has two red links [otherwise it’d be analogous to a 4 node, which are disallowed in 2-3 trees].</li> <li>Every path from root to null has same number of <strong><u>black links</u></strong> [because 2-3 trees have the same number of links to every leaf]. LLRBs are therefore balanced.</li> </ul> <h4 id="1823-maintaining-isometry-with-rotations">18.2.3 Maintaining Isometry with Rotations</h4> <p>When inserting into an LLRB tree, we <u>always insert the new node with a red link to its parent node</u>. This is because in a 2-3 tree, we are always inserting by adding to a leaf node, the color of the link we add should always be red.</p> <p>But sometimes, inserting red links at certain places might lead to cases where we break one of the invariants of LLRBs. Below are three such cases where we need to perform certain tasks address in order to maintain the LLRB tree’s proper structure.</p> <p><strong>Case 1: Insertion on the Right</strong></p> <ul> <li>If the left child is also a red link, go to case 3.</li> <li>Otherwise, Rotate <code class="language-plaintext highlighter-rouge">E</code> left.</li> </ul> <p><img src="18/case1.png" alt="case1" w="550"/></p> <p><strong>Case 2: Double Insertion on the Left</strong></p> <ul> <li>Rotate <code class="language-plaintext highlighter-rouge">Z</code> right. Then go to case 3.</li> </ul> <p><img src="18/case2.png" alt="case2" w="550"/></p> <p><strong>Case 3: Node has Two Red Children</strong></p> <ul> <li>Flip the colors of all edges touching <code class="language-plaintext highlighter-rouge">B</code>.</li> </ul> <p><img src="18/case3.png" alt="case3" w="350"/></p> <p><strong>Cascading operations</strong></p> <p>It is possible that a rotation or flip operation will cause an additional violation that needs fixing.</p> <h4 id="1824-runtime-and-implementation">18.2.4 Runtime and Implementation</h4> <p>The runtime analysis for LLRBs is simple if you trust the 2-3 tree runtime.</p> <ul> <li>LLRB tree has height $O(\log N)$.</li> <li><code class="language-plaintext highlighter-rouge">contains</code> is trivially $O(\log N)$.</li> <li><code class="language-plaintext highlighter-rouge">insert</code> is $O(\log N)$. <ul> <li>$O(\log N)$ to add the new node.</li> <li>$O(\log N)$ rotation and color flip operations per insert.</li> </ul> </li> </ul> <h2 id="19-hashing">19. Hashing</h2> <h3 id="191-motivation">19.1 Motivation</h3> <p>We’ve now seen several implementations of the Set (or Map) ADT.</p> <p><img src="19/set_map_implementations.png" alt="set_map_implementations" w="650"/></p> <p>Limits of <strong>Search Tree</strong> Based Sets:</p> <ul> <li>require items to be <strong>comparable</strong> <ul> <li>Could we somehow avoid the need for objects to be comparable?</li> </ul> </li> <li>have excellent <strong>performance</strong>, but could maybe be better <ul> <li>Could we somehow do better than $\Theta(\log N)$?</li> </ul> </li> </ul> <h3 id="192-the-hash-table">19.2 The Hash Table</h3> <ul> <li>Data is converted by a hash function into an integer representation called a <strong>hash code</strong>.</li> <li>The hash code is then <strong>reduced</strong> to a valid index, usually using the modulus operator, e.g. <code class="language-plaintext highlighter-rouge">2348762878 % 10 = 8</code>.</li> </ul> <p><img src="19/hash_table.png" alt="hash_table" w="550"/></p> <h3 id="193-hash-table-runtime">19.3 Hash Table Runtime</h3> <p>Suppose we have: an increasing number of buckets $M$, and an increasing number of items $N$. Even if items are spread out evenly, lists are of length $Q = \frac{N}{M}$. The <code class="language-plaintext highlighter-rouge">contains(x)</code> and <code class="language-plaintext highlighter-rouge">add(x)</code> have the worst case runtimes $\Theta(Q)$.</p> <p>As long as $M = \Theta(N)$, then $O(\frac{N}{M}) = O(1)$. <strong>Resize</strong> when load factor $\frac{N}{M}$ exceeds some constant. If items are spread out nicely, you get $\Theta(1)$ average runtime. One example strategy: When $\frac{N}{M}$ is ≥ 1.5, then double $M$.</p> <h2 id="20-heaps-and-pqs">20. Heaps and PQs</h2> <h3 id="201-priority-queue">20.1 Priority Queue</h3> <p>(Min) Priority Queue: Allowing <strong>tracking</strong> and <strong>removal</strong> of the smallest item in a priority queue. Useful if you want to keep track of the “smallest”, “largest”, “best” etc. seen so far.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">MinPQ</span><span class="o">&lt;</span><span class="nc">Item</span><span class="o">&gt;</span> <span class="o">{</span>
+    <span class="cm">/** Adds the item to the priority queue. */</span>
+    <span class="kd">public</span> <span class="kt">void</span> <span class="nf">add</span><span class="o">(</span><span class="nc">Item</span> <span class="n">x</span><span class="o">);</span>
+    <span class="cm">/** Returns the smallest item in the priority queue. */</span>
+    <span class="kd">public</span> <span class="nc">Item</span> <span class="nf">getSmallest</span><span class="o">();</span>
+    <span class="cm">/** Removes the smallest item from the priority queue. */</span>
+    <span class="kd">public</span> <span class="nc">Item</span> <span class="nf">removeSmallest</span><span class="o">();</span>
+    <span class="cm">/** Returns the size of the priority queue. */</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="nf">size</span><span class="o">();</span>
+<span class="o">}</span>
+</code></pre></div></div> <h3 id="202-heaps">20.2 Heaps</h3> <h4 id="2021-heap-structure">20.2.1 Heap Structure</h4> <p>BSTs would work, but need to be kept bushy and duplicates are awkward.</p> <p><strong>Binary min-heap</strong>: Binary tree that is <strong>complete</strong> and obeys <strong>min-heap</strong> property.</p> <ul> <li><strong>Min-heap</strong>: Every node is less than or equal to both of its children.</li> <li><strong>Complete</strong>: Missing items (if any) only at the bottom level, all nodes are as far left as possible.</li> </ul> <p><img src="20/heap.png" alt="heap"/></p> <h4 id="2022-add">20.2.2 Add</h4> <blockquote class="prompt-tip"> <p>Algorithm for <code class="language-plaintext highlighter-rouge">add(x)</code>: to maintain the <strong>completeness</strong>, the natural thought is to place <code class="language-plaintext highlighter-rouge">x</code> in the leftmost empty spot on the lowest level. However, this doesn’t guarantee the <strong>min-heap</strong> property, so further adjustments are needed.</p> </blockquote> <p><strong>swim</strong>: Continually compare <code class="language-plaintext highlighter-rouge">x</code> with its parent. If <code class="language-plaintext highlighter-rouge">x</code> is smaller, swap it with the parent. Repeat this process until <code class="language-plaintext highlighter-rouge">x</code> is in the right position.</p> <p><img src="20/insert.png" alt="swim" style="zoom:100%;"/></p> <h4 id="2023-delete">20.2.3 Delete</h4> <blockquote class="prompt-tip"> <p>Algorithm for <code class="language-plaintext highlighter-rouge">removeSmallest()</code>: to maintain the <strong>completeness</strong> of the structure, the intuitive approach is to swap the root node with the node at the end, then remove it. However, this doesn’t guarantee the <strong>min-heap</strong> property, so further adjustments are needed.</p> </blockquote> <p class="prompt-info"><strong>sink</strong>: Continually compare <code class="language-plaintext highlighter-rouge">x</code> with its left and right nodes. Swap x with the smaller of the two nodes. Repeat this process until <code class="language-plaintext highlighter-rouge">x</code> is in the right position.</p> <p><img src="20/remove.png" alt="sink" style="zoom:80%;"/></p> <h4 id="2024-heap-operations-summary">20.2.4 Heap Operations Summary</h4> <ul> <li><code class="language-plaintext highlighter-rouge">getSmallest()</code> - return the item in the root node.</li> <li><code class="language-plaintext highlighter-rouge">add(x)</code> - place the new employee in the last position, and promote as high as possible.</li> <li><code class="language-plaintext highlighter-rouge">removeSmallest()</code> - assassinate the president (of the company), promote the rightmost person in the company to president. Then demote repeatedly, always taking the ‘better’ successor.</li> </ul> <h3 id="203-tree-representation">20.3 Tree Representation</h3> <p>How do we Represent a Tree in Java?</p> <p><img src="20/tree.png" alt="tree" style="zoom:50%;"/></p> <h4 id="2031-approach-1a-1b-and-1c">20.3.1 Approach 1a, 1b, and 1c</h4> <p>Create mapping from node to children.</p> <p><img src="20/ap1digrams.png" alt="ap1digrams" w="550"/></p> <p><img src="20/ap1codes.png" alt="ap1codes" w="550"/></p> <h4 id="2032-approach-2">20.3.2 Approach 2</h4> <p>Store keys in an array. Store parentIDs in an array.</p> <ul> <li>Similar to what we did with disjointSets.</li> </ul> <p><img src="20/ap2-1.png" alt="ap2-1" style="zoom: 40%;"/></p> <p>A more complex example：</p> <p><img src="20/ap2-2.png" alt="ap2-2" w="550"/></p> <h4 id="2033-approach-3">20.3.3 Approach 3</h4> <p>Store keys in an array. Don’t store structure anywhere.</p> <p>In Approach2, we observe that when numbering a binary tree in the order of level traversal, if the tree has the property of being complete, there is a pattern between the parent and child node numbers: <strong>the parent number</strong> corresponding to <strong>the node number</strong> $k$ is $\frac{k-1}{2}$.</p> <p>Further, if we leave the 0th position empty, the following patterns emerge:</p> <ul> <li><code class="language-plaintext highlighter-rouge">leftChild(k)</code> $= 2k$</li> <li><code class="language-plaintext highlighter-rouge">rightChild(k)</code> $= 2k + 1$</li> <li><code class="language-plaintext highlighter-rouge">parent(k)</code> = $\frac{k}{2}$</li> </ul> <p><img src="20/ap3.png" alt="ap3"/></p> <h2 id="21-tree-and-graph-traversals">21. Tree and Graph Traversals</h2> <h3 id="211-trees">21.1 Trees</h3> <h4 id="2111-tree-definition">21.1.1 Tree Definition</h4> <p>A tree consists of a set of <strong>nodes</strong> and a set of <strong>edges</strong> that connect those nodes, where there is <strong>exactly one</strong> path between any two nodes.</p> <p><img src="21/graphs.png" alt="graphs" w="500"/> <em>Green structures below are trees. Pink ones are not.</em></p> <h4 id="2112-tree-traversals">21.1.2 Tree Traversals</h4> <p>Sometimes you want to iterate over a tree. What one might call “tree iteration” is actually called “<strong>tree traversal</strong>”. Unlike lists, there are many orders in which we might visit the nodes.</p> <p><img src="21/tree.png" alt="tree" w="350"/></p> <h5 id="21121-level-order">21.1.2.1 Level Order</h5> <ul> <li>DBFACEG</li> </ul> <h5 id="21122-depth-first-traversals">21.1.2.2 Depth First Traversals</h5> <p><img src="21/tree_traversal_algo.png" alt="tree_traversal_algo"/> <em>DBACFEG | ABCDEFG | ACBEGFD</em></p> <h4 id="2113-usefulness-of-tree-traversals">21.1.3 Usefulness of Tree Traversals</h4> <h5 id="preorder-traversal-for-printing-directory-listing">Preorder Traversal for printing directory listing</h5> <p><img src="21/directory_listing.png" alt="directory_listing" w="450"/></p> <h5 id="postorder-traversal-for-gathering-file-sizes">Postorder Traversal for gathering file sizes</h5> <p><img src="21/file_sizes.png" alt="file_sizes" w="650"/></p> <h3 id="212-graphs">21.2 Graphs</h3> <h4 id="2121-graph-definition">21.2.1 Graph Definition</h4> <p>Trees are fantastic for representing strict hierarchical relationships. But not every relationship is hierarchical. A <strong>graph</strong> consists of a set of <strong>nodes</strong> and a set of zero or more <strong>edges</strong>, each of which connects two nodes. Note, all trees are graphs.</p> <p>A <strong>simple graph</strong> is a graph with:</p> <ul> <li>No edges that connect a vertex to itself, i.e. no “length 1 loops”.</li> <li>No two edges that connect the same vertices, i.e. no “parallel edges”.</li> </ul> <p><img src="21/simple_graph.png" alt="simpl_graph" w="350"/> <em>Green graph below is simple, pink graphs are not.</em></p> <p>In 61B, unless otherwise explicitly stated, all graphs will be simple.</p> <h4 id="2122-graph-types">21.2.2 Graph Types</h4> <p><img src="21/graph_terms.png" alt="graph_terms" w="500"/></p> <h4 id="2123-graph-problems">21.2.3 Graph Problems</h4> <p>Some well known graph problems and their common names:</p> <ul> <li><strong>s-t Path</strong>. Is there a path between vertices s and t?</li> <li><strong>Connectivity</strong>. Is the graph connected, i.e. is there a path between all vertices?</li> <li><strong>Biconnectivity</strong>. Is there a vertex whose removal disconnects the graph?</li> <li><strong>Shortest s-t Path</strong>. What is the shortest path between vertices s and t?</li> <li><strong>Cycle Detection</strong>. Does the graph contain any cycles?</li> <li><strong>Euler Tour</strong>. Is there a cycle that uses every edge exactly once?</li> <li><strong>Hamilton Tour</strong>. Is there a cycle that uses every vertex exactly once?</li> <li><strong>Planarity</strong>. Can you draw the graph on paper with no crossing edges?</li> <li><strong>Isomorphism</strong>. Are two graphs isomorphic (the same graph in disguise)?</li> </ul> <h3 id="213-graph-traversals">21.3 Graph Traversals</h3> <h4 id="2131-motivation-s-t-connectivity">21.3.1 Motivation: s-t Connectivity</h4> <p>Let’s solve a classic graph problem called the s-t connectivity problem. Given source vertex <code class="language-plaintext highlighter-rouge">s</code> and a target vertex <code class="language-plaintext highlighter-rouge">t</code>, is there a path between <code class="language-plaintext highlighter-rouge">s</code> and <code class="language-plaintext highlighter-rouge">t</code>?</p> <blockquote class="prompt-info"> <p>A <strong>path</strong> is a sequence of vertices connected by edges.</p> </blockquote> <p><img src="21/s-t_connectivity.png" alt="s-t_connectivity" w="400"/></p> <p>One possible recursive algorithm for <code class="language-plaintext highlighter-rouge">connected(s, t)</code>.</p> <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">connected</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">t</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">s</span> <span class="o">==</span> <span class="n">t</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="nf">neighbors_of</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nf">connected</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">t</span><span class="p">):</span>
+            <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">return</span> <span class="bp">False</span>
+</code></pre></div></div> <p>What is wrong with it? Can get caught in an infinite loop. Example:</p> <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>connected(0, 7):
+    Does 0 == 7? No, so...
+    If (connected(1, 7)) return true;
+connected(1, 7):
+    Does 1 == 7? No, so…
+    If (connected(0, 7)) … ← Infinite loop.
+</code></pre></div></div> <p>How do we fix it?</p> <h4 id="2132-depth-first-search">21.3.2 Depth First Search</h4> <p>Basic idea is same as before, but visit each vertex at most once. [<a href="https://docs.google.com/presentation/d/1OHRI7Q_f8hlwjRJc8NPBUc1cMu5KhINH1xGXWDfs_dA/edit?usp=sharing">Demo</a>]</p> <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">connected</span><span class="p">(</span><span class="n">s</span><span class="p">,</span> <span class="n">t</span><span class="p">):</span>
+    <span class="n">marked</span><span class="p">[</span><span class="n">s</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>   <span class="c1"># added
+</span>    <span class="k">if</span> <span class="n">s</span> <span class="o">==</span> <span class="n">t</span><span class="p">:</span>
+        <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="nf">neighbors_of</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">marked</span><span class="p">[</span><span class="n">v</span><span class="p">]</span>  <span class="c1"># added
+</span>            <span class="k">if</span> <span class="nf">connected</span><span class="p">(</span><span class="n">v</span><span class="p">,</span> <span class="n">t</span><span class="p">):</span>
+                <span class="k">return</span> <span class="bp">True</span>
+    <span class="k">return</span> <span class="bp">False</span>
+</code></pre></div></div> <h4 id="2133-tree-vs-graph-traversals">21.3.3 Tree vs. Graph Traversals</h4> <h5 id="another-example-depthfirstpaths">Another example: DepthFirstPaths</h5> <p>Find a path from <code class="language-plaintext highlighter-rouge">s</code> to every other reachable vertex. [<a href="https://docs.google.com/presentation/d/1lTo8LZUGi3XQ1VlOmBUF9KkJTW_JWsw_DOPq8VBiI3A/edit#slide=id.g76e0dad85_2_380">Demo</a>]</p> <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">dfs</span><span class="p">(</span><span class="n">v</span><span class="p">):</span>
+    <span class="n">marked</span><span class="p">[</span><span class="n">v</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+    <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">neighbors_of</span><span class="p">[</span><span class="n">v</span><span class="p">]:</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">marked</span><span class="p">[</span><span class="n">w</span><span class="p">]:</span>
+            <span class="n">edgeTo</span><span class="p">[</span><span class="n">w</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+            <span class="nf">dfs</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>
+</code></pre></div></div> <p>This is called “<strong>DFS Preorder</strong>”. i.e., <strong>Action</strong> (setting <code class="language-plaintext highlighter-rouge">edgeTo</code>) is before DFS calls to neighbors. One valid DFS preorder for this graph: <code class="language-plaintext highlighter-rouge">012543678</code>, equivalent to the order of <strong>dfs calls</strong>.</p> <p><img src="21/s-t_connectivity.png" alt="s-t_connectivity" w="400"/></p> <p>We could also do actions in <strong>DFS Postorder</strong>. i.e., Action is after DFS calls to neighbors. Example:</p> <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">dfs</span><span class="p">(</span><span class="n">s</span><span class="p">):</span>
+  <span class="n">marked</span><span class="p">[</span><span class="n">s</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+  <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">neighbors_of</span><span class="p">[</span><span class="n">v</span><span class="p">]:</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">marked</span><span class="p">[</span><span class="n">w</span><span class="p">]:</span>
+      <span class="nf">dfs</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>
+  <span class="nf">print</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+</code></pre></div></div> <p>Results for <code class="language-plaintext highlighter-rouge">dfs(0)</code> would be: <code class="language-plaintext highlighter-rouge">347685210</code>, equivalent to the order of <strong>dfs returns</strong>.</p> <p>Just as there are many tree traversals, so too are there many graph traversals:</p> <ul> <li><strong>DFS Preorder</strong>: <code class="language-plaintext highlighter-rouge">012543678</code> (dfs calls).</li> <li><strong>DFS Postorder</strong>: <code class="language-plaintext highlighter-rouge">347685210</code> (dfs returns).</li> <li><strong>BFS order</strong>: Act in order of distance from <code class="language-plaintext highlighter-rouge">s</code>. <ul> <li>BFS stands for “breadth first search”.</li> <li>Analogous to “level order”. Search is wide, not deep.</li> <li><code class="language-plaintext highlighter-rouge">0 1 24 53 68 7</code></li> </ul> </li> </ul> <h3 id="214-summary">21.4 Summary</h3> <p>Graphs are a more general idea than a tree. A tree is a graph where there are no cycles and every vertex is connected. Graph problems vary widely in difficulty. Common tool for solving almost all graph problems is traversal. A <strong>traversal</strong> is an order in which you visit / act upon vertices.</p> <ul> <li>Tree traversals: Preorder, inorder, postorder, level order.</li> <li>Graph traversals: DFS preorder, DFS postorder, BFS.</li> </ul> <p>By performing actions / setting instance variables during a graph (or tree) traversal, you can solve problems like s-t connectivity or path finding.</p> <h2 id="22-graph-traversals-and-implementations">22. Graph Traversals and Implementations</h2> <h3 id="221-breadth-first-search">22.1 Breadth First Search</h3> <h4 id="2211-shortest-paths-challenge">22.1.1 Shortest Paths Challenge</h4> <p>Given the graph above, find the shortest path from <code class="language-plaintext highlighter-rouge">s</code> to all other vertices.</p> <p>BFS Answer [<a href="https://docs.google.com/presentation/d/1JoYCelH4YE6IkSMq_LfTJMzJ00WxDj7rEa49gYmAtc4/edit?usp=sharing">Demo</a>]</p> <div class="language-py highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">bfs</span><span class="p">():</span>
+    <span class="n">fringe</span> <span class="o">=</span> <span class="nf">deque</span><span class="p">([</span><span class="n">s</span><span class="p">])</span>
+    <span class="k">while</span> <span class="n">fringe</span><span class="p">:</span>
+        <span class="n">v</span> <span class="o">=</span> <span class="n">fringe</span><span class="p">.</span><span class="nf">popleft</span><span class="p">()</span>
+        <span class="k">for</span> <span class="n">w</span> <span class="ow">in</span> <span class="n">neighbors_of</span><span class="p">[</span><span class="n">v</span><span class="p">]:</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">marked</span><span class="p">[</span><span class="n">w</span><span class="p">]:</span>
+                <span class="n">marked</span><span class="p">[</span><span class="n">w</span><span class="p">]</span> <span class="o">=</span> <span class="bp">True</span>
+                <span class="n">edgeTo</span><span class="p">[</span><span class="n">w</span><span class="p">]</span> <span class="o">=</span> <span class="n">v</span>
+                <span class="c1"># distTo[w] = distTo[v] + 1
+</span>            <span class="n">fringe</span><span class="p">.</span><span class="nf">append</span><span class="p">(</span><span class="n">w</span><span class="p">)</span>
+</code></pre></div></div> <h3 id="222-graph-representations">22.2 Graph Representations</h3> <h4 id="2221-adjacency-matrix">22.2.1 Adjacency Matrix</h4> <p><img src="22/adjacency_matrix.png" alt="adjacency_matrix" w="350"/></p> <p>DFS, BFS Runtime: $O(V^2)$</p> <h4 id="2222-edge-sets">22.2.2 Edge Sets</h4> <p><img src="22/edge_sets.png" alt="edge_sets" w="350"/></p> <h4 id="2223-adjacency-lists">22.2.3 Adjacency Lists</h4> <p>Common approach: Maintain array of lists indexed by vertex number. Most popular approach for representing graphs. Efficient when graphs are “sparse” (not too many edges).</p> <p><img src="22/adjacency_lists.png" alt="adjacency_lists" w="400"/></p> <p>DFS, BFS Runtime: $O(V+E)$</p>]]></content><author><name>&lt;na_id&gt;</name></author><category term="course"/><category term="data structures"/><summary type="html"><![CDATA[13. Asymptotics I Our goal is to somehow characterize the runtimes of two functions. Characterization should be (1) simple and mathematically rigorous; and (2) demonstrate superiority of one over the other.]]></summary></entry><entry><title type="html">CS 61B (Sp21) Notes 1, Introduction to Java</title><link href="https://nasang.github.io/blog/course/2024/CS61B-Notes-1-Introduction-to-Java/" rel="alternate" type="text/html" title="CS 61B (Sp21) Notes 1, Introduction to Java"/><published>2024-10-19T00:00:00+00:00</published><updated>2024-10-19T00:00:00+00:00</updated><id>https://nasang.github.io/blog/course/2024/CS61B-Notes-1-Introduction-to-Java</id><content type="html" xml:base="https://nasang.github.io/blog/course/2024/CS61B-Notes-1-Introduction-to-Java/"><![CDATA[<h2 id="1-intro-hello-world-java">1. Intro, Hello World Java</h2> <h3 id="11-java-and-object-orientation">1.1 Java and Object Orientation</h3> <p>Java is an <strong>object oriented language</strong> with strict requirements:</p> <ul> <li>Every Java file must contain a <strong>class</strong> declaration*.</li> <li><strong>All code</strong> lives inside a class*, even helper functions, global constants, etc.</li> <li>To run a Java program, you typically define a <strong>main method</strong> using <code class="language-plaintext highlighter-rouge">public static void main(String[] args)</code></li> </ul> <p>*: This is not completely true, e.g. we can also declare “<strong>interfaces</strong>” in <code class="language-plaintext highlighter-rouge">.java</code> files that may contain code.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HelloWorld</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+        <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"Hello world!"</span><span class="o">);</span>
+    <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div> <h3 id="12-java-and-static-typing">1.2 Java and Static Typing</h3> <p>Java is <strong>statically typed</strong>.</p> <ul> <li>All variables, parameters, and methods must have a <strong>declared type</strong>.</li> <li>That type can <strong>never change</strong>.</li> <li>Expressions also have a type, e.g. <code class="language-plaintext highlighter-rouge">larger(5, 10) + 3</code> has type int.</li> <li>The compiler checks that all the types in your program are compatible <strong>before</strong> the program ever runs.</li> </ul> <h3 id="13-compilation">1.3 Compilation</h3> <p><img src="1/compilation.png" alt="compilation" w="600"/></p> <div class="language-sh highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>javac HelloWorld.java
+<span class="nv">$ </span>java HelloWorld
+Hello World! 
+</code></pre></div></div> <p>Why make a class file at all?</p> <ul> <li><code class="language-plaintext highlighter-rouge">.class</code> file has been type checked. Distributed code is <strong>safer</strong>.</li> <li><code class="language-plaintext highlighter-rouge">.class</code> files are ‘simpler’ for machine to execute. Distributed code is <strong>faster</strong>.</li> </ul> <h2 id="2-defining-and-using-classes">2. Defining and Using Classes</h2> <h3 id="21-classes">2.1 Classes</h3> <ul> <li>Classes can contain not just functions (a.k.a. <strong>methods</strong>), but also data (a.k.a. <strong>variables</strong>).</li> <li>Classes can be instantiated as <strong>objects</strong>.</li> </ul> <p>Static vs. Non-Static Members</p> <ul> <li>A variable or method defined in a class is also called a <strong>member</strong> of that class.</li> <li>A class may have a mix of <strong>static</strong> and <strong>non-static</strong> members. <ul> <li>Static members are accessed using class name.</li> <li>Non-static members cannot be invoked using class name.</li> <li>Static methods must access instance variables via a specific instance.</li> </ul> </li> </ul> <h2 id="3-testing">3. Testing</h2> <p>[placeholder]</p> <h2 id="4-references-recursion-and-lists">4. References, Recursion, and Lists</h2> <h3 id="41-primitive-types">4.1 Primitive Types</h3> <h4 id="411-bits">4.1.1 Bits</h4> <p>Information is stored in memory as a sequence of ones and zeros. Each Java type has a different way to interpret the bits:</p> <ul> <li>8 primitive types in Java: byte, short, int, long, float, double, boolean, char</li> </ul> <h4 id="412-declaring-a-variable-simplified">4.1.2 Declaring a Variable (Simplified)</h4> <p>When you declare a variable of a certain type in Java:</p> <ul> <li>Your computer sets aside exactly enough bits to hold a thing of that type.</li> <li>Java creates an internal table that maps each <strong>variable name</strong> to a <strong>location</strong>.</li> </ul> <p><img src="4/declaring.png" alt="declaring" w="500"/></p> <h4 id="413-the-golden-rule-of-equals-groe">4.1.3 The Golden Rule of Equals (GRoE)</h4> <p>Given variables <code class="language-plaintext highlighter-rouge">y</code> and <code class="language-plaintext highlighter-rouge">x</code>, <code class="language-plaintext highlighter-rouge">y = x</code> copies all the bits from <code class="language-plaintext highlighter-rouge">x</code> into <code class="language-plaintext highlighter-rouge">y</code>.</p> <h3 id="42-reference-types">4.2 Reference Types</h3> <p>Everything else, including arrays, is a reference type.</p> <h4 id="421-class-instantiations">4.2.1 Class Instantiations</h4> <p>When we instantiate an Object:</p> <ul> <li>Java first allocates a box of bits for each instance variable of the class and fills them with a default value (e.g. 0, null).</li> <li>The constructor then usually fills every such box with some other value.</li> </ul> <p><img src="4/class_instantiations.png" alt="class instantiations" w="600"/></p> <p>Can think of <code class="language-plaintext highlighter-rouge">new</code> as returning the <strong>address</strong> of the newly created object.</p> <ul> <li>Addresses in Java are 64 bits.</li> <li>Example: If object is created in memory location <code class="language-plaintext highlighter-rouge">2384723423</code>, then new returns <code class="language-plaintext highlighter-rouge">2384723423</code>.</li> </ul> <p><img src="4/new.png" alt="new" w="600"/></p> <h4 id="422-reference-type-variable-declarations">4.2.2 Reference Type Variable Declarations</h4> <p>When we declare a variable of any reference type:</p> <ul> <li>Java allocates exactly a box of size 64 bits, no matter what type of object.</li> <li>These bits can be either set to: <ul> <li>Null (all zeros).</li> <li>The 64 bit address of a specific instance of that class (returned by <code class="language-plaintext highlighter-rouge">new</code>).</li> </ul> </li> </ul> <p><img src="4/reference_type_declaration.png" alt="reference type declaration" w="300"/></p> <p>Reference types obey the Golden Rule of Equals: Just as with primitive types, the equals sign <strong>copies the bits</strong>.</p> <p><img src="4/groe.png" alt="GRoE" w="300"/></p> <h3 id="43-parameter-passing">4.3 Parameter Passing</h3> <p>Passing parameters obeys the same rule: Simply <strong>copy the bits</strong> to the new scope.</p> <h3 id="44-instantiation-of-arrays">4.4 Instantiation of Arrays</h3> <p>Arrays are also Objects.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span><span class="o">[]</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[]{</span><span class="mi">0</span><span class="o">,</span> <span class="mi">1</span><span class="o">,</span> <span class="mi">2</span><span class="o">,</span> <span class="mi">95</span><span class="o">,</span> <span class="mi">4</span><span class="o">};</span>
+</code></pre></div></div> <ul> <li>Creates a 64 bit box for storing an int array address. (declaration)</li> <li>Creates a new Object, in this case an int array. (instantiation)</li> <li>Puts the address of this new Object into the 64 bit box named <code class="language-plaintext highlighter-rouge">a</code>. (assignment)</li> </ul> <p><img src="4/array.png" alt="array" w="400"/></p> <h2 id="5-sllists-nested-classes-sentinel-nodes">5. SLLists, Nested Classes, Sentinel Nodes</h2> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">SLList</span> <span class="o">{</span>
+  <span class="kd">private</span> <span class="kd">static</span> <span class="kd">class</span> <span class="nc">IntNode</span> <span class="o">{</span>
+    <span class="kd">public</span> <span class="kt">int</span> <span class="n">item</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="nc">IntNode</span> <span class="n">next</span><span class="o">;</span>
+    <span class="kd">public</span> <span class="nf">IntNode</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">,</span> <span class="nc">IntNode</span> <span class="n">n</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">item</span> <span class="o">=</span> <span class="n">i</span><span class="o">;</span>
+      <span class="n">next</span> <span class="o">=</span> <span class="n">n</span><span class="o">;</span>
+    <span class="o">}</span>
+  <span class="o">}</span>
 
----
- scripts/hulk.js                    |  4 ++--
- src/diff2html.js                   |  3 +--
- src/file-list-printer.js           | 11 ++++++++---
- src/hoganjs-utils.js               | 29 +++++++++++++++++------------
- src/html-printer.js                |  6 ++++++
- src/line-by-line-printer.js        |  6 +++++-
- src/side-by-side-printer.js        |  6 +++++-
- test/file-list-printer-tests.js    |  2 +-
- test/hogan-cache-tests.js          | 18 +++++++++++++++---
- test/line-by-line-tests.js         |  3 +--
- test/side-by-side-printer-tests.js |  3 +--
- 11 files changed, 62 insertions(+), 29 deletions(-)
+  <span class="kd">private</span> <span class="nc">IntNode</span> <span class="n">sentinel</span><span class="o">;</span>
+  <span class="kd">private</span> <span class="kt">int</span> <span class="n">size</span><span class="o">;</span>
+  
+  <span class="kd">public</span> <span class="nf">SLList</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">sentinel</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntNode</span><span class="o">(-</span><span class="mi">1</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+    <span class="n">size</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+  <span class="o">}</span>
 
-diff --git a/scripts/hulk.js b/scripts/hulk.js
-index 5a793c18..a4b1a4d5 100755
---- a/scripts/hulk.js
-+++ b/scripts/hulk.js
-@@ -173,11 +173,11 @@ function namespace(name) {
- // write a template foreach file that matches template extension
- templates = extractFiles(options.argv.remain)
-   .map(function(file) {
--    var openedFile = fs.readFileSync(file, 'utf-8');
-+    var openedFile = fs.readFileSync(file, 'utf-8').trim();
-     var name;
-     if (!openedFile) return;
-     name = namespace(path.basename(file).replace(/\..*$/, ''));
--    openedFile = removeByteOrderMark(openedFile.trim());
-+    openedFile = removeByteOrderMark(openedFile);
-     openedFile = wrap(file, name, openedFile);
-     if (!options.outputdir) return openedFile;
-     fs.writeFileSync(path.join(options.outputdir, name + '.js')
-diff --git a/src/diff2html.js b/src/diff2html.js
-index 21b0119e..64e138f5 100644
---- a/src/diff2html.js
-+++ b/src/diff2html.js
-@@ -7,7 +7,6 @@
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">addFirst</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">sentinel</span><span class="o">.</span><span class="na">next</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntNode</span><span class="o">(</span><span class="n">x</span><span class="o">,</span> <span class="n">sentinel</span><span class="o">.</span><span class="na">next</span><span class="o">);</span>
+    <span class="n">size</span> <span class="o">+=</span> <span class="mi">1</span><span class="o">;</span>
+  <span class="o">}</span>
+  
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">getFirst</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="n">sentinel</span><span class="o">.</span><span class="na">next</span><span class="o">.</span><span class="na">item</span><span class="o">;</span>
+  <span class="o">}</span>
 
- (function() {
-   var diffParser = require('./diff-parser.js').DiffParser;
--  var fileLister = require('./file-list-printer.js').FileListPrinter;
-   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">addLast</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
+    <span class="nc">IntNode</span> <span class="n">p</span> <span class="o">=</span> <span class="n">sentinel</span><span class="o">;</span>
+    <span class="k">while</span> <span class="o">(</span><span class="n">p</span><span class="o">.</span><span class="na">next</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">)</span> <span class="o">{</span>
+      <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="na">next</span><span class="o">;</span>
+    <span class="o">}</span>
+    <span class="n">p</span><span class="o">.</span><span class="na">next</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">IntNode</span><span class="o">(</span><span class="n">x</span><span class="o">,</span> <span class="kc">null</span><span class="o">);</span>
+    <span class="n">size</span> <span class="o">+=</span> <span class="mi">1</span><span class="o">;</span>
+  <span class="o">}</span>
 
-   function Diff2Html() {
-@@ -43,7 +42,7 @@
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">size</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="n">size</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div> <p><img src="5/sllist.png" alt="SLList" w="500"/></p> <h2 id="6-dllists-arrays">6. DLLists, Arrays</h2> <h3 id="61-doubly-linked-lists">6.1 Doubly Linked Lists</h3> <p>One downside of SLLists is that <strong>inserting at the back</strong> of an SLList is much slower than the front. We can have a <code class="language-plaintext highlighter-rouge">last</code> pointer to make <code class="language-plaintext highlighter-rouge">add</code> and <code class="language-plaintext highlighter-rouge">get</code> operations at the back fast. However, this is insufficient to support fast <code class="language-plaintext highlighter-rouge">remove</code>. We may want to add backwards links from every node.</p> <blockquote> <p>Reverse pointers allow all operations (<code class="language-plaintext highlighter-rouge">add</code>, <code class="language-plaintext highlighter-rouge">get</code>, <code class="language-plaintext highlighter-rouge">remove</code>) to be fast.</p> </blockquote> <p><img src="6/naive_dllist.png" alt="Naive DLList" w="500"/></p> <p>This approach has an annoying special case: <code class="language-plaintext highlighter-rouge">last</code> sometimes points at the sentinel, and sometimes points at a ‘real’ node.</p> <ul> <li>Solution 1: have two sentinels</li> <li>Solution 2: circular sentinel</li> </ul> <p><img src="6/circular_sentinel.png" alt="Circular Sentinel" w="500"/></p> <h3 id="62-arrays">6.2 Arrays</h3> <p>Arrays consist of:</p> <ul> <li>A <strong>fixed</strong> integer length (cannot change!)</li> <li>A sequence of <code class="language-plaintext highlighter-rouge">N</code> memory boxes where <code class="language-plaintext highlighter-rouge">N=length</code>, such that: <ul> <li>All of the boxes hold the <strong>same type</strong> of value (and have same # of bits).</li> <li>The boxes are numbered <code class="language-plaintext highlighter-rouge">0</code> through <code class="language-plaintext highlighter-rouge">length-1</code>.</li> </ul> </li> </ul> <p>A <strong>2D Array</strong> is an array of array addresses. <img src="6/2d_array.png" alt="2D Array" w="600"/></p> <h2 id="7-alists-resizing">7. ALists, Resizing</h2> <h3 id="71-naive-array-lists">7.1 Naive Array Lists</h3> <p>Retrieval from any position of an array is very fast. How to build an array version of a list?</p> <p>AList <strong>Invariants</strong>:</p> <ul> <li>The position of the next item to be inserted is always <code class="language-plaintext highlighter-rouge">size</code>.</li> <li><code class="language-plaintext highlighter-rouge">size</code> is always the number of items in the AList.</li> <li>The last item in the list is always in position <code class="language-plaintext highlighter-rouge">size - 1</code>.</li> </ul> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">AList</span> <span class="o">{</span>
+  <span class="kd">private</span> <span class="kt">int</span><span class="o">[]</span> <span class="n">items</span><span class="o">;</span>    
+  <span class="kd">private</span> <span class="kt">int</span> <span class="n">size</span><span class="o">;</span>
+ 
+  <span class="kd">public</span> <span class="nf">AList</span><span class="o">()</span> <span class="o">{</span>
+    <span class="n">items</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="mi">100</span><span class="o">];</span>  <span class="n">size</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+  <span class="o">}</span>
+ 
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">addLast</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
+    <span class="n">items</span><span class="o">[</span><span class="n">size</span><span class="o">]</span> <span class="o">=</span> <span class="n">x</span><span class="o">;</span>
+    <span class="n">size</span> <span class="o">+=</span> <span class="mi">1</span><span class="o">;</span>
+  <span class="o">}</span>
+ 
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">getLast</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="n">items</span><span class="o">[</span><span class="n">size</span> <span class="o">-</span> <span class="mi">1</span><span class="o">];</span>
+  <span class="o">}</span>
+ 
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">get</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">)</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="n">items</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
+  <span class="o">}</span>
 
-     var fileList = '';
-     if (configOrEmpty.showFiles === true) {
--      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
-+      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
-     }
+  <span class="kd">public</span> <span class="kt">int</span> <span class="nf">size</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">return</span> <span class="n">size</span><span class="o">;</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div> <h3 id="72-resizing-arrays">7.2 Resizing Arrays</h3> <p>When the array gets too full (i.e., <code class="language-plaintext highlighter-rouge">size==items.length</code>), just make a new array: <img src="7/resizing.png" alt="Resizing" w="500"/></p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kt">void</span> <span class="nf">addLast</span><span class="o">(</span><span class="kt">int</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span>
+  <span class="k">if</span> <span class="o">(</span><span class="n">size</span> <span class="o">==</span> <span class="n">items</span><span class="o">.</span><span class="na">length</span><span class="o">)</span> <span class="o">{</span>
+    <span class="c1">// resize(size + 1); // Unusably bad.</span>
+    <span class="n">resize</span><span class="o">(</span><span class="n">size</span> <span class="o">*</span> <span class="no">RFACTOR</span><span class="o">);</span> <span class="c1">// Great performance. </span>
+    <span class="c1">// This is how the Python list is implemented.</span>
+  <span class="o">}</span>
+  <span class="n">items</span><span class="o">[</span><span class="n">size</span><span class="o">]</span> <span class="o">=</span> <span class="n">x</span><span class="o">;</span>
+  <span class="n">size</span> <span class="o">+=</span> <span class="mi">1</span><span class="o">;</span>
+<span class="o">}</span>
 
-     var diffOutput = '';
-diff --git a/src/file-list-printer.js b/src/file-list-printer.js
-index e408d9b2..1e0a2c61 100644
---- a/src/file-list-printer.js
-+++ b/src/file-list-printer.js
-@@ -8,11 +8,16 @@
- (function() {
-   var printerUtils = require('./printer-utils.js').PrinterUtils;
+<span class="kd">private</span> <span class="kt">void</span> <span class="nf">resize</span><span class="o">(</span><span class="kt">int</span> <span class="n">capacity</span><span class="o">)</span> <span class="o">{</span>
+  <span class="kt">int</span><span class="o">[]</span> <span class="n">a</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">capacity</span><span class="o">];</span>
+  <span class="nc">System</span><span class="o">.</span><span class="na">arraycopy</span><span class="o">(</span><span class="n">items</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">a</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="n">size</span><span class="o">);</span>
+  <span class="n">items</span> <span class="o">=</span> <span class="n">a</span><span class="o">;</span>
+<span class="o">}</span>
+</code></pre></div></div> <p>An AList should not only be efficient in time, but also efficient in space.</p> <ul> <li>Define the “usage ratio” <code class="language-plaintext highlighter-rouge">R = size / items.length</code>;</li> <li>Half array size when <code class="language-plaintext highlighter-rouge">R &lt; 0.25</code>.</li> </ul> <h2 id="8-inheritance-implements">8. Inheritance, Implements</h2> <h3 id="81-interface-inheritance">8.1 Interface Inheritance</h3> <p>Our <code class="language-plaintext highlighter-rouge">AList</code> and <code class="language-plaintext highlighter-rouge">SLList</code> classes have the following methods (exact same method signatures for both classes). <code class="language-plaintext highlighter-rouge">SLLists</code> and <code class="language-plaintext highlighter-rouge">ALists</code> are both clearly some kind of “list”. <code class="language-plaintext highlighter-rouge">List</code> is a <strong>hypernym</strong> of <code class="language-plaintext highlighter-rouge">SLList</code> and <code class="language-plaintext highlighter-rouge">AList</code>.</p> <p><img src="8/list_methods.png" alt="list_methods" w="500"/></p> <h4 id="811-interface-and-implements-keywords">8.1.1 Interface and Implements Keywords</h4> <p>Use the new keyword <code class="language-plaintext highlighter-rouge">interface</code> instead of <code class="language-plaintext highlighter-rouge">class</code> to define a <code class="language-plaintext highlighter-rouge">List61B</code>. Interface is a specification of <strong>what</strong> a List is able to do, not how to do it.</p> <p><img src="8/list_interface.png" alt="list_interface" w="500"/></p> <p>Use the <code class="language-plaintext highlighter-rouge">implements</code> keyword to tell the Java compiler that SLList and AList are <strong>hyponyms</strong> of List61B.</p> <p><img src="8/implements.png" alt="Implements" w="450"/></p> <h4 id="812-overriding-vs-overloading">8.1.2 Overriding vs. Overloading</h4> <p><strong>Method signature</strong> is the <u>method name</u> and the <u>number and type of its parameters</u>.</p> <ul> <li><strong>overriding</strong>: If a “subclass” has a method with the <strong>exact same signature</strong> as in the “superclass”, we say the subclass overrides the method.</li> <li><strong>overloading</strong>: Methods with the <strong>same name but different signatures</strong> are overloaded.</li> </ul> <p><img src="8/over.png" alt="Overriding Overloading" w="500"/></p> <p>We mark overriding methods with the <code class="language-plaintext highlighter-rouge">@Override</code> annotation.</p> <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">AList</span><span class="o">&lt;</span><span class="nc">Item</span><span class="o">&gt;</span> <span class="kd">implements</span> <span class="nc">List61B</span><span class="o">&lt;</span><span class="nc">Item</span><span class="o">&gt;</span> <span class="o">{</span>
+   <span class="o">...</span>
 
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var baseTemplatesPath = 'file-summary';
-   var iconsBaseTemplatesPath = 'icon';
-
--  function FileListPrinter() {
-+  function FileListPrinter(config) {
-+    this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   FileListPrinter.prototype.generateFileList = function(diffFiles) {
-@@ -38,5 +43,5 @@
-     });
-   };
-
--  module.exports.FileListPrinter = new FileListPrinter();
-+  module.exports.FileListPrinter = FileListPrinter;
- })();
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 9949e5fa..0dda08d7 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -8,18 +8,19 @@
- (function() {
-   var fs = require('fs');
-   var path = require('path');
--
-   var hogan = require('hogan.js');
-
-   var hoganTemplates = require('./templates/diff2html-templates.js');
-
--  var templatesPath = path.resolve(__dirname, 'templates');
-+  var extraTemplates;
-
--  function HoganJsUtils() {
-+  function HoganJsUtils(configuration) {
-+    this.config = configuration || {};
-+    extraTemplates = this.config.templates || {};
-   }
-
--  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
--    var template = this.template(namespace, view, configuration);
-+  HoganJsUtils.prototype.render = function(namespace, view, params) {
-+    var template = this.template(namespace, view);
-     if (template) {
-       return template.render(params);
-     }
-@@ -27,17 +28,16 @@
-     return null;
-   };
-
--  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
--    var config = configuration || {};
-+  HoganJsUtils.prototype.template = function(namespace, view) {
-     var templateKey = this._templateKey(namespace, view);
-
--    return this._getTemplate(templateKey, config);
-+    return this._getTemplate(templateKey);
-   };
-
--  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
-+  HoganJsUtils.prototype._getTemplate = function(templateKey) {
-     var template;
-
--    if (!config.noCache) {
-+    if (!this.config.noCache) {
-       template = this._readFromCache(templateKey);
-     }
-
-@@ -53,6 +53,7 @@
-
-     try {
-       if (fs.readFileSync) {
-+        var templatesPath = path.resolve(__dirname, 'templates');
-         var templatePath = path.join(templatesPath, templateKey);
-         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
-         template = hogan.compile(templateContent);
-@@ -66,12 +67,16 @@
-   };
-
-   HoganJsUtils.prototype._readFromCache = function(templateKey) {
--    return hoganTemplates[templateKey];
-+    return extraTemplates[templateKey] || hoganTemplates[templateKey];
-   };
-
-   HoganJsUtils.prototype._templateKey = function(namespace, view) {
-     return namespace + '-' + view;
-   };
-
--  module.exports.HoganJsUtils = new HoganJsUtils();
-+  HoganJsUtils.prototype.compile = function(templateStr) {
-+    return hogan.compile(templateStr);
-+  };
-+
-+  module.exports.HoganJsUtils = HoganJsUtils;
- })();
-diff --git a/src/html-printer.js b/src/html-printer.js
-index 585d5b66..13f83047 100644
---- a/src/html-printer.js
-+++ b/src/html-printer.js
-@@ -8,6 +8,7 @@
- (function() {
-   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
-   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
-+  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
-
-   function HtmlPrinter() {
-   }
-@@ -22,5 +23,10 @@
-     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
-   };
-
-+  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
-+    var fileListPrinter = new FileListPrinter(config);
-+    return fileListPrinter.generateFileList(diffJson);
-+  };
-+
-   module.exports.HtmlPrinter = new HtmlPrinter();
- })();
-diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
-index b07eb53c..d230bedd 100644
---- a/src/line-by-line-printer.js
-+++ b/src/line-by-line-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'line-by-line';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -19,6 +20,9 @@
-
-   function LineByLinePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
-diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
-index bbf1dc8d..5e3033b3 100644
---- a/src/side-by-side-printer.js
-+++ b/src/side-by-side-printer.js
-@@ -11,7 +11,8 @@
-   var utils = require('./utils.js').Utils;
-   var Rematch = require('./rematch.js').Rematch;
-
--  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+  var hoganUtils;
-+
-   var genericTemplatesPath = 'generic';
-   var baseTemplatesPath = 'side-by-side';
-   var iconsBaseTemplatesPath = 'icon';
-@@ -26,6 +27,9 @@
-
-   function SideBySidePrinter(config) {
-     this.config = config;
-+
-+    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
-+    hoganUtils = new HoganJsUtils(config);
-   }
-
-   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
-diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
-index a502a46f..60ea3208 100644
---- a/test/file-list-printer-tests.js
-+++ b/test/file-list-printer-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
-+var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
-
- describe('FileListPrinter', function() {
-   describe('generateFileList', function() {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 190bf6f8..3bb754ac 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -1,6 +1,6 @@
- var assert = require('assert');
-
--var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
-+var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
- var diffParser = require('../src/diff-parser.js').DiffParser;
-
- describe('HoganJsUtils', function() {
-@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
-       });
-       assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should render view without cache', function() {
-       var result = HoganJsUtils.render('generic', 'empty-diff', {
-         contentClass: 'd2h-code-line',
-         diffParser: diffParser
-       }, {noCache: true});
--      assert.equal(emptyDiffHtml + '\n', result);
-+      assert.equal(emptyDiffHtml, result);
-     });
-+
-     it('should return null if template is missing', function() {
--      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
-+      var result = hoganUtils.render('generic', 'missing-template', {});
-       assert.equal(null, result);
-     });
-+
-+    it('should allow templates to be overridden', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+
-+      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
-index 1cd92073..8869b3df 100644
---- a/test/line-by-line-tests.js
-+++ b/test/line-by-line-tests.js
-@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expected, fileHtml);
-     });
-@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                &lt;/tbody&gt;\n' +
-         '            &lt;/table&gt;\n' +
-         '        &lt;/div&gt;\n' +
-diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
-index 76625f8e..771daaa5 100644
---- a/test/side-by-side-printer-tests.js
-+++ b/test/side-by-side-printer-tests.js
-@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
-         '            File without changes\n' +
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
--        '&lt;/tr&gt;\n';
-+        '&lt;/tr&gt;';
-
-       assert.equal(expectedRight, fileHtml.right);
-       assert.equal(expectedLeft, fileHtml.left);
-@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
-         '        &lt;/div&gt;\n' +
-         '    &lt;/td&gt;\n' +
-         '&lt;/tr&gt;\n' +
--        '\n' +
-         '                    &lt;/tbody&gt;\n' +
-         '                &lt;/table&gt;\n' +
-         '            &lt;/div&gt;\n' +
-
-From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
-From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
-Date: Sat, 15 Oct 2016 13:21:22 +0100
-Subject: [PATCH 2/2] Allow uncompiled templates
-
----
- README.md                 |  3 +++
- src/hoganjs-utils.js      |  7 +++++++
- test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
- 3 files changed, 33 insertions(+), 1 deletion(-)
-
-diff --git a/README.md b/README.md
-index 132c8a28..46909f25 100644
---- a/README.md
-+++ b/README.md
-@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
-   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
-   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
-   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
-+  - `templates`: object with previously compiled templates to replace parts of the html
-+  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
-+  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
-
- ## Diff2HtmlUI Helper
-
-diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
-index 0dda08d7..b2e9c275 100644
---- a/src/hoganjs-utils.js
-+++ b/src/hoganjs-utils.js
-@@ -17,6 +17,13 @@
-   function HoganJsUtils(configuration) {
-     this.config = configuration || {};
-     extraTemplates = this.config.templates || {};
-+
-+    var rawTemplates = this.config.rawTemplates || {};
-+    for (var templateName in rawTemplates) {
-+      if (rawTemplates.hasOwnProperty(templateName)) {
-+        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
-+      }
-+    }
-   }
-
-   HoganJsUtils.prototype.render = function(namespace, view, params) {
-diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
-index 3bb754ac..a34839c0 100644
---- a/test/hogan-cache-tests.js
-+++ b/test/hogan-cache-tests.js
-@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
-       assert.equal(null, result);
-     });
-
--    it('should allow templates to be overridden', function() {
-+    it('should allow templates to be overridden with compiled templates', function() {
-       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-
-       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
-@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
-       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-     });
-+
-+    it('should allow templates to be overridden with uncompiled templates', function() {
-+      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
-+
-+      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-+
-+    it('should allow templates to be overridden giving priority to compiled templates', function() {
-+      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
-+      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
-+
-+      var config = {
-+        templates: {'generic-empty-diff': emptyDiffTemplate},
-+        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
-+      };
-+      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
-+      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
-+      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
-+    });
-   });
- });
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://alshedivat.github.io/al-folio/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/advanced-images</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/9-480.webp 480w,/al-folio/assets/img/9-800.webp 800w,/al-folio/assets/img/9-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/7-480.webp 480w,/al-folio/assets/img/7-800.webp 800w,/al-folio/assets/img/7-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/8-480.webp 480w,/al-folio/assets/img/8-800.webp 800w,/al-folio/assets/img/8-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/10-480.webp 480w,/al-folio/assets/img/10-800.webp 800w,/al-folio/assets/img/10-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/12-480.webp 480w,/al-folio/assets/img/12-800.webp 800w,/al-folio/assets/img/12-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic-480.webp 480w,/al-folio/assets/img/prof_pic-800.webp 800w,/al-folio/assets/img/prof_pic-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic_color-480.webp 480w,/al-folio/assets/img/prof_pic_color-800.webp 800w,/al-folio/assets/img/prof_pic_color-1400.webp 1400w," type="image/webp" sizes="95vw"/> <img src="/al-folio/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://alshedivat.github.io/al-folio/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-01-27T00:20:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/vega-lite</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
-</span><span class="sb">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
-  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
-  "data": {
-    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
-  },
-  "transform": [
-    {"filter": "datum['IMDB Rating'] != null"},
-    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
-    {
-      "joinaggregate": [{
-        "op": "mean",
-        "field": "IMDB Rating",
-        "as": "AverageRating"
-      }]
-    },
-    {
-      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
-      "as": "RatingDelta"
-    }
-  ],
-  "mark": "point",
-  "encoding": {
-    "x": {
-      "field": "Release Date",
-      "type": "temporal"
-    },
-    "y": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "title": "Rating Delta"
-    },
-    "color": {
-      "field": "RatingDelta",
-      "type": "quantitative",
-      "scale": {"domainMid": 0},
-      "title": "Rating Delta"
-    }
-  }
-}
-</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry><entry><title type="html">a post with geojson</title><link href="https://alshedivat.github.io/al-folio/blog/2024/geojson-map/" rel="alternate" type="text/html" title="a post with geojson"/><published>2024-01-26T17:57:00+00:00</published><updated>2024-01-26T17:57:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/geojson-map</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/geojson-map/"><![CDATA[<p>This is an example post with some <a href="https://geojson.org/">geojson</a> code. The support is provided thanks to <a href="https://leafletjs.com/">Leaflet</a>. To create your own visualization, go to <a href="https://geojson.io/">geojson.io</a>.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">geojson
-</span><span class="sb">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}</span>
-<span class="p">```</span>
-</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-geojson">{
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {},
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -3.162613728707967
-            ],
-            [
-              -59.820894493858034,
-              -2.904625022183211
-            ],
-            [
-              -60.11363029935569,
-              -2.904625022183211
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      }
-    }
-  ]
-}
-</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><category term="maps"/><summary type="html"><![CDATA[this is what included geojson code could look like]]></summary></entry></feed>
+   <span class="nd">@Override</span>
+   <span class="kd">public</span> <span class="kt">void</span> <span class="nf">addLast</span><span class="o">(</span><span class="nc">Item</span> <span class="n">x</span><span class="o">)</span> <span class="o">{</span> 
+      <span class="o">...</span> 
+</code></pre></div></div> <p>Why use <code class="language-plaintext highlighter-rouge">@Override</code>?</p> <ul> <li>Protects against typos. The code won’t compile if it is not actually an overriding method.</li> <li>Reminds programmer that method definition came from somewhere higher up in the inheritance hierarchy.</li> </ul> <p>Even if you don’t write <code class="language-plaintext highlighter-rouge">@Override</code>, subclass <strong>still overrides</strong> the method.</p> <h4 id="813-interface-inheritance">8.1.3 Interface Inheritance</h4> <p>Specifying the capabilities of a subclass using the <code class="language-plaintext highlighter-rouge">implements</code> keyword is known as <strong>interface inheritance</strong>. Subclasses <strong>must</strong> override all of these methods. Will fail to compile otherwise. Interface inheritance is a powerful tool for <strong>generalizing</strong> code.</p> <p>If <code class="language-plaintext highlighter-rouge">X</code> is a superclass of <code class="language-plaintext highlighter-rouge">Y</code>, then memory boxes for <code class="language-plaintext highlighter-rouge">X</code> may contain <code class="language-plaintext highlighter-rouge">Y</code>. An <code class="language-plaintext highlighter-rouge">AList</code> is-a <code class="language-plaintext highlighter-rouge">List</code>. Therefore <code class="language-plaintext highlighter-rouge">List</code> variables can hold <code class="language-plaintext highlighter-rouge">ALList</code> addresses.</p> <p><img src="8/copy.png" alt="Copy" w="500"/></p> <h3 id="82-implementation-inheritance-default-methods">8.2 Implementation Inheritance: Default Methods</h3> <ul> <li><strong>Interface inheritance</strong>: Subclass inherits signatures, but NOT implementation.</li> <li><strong>Implementation inheritance</strong>: Subclasses can inherit signatures AND implementation. <ul> <li>Use the <code class="language-plaintext highlighter-rouge">default</code> keyword to specify a method that subclasses should inherit from an interface. <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">List61B</span><span class="o">&lt;</span><span class="nc">Item</span><span class="o">&gt;</span> <span class="o">{</span>
+  <span class="o">...</span>
+  <span class="k">default</span> <span class="kd">public</span> <span class="kt">void</span> <span class="nf">print</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="n">size</span><span class="o">();</span> <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span><span class="o">)</span> <span class="o">{</span>
+      <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">get</span><span class="o">(</span><span class="n">i</span><span class="o">)</span> <span class="o">+</span> <span class="s">" "</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">();</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div> </div> </li> <li>If you don’t like a default method, you can <strong>override</strong> it. <div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">interface</span> <span class="nc">SLList</span><span class="o">&lt;</span><span class="nc">Item</span><span class="o">&gt;</span> <span class="kd">implements</span> <span class="o">{</span>
+  <span class="nd">@Override</span>
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">print</span><span class="o">()</span> <span class="o">{</span>
+    <span class="k">for</span> <span class="o">(</span><span class="nc">Node</span> <span class="n">p</span> <span class="o">=</span> <span class="n">sentinel</span><span class="o">.</span><span class="na">next</span><span class="o">;</span> <span class="n">p</span> <span class="o">!=</span> <span class="kc">null</span><span class="o">;</span> <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="na">next</span><span class="o">)</span> <span class="o">{</span>
+      <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="n">p</span><span class="o">.</span><span class="na">item</span> <span class="o">+</span> <span class="s">" "</span><span class="o">);</span>
+    <span class="o">}</span>
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">();</span>
+  <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div> </div> </li> </ul> </li> </ul> <h3 id="83-static-and-dynamic-type">8.3 Static and Dynamic Type</h3> <ul> <li>Compile-time type (static type): the type specified at <strong>declaration</strong>. Never changes.</li> <li>Run-time type (dynamic type): the type specified at <strong>instantiation</strong> (e.g. when using <code class="language-plaintext highlighter-rouge">new</code>).</li> </ul> <p><img src="8/types.png" alt="Types" w="520"/></p> <p>Suppose we call a method of an object using a variable with compile-time type <code class="language-plaintext highlighter-rouge">X</code> and run-time type <code class="language-plaintext highlighter-rouge">Y</code>. Then if <code class="language-plaintext highlighter-rouge">Y</code> <strong>overrides</strong> the method, <code class="language-plaintext highlighter-rouge">Y</code>’s method is used instead.</p> <h2 id="9-extends-casting-higher-order-functions">9. Extends, Casting, Higher Order Functions</h2> <h3 id="91-the-extends-keyword">9.1 The Extends Keyword</h3> <p>If you want one class to be a hyponym of another <strong>class</strong> (instead of an interface), you use <code class="language-plaintext highlighter-rouge">extends</code>.</p> <h4 id="911-rotatingsllist">9.1.1 RotatingSLList</h4> <p>We’d like to build <code class="language-plaintext highlighter-rouge">RotatingSLList</code> that can perform any <code class="language-plaintext highlighter-rouge">SLList</code> operation as well as <code class="language-plaintext highlighter-rouge">rotateRight()</code>: Moves back item the front.</p> <p><img src="9/rotatinglist.png" alt="rotatinglist" w="520"/></p> <p>Because of <code class="language-plaintext highlighter-rouge">extends</code>, <code class="language-plaintext highlighter-rouge">RotatingSLList</code> inherits all members of <code class="language-plaintext highlighter-rouge">SLList</code>:</p> <ul> <li>All instance and static variables.</li> <li>All methods.</li> <li>All nested classes. Constructors are not inherited.</li> </ul> <h4 id="912-vengefulsllist">9.1.2 VengefulSLList</h4> <p>We want to build an SLList that:</p> <ul> <li>Remembers all Items that have been destroyed by <code class="language-plaintext highlighter-rouge">removeLast</code>.</li> <li>Has an additional method <code class="language-plaintext highlighter-rouge">printLostItems()</code>, which prints all deleted items.</li> </ul> <p><img src="9/vengefulsllist.png" alt="vengefulsllist" w="520"/></p> <h4 id="913-constructor-behavior">9.1.3 Constructor Behavior</h4> <p><strong>Constructors</strong> are not inherited. However, the rules of Java say that all constructors must start with a call to one of the super class’s constructors.</p> <ul> <li>You can explicitly call the constructor with the keyword <code class="language-plaintext highlighter-rouge">super</code>.</li> <li>If you don’t explicitly call the constructor, Java will automatically do it for you.</li> <li>If you want to use a super constructor other than the no-argument constructor, can give parameters to super.</li> </ul> <p><img src="9/super_1.png" alt="super_1" w="520"/></p> <p><img src="9/super_2.png" alt="super_2" w="520"/></p> <h3 id="92-encapsulation">9.2 Encapsulation</h3> <p><strong>Module</strong>: A set of methods that work together as a whole to perform some task or set of related tasks. A module is said to be <strong>encapsulated</strong> if its implementation is completely hidden, and it can be accessed only through a documented interface.</p> <p>Implementation inheritance (e.g. extends) breaks encapsulation.</p> <p><img src="9/bark.png" alt="bark" w="520"/></p> <h3 id="93-type-checking-and-casting">9.3 Type Checking and Casting</h3> <h4 id="931-compile-time-type-checking">9.3.1 Compile-Time Type Checking</h4> <ul> <li>Compiler allows <strong>method calls</strong> based on compile-time type of variable. <ul> <li><code class="language-plaintext highlighter-rouge">sl</code>’s runtime type: <code class="language-plaintext highlighter-rouge">VengefulSLList</code>. But cannot call <code class="language-plaintext highlighter-rouge">printLostItems</code>.</li> </ul> </li> <li>Compiler also allows <strong>assignments</strong> based on compile-time types. <ul> <li>Even though <code class="language-plaintext highlighter-rouge">sl</code>’s runtime-type is <code class="language-plaintext highlighter-rouge">VengefulSLList</code>, cannot assign to <code class="language-plaintext highlighter-rouge">vsl2</code>.</li> </ul> </li> </ul> <p><img src="9/type_checking.png" alt="type_checking" w="550"/></p> <h4 id="932-compile-time-types-and-expressions">9.3.2 Compile-Time Types and Expressions</h4> <p>Expressions have compile-time types:</p> <ul> <li>An expression using the <code class="language-plaintext highlighter-rouge">new</code> keyword has the specified compile-time type.</li> </ul> <p><img src="9/expression_1.png" alt="expression_1" w="500"/></p> <ul> <li>Method calls have compile-time type equal to their declared type.</li> </ul> <p><img src="9/expression_2.png" alt="expression_2" w="520"/></p> <h4 id="933-casting">9.3.3 Casting</h4> <p>Java has a special syntax for specifying the compile-time type of any expression: Put <strong>desired type in parenthesis</strong> before the expression.</p> <ul> <li>Compile-time type Dog: <code class="language-plaintext highlighter-rouge">maxDog(frank, frankJr);</code></li> <li>Compile-time type Poodle: <code class="language-plaintext highlighter-rouge">(Poodle) maxDog(frank, frankJr);</code></li> </ul> <p><img src="9/casting_1.png" alt="casting_1" w="520"/></p> <p>Casting is a powerful but dangerous tool. Tells Java to treat an expression as having a different compile-time type.</p> <p><img src="9/casting_2.png" alt="casting_2" w="520"/> <em>If we run the code above, we get a ClassCastException at runtime.</em></p> <h3 id="94-higher-order-functions">9.4 Higher Order Functions</h3> <p><strong>Higher Order Function</strong>: A function that treats another function as data. e.g. takes a function as input.</p> <h4 id="941-old-school-java-7-and-earlier">9.4.1 Old School (Java 7 and earlier)</h4> <p>Fundamental issue: Memory boxes (variables) cannot contain pointers to functions. Can use an interface instead. Note: The old way is still widely used, e.g. Comparators.</p> <p><img src="9/hof_1.png" alt="hof_1" w="630"/></p> <h4 id="942-java-8-or-later">9.4.2 Java 8 or Later</h4> <p>In Java 8, new types were introduced: now can can hold references to methods.</p> <p><img src="9/hof_2.png" alt="hof_2" w="630"/></p> <h2 id="10-subtype-polymorphism-vs-hofs">10. Subtype Polymorphism vs. HoFs</h2> <h3 id="101-subtype-polymorphism-多态">10.1 Subtype Polymorphism (多态)</h3> <p>The biggest idea of the last couple of lectures: Subtype Polymorphism. Polymorphism: “providing a single interface to entities of different types”.</p> <p><img src="10/compare.png" alt="compare" w="500"/></p> <h3 id="102-comparable">10.2 Comparable</h3> <p>The built-in <code class="language-plaintext highlighter-rouge">Comparable</code> interface is already defined and used by tons of libraries.</p> <p><img src="10/comparable.png" alt="comparable" w="300"/></p> <p><img src="10/dog_comparable.png" alt="dog_comparable" w="500"/></p> <h3 id="103-comparators">10.3 Comparators</h3> <p>Suppose we want to write a program that prints a string representation of the larger of two objects according to some specific comparison function.</p> <p><img src="10/comparator_1.png" alt="comparator_1" w="500"/></p> <p><img src="10/dog_comparator.png" alt="dog_comparator" w="500"/></p> <h2 id="11-exceptions-iterators-object-methods">11. Exceptions, Iterators, Object Methods</h2> <h3 id="111-exceptions">11.1 Exceptions</h3> <p>When something goes really wrong, break the normal flow of control.</p> <p><img src="11/exception.png" alt="exception" w="500"/></p> <h3 id="112-iteration">11.2 Iteration</h3> <p>Java allows us to iterate through Lists and Sets using a convenient shorthand syntax sometimes called the “foreach” or “enhanced for” loop.</p> <p><img src="11/foreach.png" alt="foreach" w="400"/></p> <p>How Iteration Really Works?</p> <p><img src="11/iteration_1.png" alt="iteration_1" w="500"/></p> <p>To support ugly iteration:</p> <ul> <li>Add an <code class="language-plaintext highlighter-rouge">iterator()</code> method to <code class="language-plaintext highlighter-rouge">ArraySet</code> that returns an <code class="language-plaintext highlighter-rouge">Iterator&lt;T&gt;</code>.</li> <li><code class="language-plaintext highlighter-rouge">The Iterator&lt;T&gt;</code> that we return should have a useful <code class="language-plaintext highlighter-rouge">hasNext()</code> and <code class="language-plaintext highlighter-rouge">next()</code> method.</li> </ul> <p><img src="11/iteration_2.png" alt="iteration_2" w="500"/></p> <p>To support the enhanced for loop, we need to make <code class="language-plaintext highlighter-rouge">ArraySet</code> implement the <code class="language-plaintext highlighter-rouge">Iterable</code> interface.</p> <p><img src="11/iteration_3.png" alt="iteration_3" w="500"/></p> <h3 id="113-object-methods">11.3 Object Methods</h3> <h4 id="1131-tostring">11.3.1 toString()</h4> <p>The <code class="language-plaintext highlighter-rouge">toString()</code> method provides a string representation of an object. The <a href="https://github.com/AdoptOpenJDK/openjdk-jdk11/blob/999dbd4192d0f819cb5224f26e9e7fa75ca6f289/src/java.base/share/classes/java/lang/Object.java#L245">implementation of <code class="language-plaintext highlighter-rouge">toString()</code> in Object</a> is the the name of the class, then an @ sign, then the memory location of the object.</p> <p><img src="11/to_string_1.png" alt="to_string_1" w="530"/></p> <p>One approach to implement <code class="language-plaintext highlighter-rouge">toString</code> for <code class="language-plaintext highlighter-rouge">ArraySet</code>. This code is slow Adding even a single character to a string creates an entirely new string. It’s because Strings are “immutable”.</p> <p><img src="11/to_string_2.png" alt="to_string_2" w="530"/></p> <p>Much faster approach is shown below. Append operation for a <code class="language-plaintext highlighter-rouge">StringBuilder</code> is fast.</p> <p><img src="11/to_string_3.png" alt="to_string_3" w="530"/></p> <h4 id="1132-equals">11.3.2 Equals</h4> <p><code class="language-plaintext highlighter-rouge">==</code> compares the bits. For references, <code class="language-plaintext highlighter-rouge">==</code> means “referencing the same object.” <a href="https://github.com/AdoptOpenJDK/openjdk-jdk11/blob/999dbd4192d0f819cb5224f26e9e7fa75ca6f289/src/java.base/share/classes/java/lang/Object.java#L157">Default implementation</a> of <code class="language-plaintext highlighter-rouge">.equals</code> uses <code class="language-plaintext highlighter-rouge">==</code>.</p> <p>Implement <code class="language-plaintext highlighter-rouge">equals</code> for <code class="language-plaintext highlighter-rouge">ArraySet</code>.</p> <p><img src="11/equal.png" alt="equal" w="530"/></p>]]></content><author><name>&lt;na_id&gt;</name></author><category term="course"/><category term="data structures"/><category term="java"/><summary type="html"><![CDATA[1. Intro, Hello World Java 1.1 Java and Object Orientation Java is an object oriented language with strict requirements: Every Java file must contain a class declaration*. All code lives inside a class*, even helper functions, global constants, etc. To run a Java program, you typically define a main method using public static void main(String[] args)]]></summary></entry></feed>
