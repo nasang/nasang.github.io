@@ -21,4 +21,4 @@ As an engineer, I am broadly interested in all aspects of computer science, and 
 
 #### Miscellanea
 - I was a Bilibili creator (id: [香辣鸡排蛋包饭](https://space.bilibili.com/363956974), in English: *spicy crispy chicken cutlet omelette rice*) teaching top interview questions with lively drawings and coding. My content has garnered over 5,700 subscribers and 250,000+ views.
-- I am documenting my thoughts and solutions to LeetCode problems [here](https://space.bilibili.com/363956974).
+- I am documenting my thoughts and solutions to LeetCode problems [here](https://nasang.github.io/leetcode/).
