@@ -36,8 +36,6 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
-       <!-- Social Icons -->
-      <div class="navbar-brand social">{% include social.liquid %}</div>
       </div>
     {% endif %}
 
@@ -53,4 +51,9 @@ layout: default
       {% include latest_posts.liquid %}
       {% endif %}
     </article>
+
+    <div class="social">
+      <div class="contact-icons">{% include social.liquid %}</div>
+      <div class="contact-note">Feel free to contact me via email.</div>
+    </div>
 </div>

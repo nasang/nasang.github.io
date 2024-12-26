@@ -196,21 +196,6 @@ ul.task-list input[type="checkbox"] {
 .profile {
   width: 100%;
 
-  a {
-    color: #091833;
-    font-size: 1.8rem;
-    i::before {
-      color: var(--global-text-color);
-      transition-property: all 0.2s ease-in-out;
-    }
-
-    &:hover {
-      i::before {
-        color: var(--global-theme-color);
-      }
-    }
-  }
-
   .more-info {
     text-align: center;
     margin-bottom: 5px;
