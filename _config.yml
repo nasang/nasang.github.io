@@ -76,8 +76,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: # blog_name will be displayed in your blog page
-blog_description:
+blog_name: Computer Science # blog_name will be displayed in your blog page
+blog_description: Systems, Artificial Intelligence, Theory
 permalink: blog/:categories/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -201,8 +201,8 @@ jekyll-archives:
     tag: "blog/tag/:name/"
     category: "blog/category/:name/"
 
-display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: [] 
+display_tags: ["data structures", "algorithms"] # these tags will be displayed on the front page of your blog
+display_categories: ["course"] 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------

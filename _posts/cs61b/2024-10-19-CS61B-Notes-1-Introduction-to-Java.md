@@ -3,9 +3,12 @@ layout: post
 title: CS 61B (Sp21) Notes 1, Introduction to Java
 categories: course
 tags: [data structures, java]
+description: >
+  Java basics, List, Class
 media_subpath: /assets/img/cs61b/
 toc:
   sidebar: right
+thumbnail: /assets/img/cs61b/cs61b-logo.png
 ---
 
 ## 1. Intro, Hello World Java

@@ -5,7 +5,10 @@ categories: course
 tags: [data structures, algorithms]
 toc:
   sidebar: right
+description: >
+  Shortest Path, Minumum Spanning Trees, Tries
 media_subpath: /assets/img/cs61b/
+thumbnail: /assets/img/cs61b/cs61b-logo.png
 ---
 
 ## 23. Shortest Paths

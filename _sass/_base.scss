@@ -550,18 +550,18 @@ footer.sticky-bottom {
 // Blog
 
 .header-bar {
-  // border-bottom: 1px solid var(--global-divider-color);
-  text-align: right;
+  border-bottom: 1px solid var(--global-divider-color);
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+
   h1 {
     color: var(--global-theme-color);
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   h2 {
-    font-size: 1rem;
-    text-align: right;
-    margin-right: 20em;
-    color: #005678;
+    font-size: 2rem;
   }
 }
 
@@ -602,6 +602,7 @@ footer.sticky-bottom {
   padding: 0;
 
   li {
+    border-bottom: 1px solid var(--global-divider-color);
     list-style: none;
     padding-top: 1rem;
     padding-bottom: 1rem;

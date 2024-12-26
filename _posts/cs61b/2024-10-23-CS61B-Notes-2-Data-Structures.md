@@ -3,9 +3,12 @@ layout: post
 title: CS 61B (Sp21) Notes 2, Data Structures
 categories: course
 tags: [data structures]
+description: >
+  Asymptotics, Set, Map, Disjoint Sets, Priority Queues, Tree, Graph
 toc:
   sidebar: right
 media_subpath: /assets/img/cs61b/
+thumbnail: /assets/img/cs61b/cs61b-logo.png
 ---
 
 ## 13. Asymptotics I
