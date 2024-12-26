@@ -268,7 +268,7 @@ third_party_libraries:
     version: "7.8.5"
   google_fonts:
     url:
-      fonts: "https://fonts.googleapis.com/css?family=Trirong"
+      fonts: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons&display=swap"
   highlightjs:
     integrity:
       css:
