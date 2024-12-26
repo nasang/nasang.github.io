@@ -5,7 +5,8 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-      <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+      <span class="font-weight-bold">{{ site.first_name }}</span>
+      {{ site.middle_name }}
       {{ site.last_name }}
       {% else %}
       {{ site.title }}
@@ -35,26 +36,21 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
+       <!-- Social Icons -->
+      <div class="navbar-brand social">{% include social.liquid %}</div>
       </div>
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
-    
+
+    <h4>Miscellanea</h4>
+    {% include miscellanea.liquid %}
+
     <article>
       <!-- Latest posts -->
       {% if site.latest_posts.enabled %}
-      <h4>
-        <a href="{{ 'blog/' | relative_url }}" style="color: inherit">Latest Posts</a>
-      </h4>
+      <h4>Latest Posts</h4>
       {% include latest_posts.liquid %}
       {% endif %}
     </article>
-
-  <!-- Social -->
-  {% if page.social %}
-  <div class="social">
-    <div class="contact-icons">{% include social.liquid %}</div>
-      <div class="contact-note">Feel free to contact me via email.</div>
-    </div>
-  {% endif %}
 </div>
