@@ -7,7 +7,8 @@ permalink: /
 profile:
   align: right
   image: profile.jpg
-  more_info:
+  more_info: >
+     @ Bellevue, WA, USA
 social: true
 ---
 
