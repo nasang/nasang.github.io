@@ -52,6 +52,9 @@ Observation: Solution will always be a tree. <br>
 This is so-called **Shortest Paths Tree** (SPT).
 
 ### Dijkstra's Algorithm
+
+{% include audio.liquid path="assets/audio/cs61b/Dijkstra.mp3" controls=true %}
+
 #### Algorithm
 We can find the SPT using **Dijkstra's algorithm** [[Demo](https://docs.google.com/presentation/d/1_bw2z1ggUkquPdhl7gwdVBoTaoJmaZdpkV6MoAgxlJc/pub?start=false&loop=false&delayms=3000&slide=id.g771336078_0_180)]. Perform a <u>best first search</u>: Visit vertices in <u>order of best-known distance</u> from source. On visit, ***relax*** every edge from the visited vertex. 
 
