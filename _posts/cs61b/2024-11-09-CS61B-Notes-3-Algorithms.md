@@ -129,17 +129,25 @@ Given an **undirected** graph `G`, a **spanning tree** `T` is a subgraph of `G`,
 - Is connected and acyclic. (make it a tree)
 - Includes all of the vertices. (makes it spanning)
 
-![mst](24/mst.png){:w="300"}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/24/mst.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
-A ***minimum spanning tree*** (MST) is a spanning tree of minimum total weight.
+A ***minimum spanning tree*** (MST) is a spanning tree of <u class="under_mark">minimum total weight</u>.
 
 ### The Cut Property
-#### Concepts
-- A **cut** is an assignment of a graph's nodes to two non-empty sets.
+#### Introduction
+- A **cut** is an assignment of a graph's nodes to <u class="under_mark">two non-empty sets</u>.
 - A **crossing edge** is an edge which connects a node from one set to a node from the other set.
 - **Cut property**: Given any cut, minimum weight crossing edge is in the MST. (assume edge weights are unique)
 
-![cut_property](24/cut_property.png){:w="350"}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/24/cut_property.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 #### Proof
 Suppose that the minimum crossing edge `e` were not in the MST.
@@ -148,13 +156,21 @@ Suppose that the minimum crossing edge `e` were not in the MST.
 - Removing `f` and adding `e` is a lower weight spanning tree.
 Contradiction!
 
-![cut_property_proof](24/cut_property_proof.png){:w="450"}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/24/cut_property_proof.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 ### Algorithms
 #### Prim's Algorithm
 **Prim's Algorithm** [[Demo](https://docs.google.com/presentation/d/1NFLbVeCuhhaZAM1z3s9zIYGGnhT4M4PWwAc-TLmCJjc/edit#slide=id.g9a60b2f52_0_0)]: Start from some arbitrary start node. Add shortest edge that has **one** node inside the MST under construction. Repeat until $V-1$ edges. 
 
-![prim](24/prim.png){:w="600"}
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/24/prim.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 **Implementation** [[Demo](https://docs.google.com/presentation/d/1GPizbySYMsUhnXSXKvbqV4UhPCvrt750MiqPPgU-eCY/edit#slide=id.g9a60b2f52_0_0)]: Insert all vertices into fringe `PQ`, storing vertices in order of distance from tree.
 Repeat: Remove (closest) vertex `v` from `PQ`, and relax all edges pointing from `v`. 
@@ -162,11 +178,20 @@ Repeat: Remove (closest) vertex `v` from `PQ`, and relax all edges pointing from
 #### Kruskal's Algorithm
 **Kruskal's Algorithm** [[Demo](https://docs.google.com/presentation/d/1RhRSYs9Jbc335P24p7vR-6PLXZUl-1EmeDtqieL9ad8/edit#slide=id.g9a60b2f52_0_0)]: Consider edges in order of increasing weight. Add to MST unless a cycle is created. Repeat until $V-1$ edges.
 
-![kruskals](24/kruskals.png){:w="600"}
-_Blue and green colorings for vertices show cut being implicitly utilized by Kruskal’s algorithm._
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/24/kruskals.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+Blue and green colorings for vertices show cut being implicitly utilized by Kruskal’s algorithm.
+</div>
 
 **Implementation** [[Demo](https://docs.google.com/presentation/d/1KpNiR7aLIEG9sm7HgX29nvf3yLD8_vdQEPa0ktQfuYc/edit?usp=sharing)]: Insert all edges into `PQ`.
-Repeat: Remove smallest weight edge. Add to MST if no cycle created. Use Weighted Quick Union UF (WQU) to detech cycle: For each edge, check if the two vertices are connected. If not, union them. If so, there is a cycle.
+Repeat: Remove smallest weight edge. Add to MST if no cycle created.
+- Use Weighted Quick Union(WQU) UF to detech cycle: For each edge, check if the two vertices are connected. If not, union them. If so, there is a cycle.
+
+<hr class="dotted">
 
 ## 25. Prefix Operations and Tries
 ### Introduction
