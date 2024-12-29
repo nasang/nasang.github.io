@@ -124,7 +124,7 @@ If we have only <u class="under_mark">a single target</u> in mind, A* algorithm 
 <hr class="dotted">
 
 ## 24. Minimum Spanning Trees
-### Concepts
+### Introduction
 Given an **undirected** graph `G`, a **spanning tree** `T` is a subgraph of `G`, where `T`:
 - Is connected and acyclic. (make it a tree)
 - Includes all of the vertices. (makes it spanning)
@@ -138,7 +138,7 @@ Given an **undirected** graph `G`, a **spanning tree** `T` is a subgraph of `G`,
 A ***minimum spanning tree*** (MST) is a spanning tree of <u class="under_mark">minimum total weight</u>.
 
 ### The Cut Property
-#### Introduction
+#### Terms
 - A **cut** is an assignment of a graph's nodes to <u class="under_mark">two non-empty sets</u>.
 - A **crossing edge** is an edge which connects a node from one set to a node from the other set.
 - **Cut property**: Given any cut, minimum weight crossing edge is in the MST. (assume edge weights are unique)
