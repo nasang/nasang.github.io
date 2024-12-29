@@ -14,7 +14,7 @@ pseudocode: true
 
 ## 23. Shortest Paths
 ### Introduction
-BFS would NOT be a good choice for a google maps style navigation application. BFS returns path with shortest <u>number of edges</u>, not necessarily the shortest path.
+BFS would NOT be a good choice for a google maps style navigation application. BFS returns path with shortest <u class="under_mark">number of edges</u>, not necessarily the shortest path.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
@@ -56,7 +56,7 @@ This is so-called **Shortest Paths Tree** (SPT).
 {% include audio.liquid path="assets/audio/cs61b/Dijkstra.mp3" controls=true %}
 
 #### Algorithm
-We can find the SPT using **Dijkstra's algorithm** [[Demo](https://docs.google.com/presentation/d/1_bw2z1ggUkquPdhl7gwdVBoTaoJmaZdpkV6MoAgxlJc/pub?start=false&loop=false&delayms=3000&slide=id.g771336078_0_180)]. Perform a <u>best first search</u>: Visit vertices in <u>order of best-known distance</u> from source. On visit, ***relax*** every edge from the visited vertex. 
+We can find the SPT using **Dijkstra's algorithm** [[Demo](https://docs.google.com/presentation/d/1_bw2z1ggUkquPdhl7gwdVBoTaoJmaZdpkV6MoAgxlJc/pub?start=false&loop=false&delayms=3000&slide=id.g771336078_0_180)]. Perform a <u class="under_mark">best first search</u>: Visit vertices in <u class="under_mark">order of best-known distance</u> from source. On visit, ***relax*** every edge from the visited vertex. 
 
 > **Relax**: If we find a better path, update our preferred edge and distance.
 {:.prompt-info}
@@ -98,7 +98,7 @@ public class DijkstraSP {
 ```
 
 #### Correctness
-Dijkstra's is guaranteed to return a correct result if <u>all edges are non-negative</u>. Proof relies on the property that relaxation always fails on edges to visited (white) vertices.
+Dijkstra's is guaranteed to return a correct result if <u class="under_mark">all edges are non-negative</u>. Proof relies on the property that relaxation always fails on edges to visited (white) vertices.
 
 Proof sketch: Assume all edges have non-negative weights.
 At start, `distTo[source]` = `0`, which is optimal.
@@ -117,7 +117,7 @@ Priority Queue operation count, assuming binary heap based PQ:
 Overall runtime: $O(V\log V +V\log V +E\log V)$. Assuming $E$ > $V$, this is just $O(E\log V)$ for a connected graph.
 
 ### A* Algorithm
-If we have only <u>a single target</u> in mind, A* algorithm can do better:
+If we have only <u class="under_mark">a single target</u> in mind, A* algorithm can do better:
 >**A* Algorithm** Visit vertices in order of `d(source, v) + h(v, goal)`, where `h(v, goal)` is an estimate of the distance from v to our goal. [[Demo](https://docs.google.com/presentation/d/177bRUTdCa60fjExdr9eO04NHm0MRfPtCzvEup1iMccM/edit#slide=id.g771336078_0_180)]
 {:.prompt-tip}
 
