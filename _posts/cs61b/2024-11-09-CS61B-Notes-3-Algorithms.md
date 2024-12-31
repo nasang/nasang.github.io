@@ -197,7 +197,7 @@ Repeat: Remove smallest weight edge. Add to MST if no cycle created.
 ### Introduction
 HashMaps are already incredibly fast. But if we have some additional insight on the data we are storing, we could get even faster.
 
-####: **Character Keyed Map**
+#### Character Keyed Map
 
 Suppose we know that our keys are always ASCII characters. We can just use an array. Simple and fast.
 
@@ -217,18 +217,21 @@ public class DataIndexedCharMap<V> {
 }
 ```
 
-####: String Keyed Map
-Suppose we know that our keys are always strings. We can use a special data structure known as a **Trie**. The basic idea: store **each letter** of the string as a node in a tree.
+#### String Keyed Map
+Suppose we know that our keys are always strings. We can use a special data structure known as a **Trie**. The basic idea: store <u class="under_mark">each letter</u> of the string as a node in a tree.
 
-**Trie**: Short for Re**trie**val Tree. Inventor _Edward Fredkin_ suggested it should be pronounced "tree", but almost everyone pronounces it like "try".
+> **Trie**: Short for Re**trie**val Tree. Inventor _Edward Fredkin_ suggested it should be pronounced "tree", but almost everyone pronounces it like "try".
 
-![trie](26/trie_map.png){:w="500"}
-_Use Trie to implement Map_
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/26/trie_map.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+Use Trie to implement Map
+</div>
 
-![set](26/set.png){:w="500"}
-_different implementations of set_
-
-### Trie Implementation
+### Implementation
 #### Basic Trie Implementation
 The first approach might look something like the code below. Each node stores a letter (`ch`), a map from `ch` to all child nodes (`next`), and a color (`isKey`).
 
@@ -238,33 +241,60 @@ public class TrieSet {
     private Node root;	// root of trie
     
     private static class Node {
-        // private char ch; removed
+        private char ch;
         private boolean isKey;
-        // Since we know our keys are characters, can use a DataIndexedCharMap.   
+        // Since we know our keys are characters,
+        // can use a DataIndexedCharMap.   
         private DataIndexedCharMap<Node> next;
-        private Node( /*char c, removed*/ boolean b, int R) {
-            // ch = c; removed
+        private Node(char c, boolean b, int R) {
+            ch = c;
             isKey = b;
             next = new DataIndexedCharMap<>(R);
         }
     }
 }
 ```
-Since we use a `DataIndexedCharMap` to track children, every node has `R` links, mostly `null`. Observation: The letter stored inside each node is actually redundant. Can remove from the representation and things will work fine.
+Observation: The letter stored inside each node is actually redundant. Can remove from the representation and things will work fine.
 
-![basic_impl](26/basic_impl.png){:w="550"}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-10 mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/26/basic_impl.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+
+```java
+public class TrieSet {
+    private static final int R = 128;
+    private Node root;
+    
+    private static class Node {
+        private boolean isKey;
+        private DataIndexedCharMap<Node> next;
+        private Node(boolean b, int R) {
+            isKey = b;
+            next = new DataIndexedCharMap<>(R);
+        }
+    }
+}
+```
 
 Assuming the length of the key is $L$, the runtime of `add` is $\Theta(L)$ and that of `contain` is $O(L)$.
 
 #### Alternate Child Tracking Strategies
 Using a `DataIndexedCharMap` is very memory hungry. Every node has to store `R` links, most of which are `null`. Using BST or Hash Table will be slightly slower, but more memory efficient.
 
-![implementation](26/implementation.png){:w="750"}
-_The Hash-Table Based Trie (mid) and The BST-Based Trie (right)_
+<div class="row justify-content-sm-center">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/26/implementation.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
+<div class="caption">
+The Hash-Table Based Trie (mid) and The BST-Based Trie (right)
+</div>
 
 #### Performance
 Using a BST or a Hash Table to store links to children will usually use less memory.
-- DataIndexedCharMap: 128 links per node.
+- DataIndexedCharMap: `128` links per node.
 - BST: $C$ links per node, where $C$ is the number of children.
 - Hash Table: $C$ links per node.
 - Note: Cost per link is higher in BST and Hash Table.
@@ -301,7 +331,7 @@ public class TrieSet {
     public List<String> collect() {
         List<String> x = new ArrayList<>();
         for (Character c: root.next.keySet()) {
-            colHelp("c", x, root.next.get(c));
+            colHelp(new StringBuilder(c), x, root.next.get(c));
         }
         return x;
     }
@@ -360,30 +390,33 @@ One way to do this is to create a **Trie based map** from strings to values
     - Call `keysWithPrefix("hello")`.
     - Return the 10 strings with the highest value.
 
-![google_search](26/google_search.png){:w="300"}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/26/google_search.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
-The approach above has one major flaw. If we enter a short string, the number of keys with the appropriate prefix will be too big.
-- We are collecting billions of results only to keep 10.
-- This is extremely inefficient.
-
-![google_search_2](26/google_search_2.png){:w="300"}
+The approach above has one major flaw. If we enter a short string, the number of keys with the appropriate prefix will be too big. We are collecting billions of results only to keep 10. This is extremely inefficient.
 
 #### A More Efficient Autocomplete
-![efficient_autocomplete](26/efficient_autocomplete.png){:w="300"}
-
-One way to address this issue:
-- Each node stores its own value, as well as the value of its best substring.
-
-Search will consider nodes in order of "best".
-- Consider 'sp' before 'sm'.
+One way to address this issue: Each node stores its own value, as well as the value of its best substring. Search will consider nodes in order of "best".
+- Consider `'sp'` before `'sm'`.
 - Can stop when top 3 matches are all better than best remaining.
 
-#### Even More Efficient Autocomplete
-![more_efficient_autocomplete](26/more_efficient_autocomplete.png){:w="300"}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/26/efficient_autocomplete.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
-Can also merge nodes that are redundant.
-- This version of trie is known as a "**radix tree**" or "radix trie".
-- Won’t discuss.
+#### Even More Efficient Autocomplete
+Can also merge nodes that are redundant. This version of trie is known as a **radix tree** or **radix trie**.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="/assets/img/cs61b/26/more_efficient_autocomplete.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+    </div>
+</div>
 
 ### Summary
 When your key is a string, you can use a Trie:
