@@ -35,8 +35,14 @@ layout: default
     <article>
       <!-- Latest posts -->
       {% if site.latest_posts.enabled %}
-      <h4>Latest Posts</h4>
-      {% include latest_posts.liquid %}
+        <h4>Latest Posts</h4>
+        {% include latest_posts.liquid %}
+      {% endif %}
+
+      <!-- Latest leetcode solutions -->
+      {% if site.latest_leetcode_solutions.enabled %}
+        <h4>Latest Leetcode Solutions</h4>
+        {% include latest_leetcode_solutions.liquid %}
       {% endif %}
     </article>
 

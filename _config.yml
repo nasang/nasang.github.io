@@ -115,6 +115,10 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: # leave blank to include all the blog posts
 
+latest_leetcode_solutions:
+  enabled: false
+  limit: 3
+
 # -----------------------------------------------------------------------------
 # Jekyll settings
 # -----------------------------------------------------------------------------
@@ -172,6 +176,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-toc
   - jemoji
+  - jekyll-tabs
 
 # Sitemap settings
 defaults:
