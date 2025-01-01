@@ -96,6 +96,11 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
+  leetcode:
+    defaults:
+      layout: leetcode-solution
+    output: true
+    permalink: /:collection/:title/
   projects:
     output: true
     permalink: /:collection/:title/

@@ -1,0 +1,14 @@
+<div class="leetcode">
+  {% if site.leetcode != blank %}
+    {% assign solutions = site.leetcode | sort: 'title' %}
+    <div>
+      {% for solution in solutions %}
+      <div>
+        <a class="leetcode-title" href="{{ solution.url | relative_url }}">{{ solution.title }}</a>
+      </div>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p>No leetcode so far...</p>
+  {% endif %}
+</div>
