@@ -9,7 +9,6 @@ description: >
   Shortest Path, Minumum Spanning Trees, Tries
 media_subpath: /assets/img/cs61b/
 thumbnail: /assets/img/cs61b/cs61b-logo.png
-pseudocode: true
 ---
 
 ## 23. Shortest Paths

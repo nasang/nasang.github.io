@@ -3,7 +3,11 @@ layout: default
 ---
 
 <article class="post">
-  <h2>{{ page.title }} <a href="{{ page.sol }}">&nbsp;<i class="cib-leetcode"></i></a></h2>
+  <h2>{{ page.title }} 
+    {% if page.sol %}
+    <a href="{{ page.sol }}">&nbsp;<i class="cib-leetcode"></i></a>
+    {% endif %}
+  </h2>
   <div>
     {{ content }}
   </div>
