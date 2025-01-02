@@ -8,6 +8,16 @@ layout: default
     <a href="{{ page.sol }}">&nbsp;<i class="cib-leetcode"></i></a>
     {% endif %}
   </h2>
+
+  <p class="post-tags">
+    {% if tags != '' %}
+      {% for tag in page.tags %}
+        <i class="fa-solid fa-hashtag fa-sm"></i> {{ tag }}
+        {% unless forloop.last %}
+          &nbsp;
+        {% endunless %}
+      {% endfor %}
+    {% endif %}
   <div>
     {{ content }}
   </div>
