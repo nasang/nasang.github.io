@@ -4,7 +4,7 @@ title: CS 61B (Sp21) Notes 1, Introduction to Java
 categories: course
 tags: [data structures, java]
 description: >
-  Java basics, List, Class
+  Java, Class, SLLists, DLLists, ALists
 media_subpath: /assets/img/cs61b/
 toc:
   sidebar: right
@@ -12,7 +12,7 @@ thumbnail: /assets/img/cs61b/cs61b-logo.png
 ---
 
 ## 1. Intro, Hello World Java
-### 1.1 Java and Object Orientation
+### Java and Object Orientation
 Java is an **object oriented language** with strict requirements:
 - Every Java file must contain a **class** declaration*.
 - **All code** lives inside a class*, even helper functions, global constants, etc.
@@ -28,17 +28,21 @@ public class HelloWorld {
 }
 ```
 
-### 1.2 Java and Static Typing
+### Java and Static Typing
 Java is **statically typed**.
 - All variables, parameters, and methods must have a **declared type**.
 - That type can **never change**.
 - Expressions also have a type, e.g. `larger(5, 10) + 3` has type int.
 - The compiler checks that all the types in your program are compatible **before** the program ever runs.
 
-### 1.3 Compilation
-![compilation](1/compilation.png){: w="600"}
+### Compilation
+<div class="row justify-content-sm-center">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="/assets/img/cs61b/1/compilation.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
 
-```sh
+```shell
 $ javac HelloWorld.java
 $ java HelloWorld
 Hello World! 
@@ -48,8 +52,10 @@ Why make a class file at all?
 - `.class` file has been type checked. Distributed code is **safer**.
 - `.class` files are 'simpler' for machine to execute. Distributed code is **faster**.
 
+<hr class="dotted">
+
 ## 2. Defining and Using Classes
-### 2.1 Classes
+### Classes
 - Classes can contain not just functions (a.k.a. **methods**), but also data (a.k.a. **variables**).
 - Classes can be instantiated as **objects**.
 
@@ -60,7 +66,7 @@ Static vs. Non-Static Members
   - Non-static members cannot be invoked using class name.
   - Static methods must access instance variables via a specific instance.
     
-<!-- ## 2.2 Lists
+<!-- ## Lists
 > A **list** is an ordered sequence of objects.
 
 ```java
@@ -84,7 +90,7 @@ public class ListDemo {
 
 ![list](2/list.png){: w="400" h="200" } -->
 
-<!-- ## 2.3 Arrays
+<!-- ## Arrays
 > A **array** is a restricted version of the list ADT.
 - Size that must be declared at the time the array is created.
 - Size cannot change.
@@ -102,7 +108,7 @@ public class ArrayDemo {
 ```
 -->
 
-<!-- ## 2.4 Maps
+<!-- ## Maps
 > A **map** is collection of key-value pairs. Each key is guaranteed to be unique.
 
 ```java
@@ -123,58 +129,82 @@ The most common Map implementations are **TreeMap** and **HashMap**.
 - Python uses an ArrayList (without telling you).
 - Python uses a HashMap (without telling you). -->
 
+<hr class="dotted">
+
 ## 3. Testing
 [placeholder]
 
+<hr class="dotted">
+
 ## 4. References, Recursion, and Lists
-### 4.1 Primitive Types
-#### 4.1.1 Bits
+### Primitive Types
+#### Bits
 Information is stored in memory as a sequence of ones and zeros. Each Java type has a different way to interpret the bits:
 - 8 primitive types in Java: byte, short, int, long, float, double, boolean, char
 
-#### 4.1.2 Declaring a Variable (Simplified)
+#### Declaring a Variable (Simplified)
 When you declare a variable of a certain type in Java:
 - Your computer sets aside exactly enough bits to hold a thing of that type.
 - Java creates an internal table that maps each **variable name** to a **location**.
 
-![declaring](4/declaring.png){: w="500"}
+<div class="row justify-content-sm-center">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="/assets/img/cs61b/4/declaring.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
 
-#### 4.1.3 The Golden Rule of Equals (GRoE)
+#### The Golden Rule of Equals (GRoE)
 Given variables `y` and `x`, `y = x` copies all the bits from `x` into `y`.
 
-### 4.2 Reference Types
+### Reference Types
 Everything else, including arrays, is a reference type.
 
-#### 4.2.1 Class Instantiations
+#### Class Instantiations
 When we instantiate an Object:
-- Java first allocates a box of bits for each instance variable of the class and fills them with a default value (e.g. 0, null).
+- Java first allocates a box of bits for each instance variable of the class and fills them with a default value (e.g. `0`, `null`).
 - The constructor then usually fills every such box with some other value.
 
-![class instantiations](4/class_instantiations.png){: w="600"}
+<div class="row justify-content-sm-center">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="/assets/img/cs61b/4/class_instantiations.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
 
 Can think of `new` as returning the **address** of the newly created object.
 - Addresses in Java are 64 bits.
 - Example: If object is created in memory location `2384723423`, then new returns `2384723423`.
 
-![new](4/new.png){: w="600"}
+<div class="row justify-content-sm-center">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="/assets/img/cs61b/4/new.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
 
-#### 4.2.2 Reference Type Variable Declarations
+#### Reference Type Variable Declarations
 When we declare a variable of any reference type:
 - Java allocates exactly a box of size 64 bits, no matter what type of object.
 - These bits can be either set to:
-    - Null (all zeros).
-    - The 64 bit address of a specific instance of that class (returned by `new`).
+  - `null` (all zeros).
+  - The 64 bit address of a specific instance of that class (returned by `new`).
 
-![reference type declaration](4/reference_type_declaration.png){: w="300"}
+<div class="row justify-content-sm-center">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="/assets/img/cs61b/4/reference_type_declaration.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
 
 Reference types obey the Golden Rule of Equals: Just as with primitive types, the equals sign **copies the bits**.
 
-![GRoE](4/groe.png){: w="300"}
+<div class="row justify-content-sm-center">
+  <div class="col-sm-6 mt-3 mt-md-0">
+    {% include figure.liquid path="/assets/img/cs61b/4/groe.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
 
-### 4.3 Parameter Passing
+### Parameter Passing
 Passing parameters obeys the same rule: Simply **copy the bits** to the new scope.
 
-### 4.4 Instantiation of Arrays
+### Instantiation of Arrays
 Arrays are also Objects.
 ```java
 int[] a = new int[]{0, 1, 2, 95, 4};
@@ -183,10 +213,22 @@ int[] a = new int[]{0, 1, 2, 95, 4};
 - Creates a new Object, in this case an int array. (instantiation)
 - Puts the address of this new Object into the 64 bit box named `a`. (assignment)
 
-![array](4/array.png){: w="400"}
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="/assets/img/cs61b/4/array.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
+<hr class="dotted">
 
 ## 5. SLLists, Nested Classes, Sentinel Nodes
-<!-- ## 4.1 SLLists -->
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="/assets/img/cs61b/5/sllist.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+  </div>
+</div>
+
 
 ```java
 public class SLList {
@@ -231,10 +273,10 @@ public class SLList {
 }
 ```
 
-![SLList](5/sllist.png){: w="500"}
+<hr class="dotted">
 
 ## 6. DLLists, Arrays
-### 6.1 Doubly Linked Lists
+### Doubly Linked Lists
 One downside of SLLists is that **inserting at the back** of an SLList is much slower than the front.
 We can have a `last` pointer to make `add` and `get` operations at the back fast. However, this is insufficient to support fast `remove`. We may want to add backwards links from every node.
 > Reverse pointers allow all operations (`add`, `get`, `remove`) to be fast.
@@ -248,7 +290,7 @@ This approach has an annoying special case: `last` sometimes points at the senti
 
 ![Circular Sentinel](6/circular_sentinel.png){: w="500"}
 
-### 6.2 Arrays
+### Arrays
 Arrays consist of:
 - A **fixed** integer length (cannot change!)
 - A sequence of `N` memory boxes where `N=length`, such that:
@@ -258,9 +300,10 @@ Arrays consist of:
 A **2D Array** is an array of array addresses.
 ![2D Array](6/2d_array.png){: w="600"}
 
+<hr class="dotted">
 
 ## 7. ALists, Resizing
-### 7.1 Naive Array Lists
+### Naive Array Lists
 Retrieval from any position of an array is very fast. How to build an array version of a list?
 
 AList **Invariants**:
@@ -296,7 +339,7 @@ public class AList {
 }
 ```
 
-### 7.2 Resizing Arrays
+### Resizing Arrays
 When the array gets too full (i.e., `size==items.length`), just make a new array:
 ![Resizing](7/resizing.png){: w="500"}
 
@@ -326,8 +369,10 @@ An AList should not only be efficient in time, but also efficient in space.
 The user of a class does not and should not know how it works.
 {: .prompt-info} -->
 
+<hr class="dotted">
+
 ## 8. Inheritance, Implements
-<!-- ## 8.1 Method Overloading
+<!-- ## Method Overloading
 Java allows multiple methods with same name, but different parameters.
 
 ```java
@@ -339,13 +384,13 @@ public static String longest(SLList<String> list) {
     ...
 }
 ``` -->
-### 8.1 Interface Inheritance
+### Interface Inheritance
 Our `AList` and `SLList` classes have the following methods (exact same method signatures for both classes). `SLLists` and `ALists` are both clearly some kind of "list". 
 `List` is a **hypernym** of `SLList` and `AList`.
 
 ![list_methods](8/list_methods.png){: w="500"}
 
-#### 8.1.1 Interface and Implements Keywords
+#### Interface and Implements Keywords
 Use the new keyword `interface` instead of `class` to define a `List61B`.
 Interface is a specification of **what** a List is able to do, not how to do it.
 
@@ -355,7 +400,7 @@ Use the `implements` keyword to tell the Java compiler that SLList and AList are
 
 ![Implements](8/implements.png){: w="450"}
 
-#### 8.1.2 Overriding vs. Overloading
+#### Overriding vs. Overloading
 **Method signature** is the <u>method name</u> and the <u>number and type of its parameters</u>.
 - **overriding**: If a "subclass" has a method with the **exact same signature** as in the "superclass", we say the subclass overrides the method.
 - **overloading**: Methods with the **same name but different signatures** are overloaded.
@@ -378,7 +423,7 @@ Why use `@Override`?
 
 Even if you don't write `@Override`, subclass **still overrides** the method.
 
-#### 8.1.3 Interface Inheritance
+#### Interface Inheritance
 Specifying the capabilities of a subclass using the `implements` keyword is known as **interface inheritance**.
 Subclasses **must** override all of these methods. Will fail to compile otherwise. Interface inheritance is a powerful tool for **generalizing** code.
 
@@ -387,7 +432,7 @@ An `AList` is-a `List`. Therefore `List` variables can hold `ALList` addresses.
 
 ![Copy](8/copy.png){: w="500"}
 
-### 8.2 Implementation Inheritance: Default Methods
+### Implementation Inheritance: Default Methods
 - **Interface inheritance**: Subclass inherits signatures, but NOT implementation.
 - **Implementation inheritance**: Subclasses can inherit signatures AND implementation.
   - Use the `default` keyword to specify a method that subclasses should inherit from an interface.
@@ -415,7 +460,7 @@ An `AList` is-a `List`. Therefore `List` variables can hold `ALList` addresses.
     }
     ```
 
-### 8.3 Static and Dynamic Type
+### Static and Dynamic Type
 - Compile-time type (static type): the type specified at **declaration**. Never changes.
 - Run-time type (dynamic type): the type specified at **instantiation** (e.g. when using `new`).
 
@@ -424,11 +469,13 @@ An `AList` is-a `List`. Therefore `List` variables can hold `ALList` addresses.
 Suppose we call a method of an object using a variable with compile-time type `X` and run-time type `Y`.
 Then if `Y` **overrides** the method, `Y`'s method is used instead.
 
+<hr class="dotted">
+
 ## 9. Extends, Casting, Higher Order Functions
-### 9.1 The Extends Keyword
+### The Extends Keyword
 If you want one class to be a hyponym of another **class** (instead of an interface), you use `extends`.
 
-#### 9.1.1 RotatingSLList
+#### RotatingSLList
 We'd like to build `RotatingSLList` that can perform any `SLList` operation as well as `rotateRight()`: Moves back item the front.
 
 ![rotatinglist](9/rotatinglist.png){: w="520"}
@@ -440,14 +487,14 @@ Because of `extends`, `RotatingSLList` inherits all members of `SLList`:
 Constructors are not inherited.
 
 
-#### 9.1.2 VengefulSLList
+#### VengefulSLList
 We want to build an SLList that:
   - Remembers all Items that have been destroyed by `removeLast`.
   - Has an additional method `printLostItems()`, which prints all deleted items.
 
 ![vengefulsllist](9/vengefulsllist.png){: w="520"}
 
-#### 9.1.3 Constructor Behavior 
+#### Constructor Behavior 
 **Constructors** are not inherited. However, the rules of Java say that all constructors must start with a call to one of the super class's constructors.
 - You can explicitly call the constructor with the keyword `super`.
 - If you don’t explicitly call the constructor, Java will automatically do it for you.
@@ -458,16 +505,16 @@ We want to build an SLList that:
 ![super_2](9/super_2.png){: w="520"}
 
 
-### 9.2 Encapsulation
+### Encapsulation
 **Module**: A set of methods that work together as a whole to perform some task or set of related tasks. A module is said to be **encapsulated** if its implementation is completely hidden, and it can be accessed only through a documented interface.
 
 Implementation inheritance (e.g. extends) breaks encapsulation.
 
 ![bark](9/bark.png){: w="520"}
 
-### 9.3 Type Checking and Casting
+### Type Checking and Casting
 
-#### 9.3.1 Compile-Time Type Checking
+#### Compile-Time Type Checking
 - Compiler allows **method calls** based on compile-time type of variable.
   - `sl`’s runtime type: `VengefulSLList`. But cannot call `printLostItems`. 
 - Compiler also allows **assignments** based on compile-time types.
@@ -475,7 +522,7 @@ Implementation inheritance (e.g. extends) breaks encapsulation.
 
 ![type_checking](9/type_checking.png){: w="550"}
 
-#### 9.3.2 Compile-Time Types and Expressions
+#### Compile-Time Types and Expressions
 Expressions have compile-time types:
 - An expression using the `new` keyword has the specified compile-time type.
 
@@ -486,7 +533,7 @@ Expressions have compile-time types:
 ![expression_2](9/expression_2.png){: w="520"}
 
 
-#### 9.3.3 Casting
+#### Casting
 Java has a special syntax for specifying the compile-time type of any expression: Put **desired type in parenthesis** before the expression.
 - Compile-time type Dog: `maxDog(frank, frankJr);`
 - Compile-time type Poodle: `(Poodle) maxDog(frank, frankJr);`
@@ -498,34 +545,36 @@ Casting is a powerful but dangerous tool. Tells Java to treat an expression as h
 ![casting_2](9/casting_2.png){: w="520"}
 _If we run the code above, we get a ClassCastException at runtime._
 
-### 9.4 Higher Order Functions
+### Higher Order Functions
 **Higher Order Function**: A function that treats another function as data. e.g. takes a function as input.
 
-#### 9.4.1 Old School (Java 7 and earlier)
+#### and earlier)
 Fundamental issue: Memory boxes (variables) cannot contain pointers to functions. Can use an interface instead. Note: The old way is still widely used, e.g. Comparators.
 
 ![hof_1](9/hof_1.png){: w="630"}
 
-#### 9.4.2 Java 8 or Later
+#### or Later
 In Java 8, new types were introduced: now can can hold references to methods.
 
 ![hof_2](9/hof_2.png){: w="630"}
 
+<hr class="dotted">
+
 ## 10. Subtype Polymorphism vs. HoFs
-### 10.1 Subtype Polymorphism (多态)
+### Subtype Polymorphism (多态)
 The biggest idea of the last couple of lectures: Subtype Polymorphism. 
 Polymorphism: "providing a single interface to entities of different types".
 
 ![compare](10/compare.png){: w="500"}
 
-### 10.2 Comparable
+### Comparable
 The built-in `Comparable` interface is already defined and used by tons of libraries.
 
 ![comparable](10/comparable.png){: w="300"}
 
 ![dog_comparable](10/dog_comparable.png){: w="500"}
 
-### 10.3 Comparators
+### Comparators
 Suppose we want to write a program that prints a string representation of the larger of two objects according to some specific comparison function.
 
 ![comparator_1](10/comparator_1.png){: w="500"}
@@ -533,12 +582,12 @@ Suppose we want to write a program that prints a string representation of the la
 ![dog_comparator](10/dog_comparator.png){: w="500"}
 
 ## 11. Exceptions, Iterators, Object Methods
-### 11.1 Exceptions
+### Exceptions
 When something goes really wrong, break the normal flow of control.
 
 ![exception](11/exception.png){: w="500"}
 
-### 11.2 Iteration
+### Iteration
 Java allows us to iterate through Lists and Sets using a convenient shorthand syntax sometimes called the "foreach" or "enhanced for" loop.
 
 ![foreach](11/foreach.png){: w="400"}
@@ -557,8 +606,8 @@ To support the enhanced for loop, we need to make `ArraySet` implement the `Iter
 
 ![iteration_3](11/iteration_3.png){: w="500"}
 
-### 11.3 Object Methods
-#### 11.3.1 toString()
+### Object Methods
+#### toString()
 The `toString()` method provides a string representation of an object. The [implementation of `toString()` in Object](https://github.com/AdoptOpenJDK/openjdk-jdk11/blob/999dbd4192d0f819cb5224f26e9e7fa75ca6f289/src/java.base/share/classes/java/lang/Object.java#L245) is the the name of the class, then an @ sign, then the memory location of the object.
 
 ![to_string_1](11/to_string_1.png){: w="530"}
@@ -571,7 +620,7 @@ Much faster approach is shown below. Append operation for a `StringBuilder` is f
 
 ![to_string_3](11/to_string_3.png){: w="530"}
 
-#### 11.3.2 Equals
+#### Equals
 `==` compares the bits. For references, `==` means "referencing the same object." [Default implementation](https://github.com/AdoptOpenJDK/openjdk-jdk11/blob/999dbd4192d0f819cb5224f26e9e7fa75ca6f289/src/java.base/share/classes/java/lang/Object.java#L157) of `.equals` uses `==`.
 
 Implement `equals` for `ArraySet`.
