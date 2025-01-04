@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Leetcode
+title: LeetCode
 permalink: /leetcode/
-nav: false
+nav: true
 nav_order: 2
 ---
 
