@@ -212,8 +212,8 @@ jekyll-archives:
     tag: "blog/tag/:name/"
     category: "blog/category/:name/"
 
-display_tags: ["data structures", "algorithms"] # these tags will be displayed on the front page of your blog
-display_categories: ["course"] 
+display_tags: ["data structures", "algorithms", "systems"] # these tags will be displayed on the front page of your blog
+display_categories: ["course", "book"] 
 # -----------------------------------------------------------------------------
 # Responsive WebP Images
 # -----------------------------------------------------------------------------
