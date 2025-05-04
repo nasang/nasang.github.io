@@ -8,14 +8,14 @@ profile:
   align: right
   image: profile.jpg
   more_info: >
-     @ Bellevue, WA, USA
+     Nov 24, 2023
 social: true
 ---
 
 Hello! 👋
 
-I am a software engineer at the [Meta Platforms, Inc](https://www.meta.com/) in Seattle, where I work on the intersection of Ads, AI / ML, and privacy. I have built systems and infrastructure supporting multiple products, including [Ads GenAI Transparency](https://about.fb.com/news/2025/02/gen-ai-transparency-metas-ads-products/) and [Ad Preferences](https://www.facebook.com/privacy/guide/ads/). I also have contributed to ensuring the privacy compliance of features used in Ads ranking models, from feature authoring to model training. 
+I’m a software engineer at [Meta Platforms, Inc](https://www.meta.com/), based in Bellevue, WA. I work on Ads Infrastructure and Ranking, with a focus on data and feature efficiency. I also have experience building privacy-first ad delivery systems that balance performance, scalability, and regulatory compliance.
 
-As an engineer, I am broadly interested in all aspects of computer science, and particularly in large-scale systems and artificial intelligence. I expertise on infra/back-end/full-stack development.
+I’ve been interested in programming since I was a teenager, and that early curiosity gradually grew into a long-term passion for computer science. Over the years, I’ve developed a particular interest and expertise in infrastructure and machine learning systems. I enjoy working on large-scale, reliable platforms that support intelligent, data-driven applications, and I’m especially drawn to the intersection of system performance and model effectiveness.
 
-Before starting my career in the industry, I earned a Master's degree in *Computer Science* from the [University of California, San Diego](https://cse.ucsd.edu/) in 2023, and a Bachelor's degree in *Information and Computing Science* from [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/) in 2020.
+Before starting my industry career, I earned a Master’s degree in Computer Science from the [University of California, San Diego](https://cse.ucsd.edu/), and a Bachelor’s degree in Information and Computing Science from [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/).
