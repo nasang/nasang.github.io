@@ -364,4 +364,166 @@ int& r2 = x; // bind r to x (r refers to x); not any form of value copy
 
 The basic semantices of `argument passing` and `function value return` are that of initialization.
 
+## 2 User-Defined Types
+- **Built-in types** are built from _fundamental types_, `const` modifier, and _declarator operators_.
+- **User-defined types** are built out of other types using C++'s abstraction mechanisims, referred to as _classes_ and _enumerations_.
+
+### Structures
+
+The first step in creating a new type is often to group related elements into a `struct`:
+
+```c++
+struct Vector {
+  double* elem;
+  int sz;
+};
+```
+
+To use it:
+
+```c++
+void vector_init(Vector& v, int s)
+{
+  v.elem = new double[s];
+  v.sz = s;
+}
+```
+
+`new` allocates memory on the _free store_ (a.k.a _dynamic memory_, or _heap_), which must be explicitly deallocated with `delete`.
+
+Use `.` to access `struct` members through a name, or a reference and `->` through a pointer.
+
+```c++
+void f(Vector v, Vector& rv, Vector* pv)
+{
+  int i1 = v.sz;
+  int i2 = rv.sz;
+  int i3 = pv->sz;
+}
+```
+
+### Classes
+
+While a `struct` expose all members by default, a `class` allows encapsulation: separating interface (`public` members) from implementation (`private` members).
+
+```c++
+class Vector {
+public:
+  Vector(int s): elem{new double[s]}, sz{s} {}
+  double& operator[](int) {return elem[i];}
+  int size() {return sz;}
+
+private:
+  double* elem;
+  int sz;
+}
+```
+
+The number of elements in a `Vector` can vary across objects and even over the lifetime of a single object. However, the `Vector` instance itself always has a fixed size. This illustrates a common C++ technique: using a fixed-size object as a _handle_ to manage a variable-size block of data allocated elsewhere.
+
+
+A **constructor** (a member function with the same name as its class) initializes members using a _member initializer list_: `elem{new double[s]}, sz{s}`.
+
+We can define constructors and other member functions for a `sturct` as well. There is no fundamental difference between a `struct` and a `class`; a `struct` is simply a `class` with members `public` by default.
+
+### Enumerations
+Enumerations are used to represent small sets of integer values, improving code readability and safety.
+
+```c++
+enum class Color { red, blue, green };
+enum class Traffic_light { green, yellow, red };
+```
+
+`enum class`  introduces **strongly typed** and **scoped** enums.
+
+```c++
+Color c1 = red;                // error: which red?
+Color c2 = Traffic_light::red; // error: not a Color
+Color c3 = Color::red;         // OK
+auto c4 = Color::red;          // OK
+```
+
+Implicit conversion to/from integers is not allowed:
+
+```c++
+int i = Color::red;  // error: Color::red is not an int
+Color c = 2;         // error: 2 is not a color 
+
+Color x = Color{5}; // OK, explicit cast
+Color x {4}; // OK
+```
+
+We can define operators for an `enum class`.
+
+```c++
+Traffic_light& operator++(Traffic_light& t)
+{
+  using enum Traffic_light; // avoid repetition of the enumeration name
+
+  switch(t) {
+    case green: return t=yellow;
+    case yellow: return t=red;
+    case red: return t=green;
+  }
+}
+```
+
+A "plain" `enum` (i.e., without `class`) exposes its enumerators directly into the surrounding scope and allows implicit conversion to and from integers. While this makes them less well behaved, they remain common in modern code due to their long-standing presence in both C++ and C.
+
+```c++
+enum Color { red, green, blue };
+int col = green; // col gets the value 1
+```
+
+### Unions
+
+A `union` is a `struct` in which all memebers are allocated at the same address so that the `union` occupies only as much space as its largest member.
+
+```c++
+union Value {
+  Node* p;
+  int i;
+};
+```
+
+The language dones't keep track of which kind of value is held by a `union`, so the programmer must do that:
+
+```c++
+enum class Type { ptr, num };
+
+struct Entry {
+  string name;
+  Type t;
+  Value v;// use v.p if t==Type::ptr; use v.i if t==Type::num
+}
+
+void f(Entry* pe)
+{
+  if (pe->t == Type:num)
+    cout << pe->v.i;
+  // ...
+}
+```
+
+Maintaing the correspondence between a _type field_, sometimes called a _discriminant_ or a _tag_, (here, `t`) and the type held in a `union` is error-prone. 
+
+To avoid this, encapsulate the logic in a class, or better, use a `variant` from the standard library.
+
+A `variant` hold one value from a set of types:
+
+```c++
+struct Entry {
+  string name;
+  variant<Node*, int> v;
+};
+
+void f(Entry* pe)
+{
+  if (holds_alternative<int>(pe->v))
+    cout << get<int>(pe->v);
+}
+```
+
+For many uses, a `variant` is simpler and safer to use than a `union`.
+
 ## 6 Essential Operations
