@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes of A Tour of C++
+title: A Tour of C++ | Notes 1 Basics (Ch 1 - Ch 4)
 categories: book
 tags: [C++, language]
 description: >
@@ -851,5 +851,3 @@ Here, `{s,i}` is used to construct the `Entry` return value. Similarly, we can "
 auto [n, v] = read_entry(is);
 cout << "{" << n << "," << v << "}\n";
 ```
-
-## 6 Essential Operations
