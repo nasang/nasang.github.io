@@ -427,7 +427,7 @@ A **constructor** (a member function with the same name as its class) initialize
 We can define constructors and other member functions for a `sturct` as well. There is no fundamental difference between a `struct` and a `class`; a `struct` is simply a `class` with members `public` by default.
 
 ### Enumerations
-Enumerations are used to represent small sets of integer values, improving code readability and safety.
+Enumerations are used to represent small sets of named constants (integer values), improving code readability and safety.
 
 ```c++
 enum class Color { red, blue, green };
@@ -525,5 +525,331 @@ void f(Entry* pe)
 ```
 
 For many uses, a `variant` is simpler and safer to use than a `union`.
+
+## 3 Modularity
+
+C++ represents interfaces using declarations. A **declaration** specifies everything needed to use a function or a type:
+
+```c++
+double sqrt(double);
+```
+
+The function’s **definition** can be provided elsewhere:
+
+```c++
+double sqrt(double d)  // definition of sqrt()
+{
+  // ... algorithm
+}
+```
+
+### Separate Compilation
+
+#### Header Files
+
+We place declarations that specify the interface to a piece of code we consider a module in a file with a name indicating its intended use — a **header file**:
+
+```c++
+// Vector.h
+
+class Vector {
+public:
+  Vector(int s);
+  double& operator[](int i);
+  int size();
+private:
+  double* elem;
+  int sz;
+}
+```
+
+Users then `#include` that file to access the interface:
+
+```c++
+// user.cpp
+
+#include "Vector.h"
+
+double sqrt_sum(const Vector& v)
+{
+  // ...
+}
+```
+
+To help the compiler ensure consistency, the `.cpp` file providing the implementation of `Vector` also includes the `.h` file:
+
+```c++
+// Vector.cpp
+
+#include "Vector.h"
+
+Vector::Vector(int s):elem{new double[s]}, sz{s}
+{
+}
+
+// ...
+```
+
+The code in `use.cpp` and `Vector.cpp` shares the `Vector` interface from `Vector.h`, but the two files are otherwise independent and can be compiled separately.
+
+A `.cpp` file compiled by itself (including the `h` files it `#include`s) is called a **translation unit**.
+
+The use of header files and `#include` is a very old way of simulating modularity with significant disadvantages.
+
+- **Compilation time**: If `header.h` is included in 101 translation units, its contents will be processed by the compiler 101 times.
+
+- **Order dependencies**: The order in which headers are included can affect the meaning of the code (e.g., macros or conflicting declarations).
+
+- **Inconsistency**: Slight differences in duplicated declarations across files can lead to crashes or subtle bugs.
+
+- **Transitivity**: All code needed to express a declaration in a header must be included there, leading to code bloat as headers include other headers.
+
+#### Modules
+
+C++20 introduces `module` to provide proper modularity:
+
+```c++
+export module Vector;
+
+export class Vector {
+public:
+  Vector(int s);
+  double& operator[](int i);
+  int size();
+private:
+  double* elem;
+  int sz;
+};
+
+Vector::Vector(int s)
+  :elem{new double[s]}, sz{s}
+{
+}
+
+//...
+
+export bool operator==(const Vector& v1, const Vector& v2)
+{
+  //...
+}
+```
+
+This defines a `module` named `Vector`, which exports the `Vector` class, its member functions, and a non-member function defining opertor `==`.
+
+You can `import` it where needed:
+
+```c++
+// user.cpp
+
+import Vector;
+
+double sqrt_sum(Vector& v)
+{
+  // ...
+}
+```
+Advantages of modules:
+- A module is compiled once, not in every translation unit that uses it.
+- Modules can be imported in any order without affecting behavior.
+- Importing something into a module does not implicitly expose it to users of the module — imports are not transitive.
+
+
+Modules also simplify implementation hiding: only `export`ed declarations are accessible to users.
+
+```c++
+export module vector_printer;
+
+import std;
+
+export
+template<typename T>
+void print(std::vector<T>& v)
+{
+  std::cout << "{\n";
+  for (const T& val: v)
+    std::cout << " " <<  val << '\n';
+  std::cout << '}';
+}
+```
+
+By importing this module, we don't suddenly gain access to all of the standard library.
+
+### Namespaces
+
+C++ provides **namespaces** to group related declarations and prevent name collisions:
+
+```c++
+namespace My_code {
+  class complex {
+    // ...
+  };
+
+  complex sqrt(complex);
+  // ...
+
+  int main();
+}
+
+int My_code::main()
+{
+  complex z1 {1, 2};
+  auto z2 = sqrt(z1);
+  std::cout << '{' << z2.real() << ',' << z2.imag() << "}\n";
+  // ...
+}
+
+int main()
+{
+  return My_code::main();
+}
+```
+
+To access a name in another namespace, qualify it with the namespace name (e.g., `std::cout`, `My_code::main`).
+
+If this becomes tedious, use a **using-declaration**:
+```c++
+void my_code(vector<int>& x, vector<int>& y)
+{
+  using std::swap;
+  // ...
+  swap(x, y);
+  other::swap(x, y);
+  // ...
+}
+```
+
+To access all names in a namespace, use a **using-directive**: `using namespace std;`. 
+
+```c++
+export module vector_printer;
+
+import std;
+using namespace std;
+
+export
+template<typename T>
+void print(vector<T>& v)
+{
+  cout << "{\n";
+  for (const T& val: v)
+    cout << " " << val << '\n';
+  cout << '}';
+}
+```
+
+This brings all names into the current scope but can cause name clashes, so use with caution.
+
+### Function Arguments and Return Values
+
+Function calls are the primary and recommended way to pass information between program parts. Key considerations:
+- Is the object copied or shared?
+- If shared, is it mutable?
+- Is the object moved, leaving an "empty" object behind?
+
+The deault behavior of both argument passing and value return is "make a copy", but many copies can implicitly be optimized to moves.
+
+#### Argument Passing
+
+We typically pass small objects by-value and larger ones by-reference. As a rule of thumb, an object is considered "small" if its size is not larger than "2 to 3 pointers". When passing large objects for performance reasons, but without the intent to modify them, we pass them by-`const`-reference.
+
+```c++
+int sum(const vector<int>& v)
+{
+  int s = 0;
+  for (const int i: v)
+    s += i;
+  return s;
+}
+
+vector fib = {1, 2, 3, 5};
+int x = sum(fib);
+```
+
+#### Value Return
+
+Returning by value is the default and often efficient. Return by reference only when we want to grant a caller access to something that is not local to the function.
+
+```c++
+class Vector {
+public:
+  // ...
+  double& operator[](int i){ return elem[i]; } // return reference to ith element
+private:
+  double* elem;
+  // ...
+};
+```
+
+The `i`th element of a `Vector` exists independently of the call of the subscript operator, so we can returen a reference to it.
+
+Avoid returning references to local variables:
+```c++
+int& bad()
+{
+  int x;
+  // ...
+  return x; // bad: return a reference to the local variable x
+}
+```
+All major C++ compilers will catch the obvious error in `bad()`.
+
+For large return values, C++ uses **move semantics** or **copy elision**:
+
+```c++
+Matrix operator+(const Matrix& x, const Matrix& y)
+{
+  Matrix res;
+  // ... for all res[i,j], res[i,j]=x[i,j]+y[i,j]
+  return res;
+}
+
+Matrix m1, m2;
+Matrix m3 = m1 + m2; // not copy
+```
+
+Instead of copying, we provide `Matrix` with a **move constructor** that can efficiently transfer its contents out of `operator+()`. Even if a move constructor isn't explicitly defined, the compiler can often optimize away the copy through **copy elision**, constructing the Matrix directly at its destination.
+
+#### Return Type Deduction
+C++ can deduce return types using `auto`:
+```c++
+auto mul(int i, double d) { return i*d; } 
+// auto means "deduce the return type"
+```
+
+You can also use the **suffix return type** syntax:
+
+```c++
+auto mul(int i, double d) -> double { return i*d; }
+// auto means "the return type will be mentioned later or be deduced"
+```
+
+#### Structured Binding 
+
+The mechanism for giving local names to members of a class object.
+
+```c++
+struct Entry {
+  string name;
+  int value;
+};
+
+Entry read_entry(istream& is)
+{
+  string s;
+  int i;
+  is >> s >> i;
+  return {s, i};
+}
+
+auto e = read_entry(cin);
+cout << "{" << e.name << "," << e.value << "}\n";
+```
+
+Here, `{s,i}` is used to construct the `Entry` return value. Similarly, we can "unpack" an `Entry`'s members into local variables:
+
+```c++
+auto [n, v] = read_entry(is);
+cout << "{" << n << "," << v << "}\n";
+```
 
 ## 6 Essential Operations
