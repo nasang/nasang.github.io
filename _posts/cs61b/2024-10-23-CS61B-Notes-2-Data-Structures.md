@@ -551,7 +551,7 @@ BSTs would work, but need to be kept bushy and duplicates are awkward.
 - **Min-heap**: Every node is less than or equal to both of its children.
 - **Complete**: Missing items (if any) only at the bottom level, all nodes are as far left as possible.
 
-![heap](20/heap.png)
+![heap](20/heap.png){:w="600"}
 
 #### Add
 > Algorithm for `add(x)`: to maintain the **completeness**, the natural thought is to place `x` in the leftmost empty spot on the lowest level. However, this doesn't guarantee the **min-heap** property, so further adjustments are needed.
@@ -607,7 +607,7 @@ Further, if we leave the 0th position empty, the following patterns emerge:
 - `rightChild(k)` $= 2k + 1$
 - `parent(k)` = $\frac{k}{2}$
 
-![ap3](20/ap3.png)
+![ap3](20/ap3.png){: w="600"}
 
 
 ## Tree and Graph Traversals
@@ -627,7 +627,7 @@ Sometimes you want to iterate over a tree. What one might call "tree iteration" 
 - DBFACEG
 
 ##### Depth First Traversals
-![tree_traversal_algo](21/tree_traversal_algo.png)
+![tree_traversal_algo](21/tree_traversal_algo.png){:w="600"}
 _DBACFEG | ABCDEFG | ACBEGFD_
 
 <!-- ##### A Visual Trick

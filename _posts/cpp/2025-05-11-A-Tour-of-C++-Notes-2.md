@@ -204,3 +204,28 @@ When `h()` calls `use()`, `List_container`'s `operator[]()` must be called. When
 ### Class Hierarchies
 
 ## 6 Essential Operations
+
+## 7 Templates
+
+### 7.1 Introduction
+
+A _template_ is a class or a function that we parameterize with a set of types of values. We use templates to represent general ideas from which we can generate specific types or functions.
+
+### 7.2 Parameterized Types
+We can generalize our vector-of-doubles type to a vector-of-anyting type by making it a `template` and replacing the specific type `double` with a type parameter:
+
+```c++
+template<typename T>
+class Vector {
+private:
+    T* elem;
+    int sz;
+public:
+    explicit Vector(int s);
+    ~Vector() {delete[] elem; }
+    // ...
+    T& operator[](int i);    
+}
+```
+
+The `template<typename T>` prefix makes `T` a type parameter of the declaration it prefixes. In older code, we often see `template<class T>`, where `class` and `typename` are equivalent.
